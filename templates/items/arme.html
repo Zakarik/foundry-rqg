@@ -1,0 +1,143 @@
+
+<div class="data arme">
+    <div class="col">
+        <div class="categorie">
+            <label class="categorie">
+                <span class="header">{{localize "RQG.Categorie"}}</span>
+                <select name="system.categorie">
+                    {{selectOptions (wpnCategorie this) selected=systemData.categorie localize=true}}
+                </select>
+            </label>
+            {{#if (eq document.type 'armedistance')}}
+            <div class="projectile">
+                <a class="btn {{ifThen systemData.projectile 'active' ''}}" 
+                data-action="onSwitch" 
+                data-path="system.projectile" data-type="projectile" data-value="{{systemData.projectile}}">
+                    {{localize "RQG.COMBAT.Projectile"}}
+                    <i class="{{ifThen systemData.projectile 'fa-solid fa-check' ''}}"></i>
+                </a>
+            </div>
+            {{/if}}
+        </div>
+        {{#if (and (eq document.type 'armecontact') document.system.actor)}}
+            <div class="competence">
+                <label class="competence">
+                    <span class="header">{{localize "RQG.COMPETENCES.Used"}}</span>
+                    <select name="system.competence.id">
+                        {{selectOptions (wpnCmp this) selected=systemData.competence.id}}
+                    </select>
+                </label>
+                <div class="cmphalf">
+                    <a class="btn {{ifThen systemData.competence.half 'active' ''}}" 
+                    data-action="onSwitch" 
+                    data-path="system.competence.half" data-type="competence" data-value="{{systemData.competence.half}}">
+                        {{localize "RQG.COMPETENCES.Half"}}
+                        <i class="{{ifThen systemData.competence.half 'fa-solid fa-check' ''}}"></i>
+                    </a>
+                </div>
+            </div>
+        {{/if}}
+        
+        <label class="matiere">
+            <span>{{localize "RQG.ARMURE.Matiere"}}</span>
+            <input type="text" name="system.matiere" value="{{systemData.matiere}}" />
+        </label>
+
+        <div class="prerequis">
+            <span class="header">{{localize "RQG.Prerequis"}}</span>
+
+            <label>
+                <span>{{localize "RQG.CARACTERISTIQUES.Force-short"}}</span>
+                <input type="number" name="system.prerequis.force" value="{{systemData.prerequis.force}}" min="0" />
+            </label>
+            <label>
+                <span>{{localize "RQG.CARACTERISTIQUES.Dexterite-short"}}</span>
+                <input type="number" name="system.prerequis.dexterite" value="{{systemData.prerequis.dexterite}}" min="0" />
+            </label>
+        </div>
+
+        <div class="encombrement">
+            <span>{{localize "RQG.Encombrement"}}</span>
+            {{numberInput (ifThen systemData.encombrement.value systemData.encombrement.value 0) name="system.encombrement.value" min=0}}
+            <a class="btn {{ifThen systemData.encombrement.inferieura1 'active' ''}}" data-action="onSwitch" data-path="system.encombrement.inferieura1" data-type="encombrement" data-value="{{systemData.encombrement.inferieura1}}">
+                {{localize "RQG.Inferieura1"}}
+                <i class="{{ifThen systemData.encombrement.inferieura1 'fa-solid fa-check' ''}}"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col">
+        {{#if (and (eq document.type 'armedistance') document.system.actor)}}
+            <div class="competence">
+                <label class="competence">
+                    <span class="header">{{localize "RQG.COMPETENCES.Used"}}</span>
+                    <select name="system.competence.id">
+                        {{selectOptions (wpnCmp this) selected=systemData.competence.id}}
+                    </select>
+                </label>
+                <div class="cmphalf">
+                    <a class="btn {{ifThen systemData.competence.half 'active' ''}}" 
+                    data-action="onSwitch" 
+                    data-path="system.competence.half" data-type="competence" data-value="{{systemData.competence.half}}">
+                        {{localize "RQG.COMPETENCES.Half"}}
+                        <i class="{{ifThen systemData.competence.half 'fa-solid fa-check' ''}}"></i>
+                    </a>
+                </div>
+            </div>
+        {{/if}}
+
+        <label class="degats">
+            <span>{{localize "RQG.COMBAT.Degats"}}</span>
+            <input type="text" name="system.degats" value="{{systemData.degats}}" />
+        </label>
+
+        <label class="type">
+            <span>{{localize "RQG.Type"}}</span>
+            <select name="system.type">
+                {{selectOptions (wpnType this) selected=systemData.type localize=true}}
+            </select>
+        </label>
+
+        {{#if (eq document.type 'armecontact')}}
+        <div class="allonge">
+            <span class="header">{{localize "RQG.COMBAT.Allonge"}}</span>
+            <input type="text" name="system.allonge.value" value="{{systemData.allonge.value}}" />
+            <span class="subheader">{{localize "RQG.Categorie"}}</span>
+            <select name="system.allonge.categorie">
+                {{selectOptions (wpnAllonge this) selected=systemData.allonge.categorie}}
+            </select>
+        </div>
+        {{/if}}
+
+        {{#if (eq document.type 'armedistance')}}
+        <div class="portee">
+            <span>{{localize "RQG.COMBAT.Portee"}}</span>
+            <input type="text" name="system.portee" value="{{systemData.portee}}" min="0" />
+        </div>
+        {{/if}}
+
+        <div class="durabilite">
+            <span>{{localize "RQG.Durabilite"}}</span>
+            <input type="number" name="system.durabilite.value" value="{{systemData.durabilite.value}}" min="0" max="{{systemData.durabilite.max}}" />
+            <span>/</span>
+            <input type="number" name="system.durabilite.max" value="{{systemData.durabilite.max}}" min="0" />
+        </div>
+
+        <div class="ra">
+            <span class="header">{{localize "RQG.COMBAT.Rangaction"}}</span>
+            {{#if (eq document.type 'armecontact')}}
+            <span class="score">{{systemData.ra.value}}{{ifThen systemData.ra.parround (concat '/' (localize 'RQG.COMBAT.Parround-short')) ''}}</span>
+            <a class="btn {{ifThen systemData.ra.parround 'active' ''}}" data-action="onSwitch" data-path="system.ra.parround" data-type="RA" data-value="{{systemData.ra.parround}}">
+                {{localize "RQG.COMBAT.Parround"}}
+                <i class="{{ifThen systemData.ra.parround 'fa-solid fa-check' ''}}"></i>
+            </a>
+            {{/if}}
+
+            {{#if (eq document.type 'armedistance')}}
+                <select name="system.ra.cadence">
+                    {{selectOptions (wpnCadence this) selected=systemData.ra.cadence localize=true}}
+                </select>
+            {{/if}}
+        </div>
+    </div>
+</div>

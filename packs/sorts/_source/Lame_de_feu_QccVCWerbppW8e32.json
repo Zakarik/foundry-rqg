@@ -1,0 +1,31 @@
+{
+  "name": "Lame de feu",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Les dégâts d'une arme tranchante ou d'une lance affectée par ce sort passent à 3D6. Ils remplacent donc ses dégâts normaux. On ne peut pas y résister magiquement puisqu'il s'agit de dégâts physiques réels provoqués par la chaleur du feu. Quand il frappe, le porteur de l'arme peut toujours y ajouter son bonus aux dégâts.<br><br>Le feu magique n'endommage pas l'arme. Ce sort ne se cumule pas avec Vivelame. Bien qu'il s'agisse d'un sort actif, le lanceur peut encore se déplacer et attaquer normalement.</p>",
+    "points": 4,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000032,
+    "modifiedTime": 1754403209739,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e32",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e32"
+}

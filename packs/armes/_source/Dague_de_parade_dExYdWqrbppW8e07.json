@@ -1,0 +1,62 @@
+{
+  "name": "Dague de parade",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e07",
+  "system": {
+    "description": "<p style='text-align:justify;'>Une dague standard dont la durabilité a été augmentée par l'ajout d'une garde élaborée. À cause de la garde, elle n'est utilisable que par la main pour laquelle elle a été conçue.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 20,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "dague",
+    "allonge": {
+      "value": "0,2–0,3",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 0,
+      "dexterite": 0
+    },
+    "degats": "1D4+2",
+    "type": "te",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 3,
+      "inferieura1": true
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "3ZaD9qU6V5SblnHQ",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971001002,
+    "modifiedTime": 1754060198118,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e07"
+}

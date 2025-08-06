@@ -1,0 +1,66 @@
+{
+  "name": "Disparition",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e20",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Ce sort rend sa cible invisible en créant une illusion de transparence. Pour chaque degré de force, il affecte 6 points de TAI.<br>La cible ne peut être repérée à moins qu'elle ne fasse du bruit ou ne soit détectée à l'aide de la magie ou d'un sens autre que la vue. Si elle se déplace, un ennemi peut tenter un test d'Observation afin de déterminer sa localisation. Si la cible est repérée, ou qu'elle fait du bruit, un adversaire peut tenter de la frapper en suivant l'origine de ce son, avec un malus de –50 %.<br>Si l'aventurier protégé par ce sort tire, attaque avec une arme de mêlée ou un sort, il redevient visible au rang d'action où il agit, puis disparaît à nouveau à la fin du round (à moins d'être maintenant engagé au corps à corps). Chaque round où il quitte une mêlée, il disparaît à nouveau dès la fin de celui-ci.</p>",
+    "points": 4,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": true,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": true,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171020,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e20"
+}

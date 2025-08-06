@@ -1,0 +1,51 @@
+{
+  "name": "Brassards†",
+  "type": "armure",
+  "img": "systems/runequest-glorantha/assets/armor.svg",
+  "system": {
+    "description": "Iis ressemblent à des jambières, mais protègent l'avant-bras. Prix : 10 l pour le cuir, 30 l pour le cuir bouilli et 100 l pour les plaques de bronze.",
+    "cout": {
+      "roues": 0,
+      "lunars": 100,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "matiere": "Plaques de bronze",
+    "localisations": {
+      "jambegauche": 0,
+      "jambedroite": 0,
+      "abdomen": 0,
+      "poitrine": 0,
+      "brasgauche": 6,
+      "brasdroit": 6,
+      "tete": 0
+    },
+    "deplacementsilencieux": -10,
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1717680720000,
+    "modifiedTime": 1717680720000,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZsCWerbppW8e12",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZsCWerbppW8e12"
+}

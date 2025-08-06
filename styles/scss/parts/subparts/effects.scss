@@ -1,0 +1,40 @@
+div.tab.effects.active {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+
+    div {
+        &.actif,
+        &.inactif {
+            @include encart();
+            @include header();
+            @include cmd();
+
+            div {
+                &.line {
+                    display: grid;
+                    grid-template-columns: max-content 1fr 100px 280px max-content;
+                    grid-gap: 5px;
+                    align-items: center;
+
+                    span {
+                        &.name {
+                            font-variant: small-caps;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+
+                        &.source,
+                        &.special {
+                            text-align: center;
+                        }
+                    }
+
+                    i.switch {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

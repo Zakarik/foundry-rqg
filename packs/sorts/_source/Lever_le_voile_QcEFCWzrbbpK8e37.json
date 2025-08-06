@@ -1,0 +1,66 @@
+{
+  "name": "Lever le voile",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e37",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, passif, temporaire<br>Ce sort n'affecte que son lanceur. Sa portée correspond à la limite du champ de vision qu'il peut atteindre grâce à lui. Le sorcier peut percevoir la présence de toute créature dotée de points de magie située à portée. Il peut deviner le nombre exact de points de magie que chacune d'elles possède, jusqu'à un maximum de trois fois la force du sort. Au-dessus, il sait juste que le montant est « supérieur à ce que le sort peut quantifier ».<br>À courte portée (quelques mètres), le sort définit aussi si la source des points de magie se régénère ou non. Ainsi, il distingue un cristal de POU d'un esprit lié dans un cristal de POU, ou encore les vivants des morts-vivants. Le lanceur ressent la présence de toute magie active avec une durée limitée.<br>Le sort ne procure aucune lumière et le sorcier ne peut voir que ce que ses sens normaux lui permettent de percevoir. Il a donc besoin d'une source de lumière extérieure dans les ténèbres, ne voit pas à travers une matière opaque, etc.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": true,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171037,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e37"
+}

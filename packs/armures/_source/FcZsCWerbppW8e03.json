@@ -1,0 +1,51 @@
+{
+  "name": "Chapeau",
+  "type": "armure",
+  "img": "systems/runequest-glorantha/assets/armor.svg",
+  "system": {
+    "description": "ce casque est fait de cuir tressé, de roseaux ou de tissus pliés. Prix : 5 l.",
+    "cout": {
+      "roues": 0,
+      "lunars": 5,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "matiere": "Cuir",
+    "localisations": {
+      "jambegauche": 0,
+      "jambedroite": 0,
+      "abdomen": 0,
+      "poitrine": 0,
+      "brasgauche": 0,
+      "brasdroit": 0,
+      "tete": 2
+    },
+    "deplacementsilencieux": 0,
+    "encombrement": {
+      "value": 5,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1717680720000,
+    "modifiedTime": 1717680720000,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZsCWerbppW8e03",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZsCWerbppW8e03"
+}

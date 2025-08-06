@@ -1,0 +1,44 @@
+{
+  "name": "Robe-fourreau esrolienne",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Une longue robe-fourreau esrolienne en lin, retenue par deux bretelles attachées derrière la nuque. La partie supérieure du vêtement se porte au-dessus ou en-dessous de la poitrine. Les versions portées par les femmes les plus aisées sont faites d'étoffes finement tissées, parfois si fines qu'elles en deviennent presque transparentes.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": true,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "JvKi1H6VwQJv7Xpm",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753966943825,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZkdWqrbppW8e14",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZkdWqrbppW8e14"
+}

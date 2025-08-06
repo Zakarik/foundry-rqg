@@ -1,0 +1,31 @@
+{
+  "name": "Flèche de feu",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort crée un projectile de feu causant 3D6 points de dégâts lorsqu'il touche sa cible, remplaçant ainsi les dégâts normaux du projectile. Le bonus aux dégâts s'applique toujours, réduit comme d'habitude de moitié pour les armes à projectiles. Une Flèche de feu ne peut pas empaler. Le sort doit être lancé sur une flèche normale, une pierre ou un dard qui s'enflamme et se consume alors que le projectile quitte la main du lanceur (à l'aide d'un arc, atlatl, fronde, etc.). Une armure protège normalement la cible. Une Flèche de feu incendie les matériaux inflammables. On ne peut pas y résister magiquement puisqu'il s'agit de dégâts physiques réels provoqués par la chaleur du feu.<br><br>Ce sort ne se cumule pas avec Multiprojectile et Daredart.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000027,
+    "modifiedTime": 1754403207014,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e27",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e27"
+}

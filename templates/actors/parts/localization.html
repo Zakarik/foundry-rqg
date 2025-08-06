@@ -1,0 +1,43 @@
+<div class="data">
+    <div class="main js-toggler">
+        <div class="nom">            
+            <i class="fa-solid fa-square-plus"></i>
+            {{getLocalization 'localisation' key}}
+        </div>
+        <div class="jet">{{formatLoc loc.min loc.max}}</div>
+        <div class="armure">{{armure.total}}</div>
+        <div class="pv">
+            {{numberInput pv.value name=(concat "system.localisations." key ".pv.value")}}
+            <span class="separation">/</span>
+            <span class='score'>{{pv.total}}</span>
+        </div>
+    </div>
+    <div class="sub armure" style="display:none;">
+        <label>
+            <span class="label">{{localize "RQG.Base"}}</span>
+            <span class="score">{{armure.base}}</span>
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Modificateur-short"}}</span>
+            {{numberInput (ifThen armure.mod.mod armure.mod.mod 0)  name=(concat "system.localisations." key ".armure.mod.mod")}}
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Temporaire-short"}}</span>
+            {{numberInput (ifThen armure.mod.temp armure.mod.temp 0) name=(concat "system.localisations." key ".armure.mod.temp")}}
+        </label>
+    </div>
+    <div class="sub pv" style="display:none;">
+        <label>
+            <span class="label">{{localize "RQG.Base"}}</span>
+            <span class="score">{{pv.base}}</span>
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Modificateur-short"}}</span>
+            {{numberInput (ifThen pv.mod.mod pv.mod.mod 0) name=(concat "system.localisations." key ".pv.mod.mod")}}
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Temporaire-short"}}</span>
+            {{numberInput (ifThen pv.mod.temp pv.mod.temp 0) name=(concat "system.localisations." key ".pv.mod.temp")}}
+        </label>
+    </div>
+</div>

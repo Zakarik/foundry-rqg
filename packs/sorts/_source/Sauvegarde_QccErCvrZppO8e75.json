@@ -1,0 +1,49 @@
+{
+  "name": "Sauvegarde",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e75",
+  "system": {
+    "description": "<h3>Sauvegarde</h3><p style='text-align:justify;'><b>1 point</b><br>Rituel (enchantement), cumulable (jusqu'à 4 points)</p><p style='text-align:justify;'>Ce rituel crée une zone sûre pour ceux qui se trouvent à l'intérieur. Quatre bâtons servent d'accessoires. Ils peuvent être fabriqués dans n'importe quelle matière et doivent être disposés afin de délimiter une surface d'au maximum 100 mètres carrés. Le sort s'étend dans les airs jusqu'à 3 mètres de haut au-dessus des bâtons, et de leur longueur sous la surface.<br>Les quatre baguettes sont connectées par une barrière invisible que seuls des moyens magiques peuvent détecter. La protection offerte par Sauvegarde s'active quand des ennemis du lanceur, physiques ou immatériels, franchissent cette limite ou lorsqu'un sort la traverse depuis l'extérieur. Lorsque cela se produit, un grand bruit (une déflagration, un hurlement, un sifflement, etc.) que le lanceur peut interrompre se fait entendre.<br>Chaque point de Sauvegarde compte comme 1 point de Contremagie contre les sorts lancés à travers la barrière, 2 points d'Écran spirituel contre les esprits qui tentent de la franchir, et inflige 1D3 points de dégâts (sans tenir compte de l'armure) sur une localisation, à tout ennemi physique qui essaie de s'y introduire.<br>Plutôt que d'augmenter la puissance de Contremagie ou d'Écran spirituel, les points de Sauvegarde supplémentaires servent à agrandir la surface protégée : 100 mètres carrés de plus par point.<br>Le sort reste en fonction tant que les accessoires ne sont pas retirés. Quiconque tente de les toucher, hormis le lanceur, subit les effets du sort. Mais, une fois ceux-ci pris en compte, il peut ôter les bâtons. Il n'est pas nécessaire que les baguettes soient visibles pour que le sort fonctionne.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283075,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e75"
+}

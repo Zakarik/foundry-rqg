@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "JvKi1H6VwQJv7Xpm",
+  "name": "Garde-robe",
+  "color": "#14422b",
+  "sorting": "a",
+  "_id": "A0ZZ4gV00Su5fVBk",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM",
+    "modifiedTime": 1753967013237
+  },
+  "_key": "!folders!A0ZZ4gV00Su5fVBk"
+}

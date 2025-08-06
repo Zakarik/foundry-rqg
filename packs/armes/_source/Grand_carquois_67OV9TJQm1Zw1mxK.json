@@ -1,0 +1,44 @@
+{
+  "folder": "RJHw7Zhpoi2IdCE5",
+  "name": "Grand carquois",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify\"><span class=\"fontstyle0\">Un contenant en cuir, en bois ou en tissu renforcé servant à transporter des flèches ou des carreaux</span> <span class=\"fontstyle0\">d'arbalètes. Porté au niveau de la hanche, de la taille ou du dos, le carquois contenant 40 flèches ou carreaux.</span></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 16,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754143556906,
+    "modifiedTime": 1754143585185,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "67OV9TJQm1Zw1mxK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!67OV9TJQm1Zw1mxK"
+}

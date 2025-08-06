@@ -1,0 +1,66 @@
+{
+  "name": "Bénédiction de Kargan Tor",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e12",
+  "system": {
+    "description": "<p style='text-align:justify;'>Toucher, passif, temporaire<br>Ce sort doit être lancé sur une arme. Avec une force de 1, il ajoute +1D3 aux dégâts de l'arme pendant toute la durée du sort. Si cette force atteint 4, le bonus aux dégâts devient +1D6. Pour chaque tranche de 4 points de force supplémentaire, les dégâts augmentent de +1D6.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": true
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": true,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171012,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e12"
+}

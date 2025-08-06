@@ -1,0 +1,31 @@
+<div class="data">
+    <header>
+        <span>{{localize "RQG.Nom"}}</span>
+        <span class="center">{{localize "RQG.COMBAT.Rangaction"}}</span>
+        <span class="center">{{localize "RQG.COMBAT.Allonge"}}</span>
+        <span class="center">%</span>
+        <span class="center">{{localize "RQG.COMBAT.Degats"}}</span>
+        <span class="center">{{localize "RQG.Type"}}</span>
+        <span class="center">{{localize "RQG.Durabilite"}}</span>
+        <span class="center">{{localize "RQG.Encombrement"}}</span>
+    </header>
+    {{#each data}}
+    <div class="wpn summary" data-item-id="{{_id}}">
+        <span class="clickable" 
+            data-item-id="{{id}}"
+            data-document-class='Item' 
+            data-action="onRollSpecial" 
+            data-type="{{type}}" 
+            data-tooltip="{{localize 'RQG.Roll'}}" 
+            data-label="{{name}}"
+        >{{name}}</span>
+        <span class="center">{{ifThen system.ra.parround (concat ra '/' (localize 'RQG.COMBAT.Parround-short')) ra}}</span>
+        <span class="center">{{system.allonge.value}}</span>
+        <span class="center">{{attaque}}%</span>
+        <span class="center">{{system.degats}}</span>
+        <span class="center">{{getLocalization 'wpntype' system.type}}</span>
+        <span class="center">{{ifThen system.durabilite.value system.durabilite.value 0}}/{{ifThen system.durabilite.max system.durabilite.max 0}}</span>
+        <span class="center">{{ifThen system.encombrement.inferieura1 (concat '(' system.encombrement.value ')') system.encombrement.value}}</span>
+    </div>
+    {{/each}}
+</div>

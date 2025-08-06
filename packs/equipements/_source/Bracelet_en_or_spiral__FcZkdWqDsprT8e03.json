@@ -1,0 +1,44 @@
+{
+  "name": "Bracelet en or spiralé",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "cout": {
+      "roues": 0,
+      "lunars": 300,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": true,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0.25,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "aTRbvPk2mGUyaeWo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753966898875,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZkdWqDsprT8e03",
+  "sort": 100196,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZkdWqDsprT8e03"
+}

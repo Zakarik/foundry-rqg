@@ -1,0 +1,198 @@
+div.tab.competences.active {    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    div {
+        &.col {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+        }
+
+        &.cmp {            
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 5px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+        }
+
+        &.mainCMP {
+            display: grid;
+            grid-template-columns: 1fr;
+            border-bottom: 1px solid $black;
+            padding-bottom: 5px;
+
+            div.main {
+                div.label {
+                    grid-template-columns: 20px max-content 20px;
+                }
+
+                div.label,
+                span {
+                    font-size: 18px;
+                }
+            }
+
+            div.sub {
+                grid-template-columns: 20px 1fr 14px;
+            }
+
+            &.retract {
+                padding-bottom: 0px;
+                border-bottom: none;
+            }
+        }
+
+        &.subCMP {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &.header {
+            span {
+                font-variant: small-caps;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            i {
+                cursor: pointer;
+                
+                &:hover {
+                    color: $active;
+                }
+            }
+        }
+
+        label {                        
+            display: grid;
+            grid-template-columns: 1fr 80px;
+            grid-gap: 2px;
+        }
+
+        &.data {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 2px;
+        }
+        
+        &.main {
+            display: grid;
+            grid-template-columns: 1fr 80px 14px;
+            grid-gap: 2px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 15px;
+            align-items: center;
+
+            i {
+                cursor: pointer;
+
+                &.fa-dice-d10 {
+                    font-size: 15px;
+                }
+
+                &:hover {
+                    color: $active;
+                }
+            }
+
+            div {
+                &.label {
+                    display: grid;
+                    grid-template-columns: 14px 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    &.custom {
+                        grid-template-columns: 14px 1fr max-content;
+                    }
+                }
+            }
+
+            span {
+                &.score {
+                    background: $white;
+                    text-align: center;
+                    font-weight: bold;
+                    border: 1px solid $black;
+                    border-radius: 2px;
+                }
+            }
+
+            @include clickable();
+        }
+
+        &.sub {
+            display: grid;
+            grid-template-columns: 14px 1fr 14px;
+            grid-gap: 2px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 2px;
+            align-items: center;
+
+            label {
+                grid-column: 2;
+                span {
+                    &.score {
+                        text-align: center;
+                        font-weight: bold;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        background: $disabled;
+                    }
+                }
+
+                input {
+                    background: $white;
+                    text-align: center;
+                    font-weight: bold;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    width: 100%;
+                    min-width:0px;
+                    padding: 0px;
+                    height: 19px;
+                }
+            }
+        }
+
+        a.addcustomwpn {
+            font-variant: small-caps;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid $black;
+            background: $backgroundSemiTransparent;
+            border-radius: 5px;
+            font-size: 15px;
+
+            &:hover {
+                text-shadow: none;
+                background: $active;
+                color: $white;
+            }
+        }
+
+        input[type=text] {
+            padding: 0px;
+            margin: 0px;
+            height: 20px;
+            border: 0px;
+            background: transparent;
+            border-bottom: 1px dashed $black;
+            border-radius: 0px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}

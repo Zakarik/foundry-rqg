@@ -1,0 +1,49 @@
+{
+  "name": "Invoquer un esprit de la loi",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e34",
+  "system": {
+    "description": "<h3>Invoquer un esprit de la loi</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>Ce sort invoque un esprit de faible puissance (POU 2D6+6 et CHA 2D6), pour une attaque en combat spirituel contre une cible qui a déjà révélé sa nature chaotique. Sa compétence Combat spirituel est égale à son POU×5 et il ne connaît aucun sort. Si, en arrivant, il ne repère aucune âme ou esprit chaotique, l'Esprit de la loi repart sans porter la moindre attaque.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 4900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283034,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e34"
+}

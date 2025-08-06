@@ -1,0 +1,49 @@
+{
+  "name": "Axis Mundi",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e12",
+  "system": {
+    "description": "<h3>Axis Mundi</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire</p><ul><li>Ce rituel d'invocation crée un sanctuaire sacré de 10 m de rayon qui fonctionne de la manière suivante :</li><li>En premier lieu, il facilite la transition des esprits ancestraux vers le monde matériel. Ceux-ci apparaissent dans le sanctuaire sans avoir besoin de recourir à un sort de Visibilité.</li><li>Ensuite, il agit comme une balise (ou plutôt comme un phare) qui augmente les chance qu'un esprit trouve son chemin jusqu'au chaman et ce portail sacré.</li><li>Troisièmement, il protège le chaman à l'origine de ce sanctuaire. Le sort Incarner un ancêtre peut être lancé en son sein. Le sanctuaire agit alors comme un cercle de protection lorsque l'ancêtre invoqué arrive. Un ancêtre invoqué au cœur d'un Axis Mundi reste désorienté pendant 1D6 rounds et ne peut entreprendre aucune action hostile tant que cet effet ne s'est pas dissipé.</li><li>Quatrièmement, lancé par un chaman au cours du rite d'initiation d'un assistant chaman, il devient le lieu de transition permettant d'accéder au statut de chaman.</li><li>Cinquièmement, il attire les esprits liés aux traditions du culte et permet leur participation active lors des festivités des jours saints.</li></ul><p style='text-align:justify;'>Il est possible de renforcer ce sort avec des points de magie. Chaque point supplémentaire augmente la durée du sort de 15 minutes.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 14000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281012,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e12"
+}

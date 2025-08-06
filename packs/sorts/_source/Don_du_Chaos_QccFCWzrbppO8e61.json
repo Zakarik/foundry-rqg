@@ -1,0 +1,49 @@
+{
+  "name": "Don du Chaos",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e61",
+  "system": {
+    "description": "<h3>Don du Chaos</h3><p style='text-align:justify;'><b>2 points</b><br>Soi-même, durée (variable), non cumulable</p><p style='text-align:justify;'>Le lanceur manifeste un trait chaotique choisi au hasard dans la table Traits chaotiques du Bestiaire de Glorantha. Si une intervention divine réussie intervient alors que ce sort est lancé, le lanceur peut choisir le trait chaotique qu'il veut.<br>Ce sort est sujet au cycle lunar :</p><ul><li>Lune noire/décroissante : impossible de lancer ce sort.</li><li>Lune croissante : le trait perdure 2 minutes.</li><li>Demi-lune : le trait perdure 15 minutes.</li><li>Pleine lune : le trait perdure 4 heures.</li></ul><p style='text-align:justify;'>Le sujet du sort voit le score de sa Rune du Chaos augmenter de manière permanente de +20 %, ou bien gagne cette Rune à 20 % s'il ne la possédait pas déjà. Une fois ce sort utilisé sur elle, un sort, une aptitude ou un esprit appropriés détecteront toujours cette personne comme marquée par le Chaos.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": true,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 9200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281061,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e61"
+}

@@ -1,0 +1,24 @@
+<div class="affinites">
+    <div class="selected {{ifThen (eq (count systemData.affinites true) 0) 'hidden' ''}}">
+        {{#each (orderAffinites systemData.affinites) as |value key|}}
+            {{#if value}}
+            <span data-id="{{key}}" data-value="{{value}}" data-path="system.affinites.{{key}}" data-type="sort" data-action="onSwitch">
+                <img src="{{getImg 'affinite' key}}">                        
+                {{getLocalization 'affinite' key}}
+                <i class="fa-solid fa-check"></i>
+            </span>
+            {{/if}}
+        {{/each}}
+    </div>
+    <div class="unselected js-toggler">
+        {{#each (orderAffinites systemData.affinites) as |value key|}}
+            {{#unless value}}
+            <span data-id="{{key}}" data-value="{{value}}" data-type="sort" data-path="system.affinites.{{key}}" data-action="onSwitch" style="display:none;">
+                <img src="{{getImg 'affinite' key}}">
+                {{getLocalization 'affinite' key}}
+            </span>
+            {{/unless}}
+        {{/each}}                
+        {{> systems/runequest-glorantha/templates/parts/deployBtn.html localizeShow=(localize "RQG.SORT.ShowAll") localizeHide=(localize "RQG.SORT.HideAll")}}
+    </div>
+</div>

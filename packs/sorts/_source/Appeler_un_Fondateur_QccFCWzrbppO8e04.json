@@ -1,0 +1,49 @@
+{
+  "name": "Appeler un Fondateur",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e04",
+  "system": {
+    "description": "<h3>Appeler un Fondateur</h3><p style='text-align:justify;'><b>6 points</b><br>Non cumulable, usage unique</p><p style='text-align:justify;'>Ce sort ne peut être lancé que par le Khan légitime de toute une tribu. Il invoque le fondateur originel de celle-ci. Il nécessite toute une journée de préparation. L'entité invoquée est d'une incroyable puissance, bien au-delà du cadre du jeu. Elle apparaît sous une forme humaine dotée de la tête d'animal appropriée. Ses scores de FOR et de TAI sont dix fois supérieurs à ceux du Khan qui l'a appelée. Son POU varie entre 40 et 100, selon la tribu. On ne l'invoque qu'en cas d'urgence tribale.</p>",
+    "points": 6,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 14400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281004,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e04"
+}

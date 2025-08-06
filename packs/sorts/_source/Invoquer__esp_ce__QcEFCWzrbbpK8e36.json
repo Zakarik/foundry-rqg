@@ -1,0 +1,66 @@
+{
+  "name": "Invoquer (espèce)",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e36",
+  "system": {
+    "description": "<p style='text-align:justify;'>Rituel, actif, temporaire<br>Ce sort invoque devant le lanceur une créature issue d'un autre monde. Il requiert une cérémonie longue d'une heure dont les chances de succès peuvent être améliorées par des pratiques rituelles. Le joueur annonce à la meneuse le type d'entité que le sorcier invoque et la force du sort. Si le lanceur connaît le nom véritable de l'une d'entre elles, il peut l'appeler spécifiquement.<br>Si le sorcier invoque un élémentaire, le joueur doit également préciser la taille désirée (petit, moyen ou grand) ainsi que la force du sort. Il doit avoir sous la main une quantité suffisante de la substance correspondante à partir de laquelle va se former l'élémentaire. Si ce n'est pas le cas (par exemple, de l'eau pour un élémentaire d'eau), son invocation échoue automatiquement. La force minimale requise afin d'appeler un élémentaire dépend de sa taille.<ul><li>Petit élémentaire : force minimale du sort égale à 6.</li><li>Élémentaire moyen : force minimale du sort égale à 12.</li><li>Grand élémentaire : force minimale du sort égale à 18.</li></ul>La force du sort peut être supérieure au minimum requis. En fait, pour des raisons expliquées ci-dessous, cela sera souvent le cas à moins que le sorcier ne connaisse le nom véritable de l'entité.<br>Si le sort est réussi, le résultat dépend du fait que le lanceur connaisse justement ce nom (en général en ayant déjà réussi à invoquer cette entité ou grâce au sort Identifier une entité de l'Autre monde, voire en l'ayant découvert dans de vieux grimoires de sorcellerie identifiant certaines d'entre elles). S'il possède ce nom véritable, la créature apparaît et obéit au lanceur pendant la durée du sort.<br>Dans le cas contraire, le sorcier doit vaincre les points de magie de l'entité avec la force totale du sort d'invocation. En cas de succès, la créature lui obéit pendant la durée du sort (ce qui implique qu'elle puisse lui révéler son nom véritable). En cas d'échec, l'entité se montre hostile envers le lanceur et toute personne à proximité. Selon la puissance relative entre celle-ci et son invocateur (et sa nature), la meneuse décide si elle attaque, s'enfuit et demeure dans le monde matériel, ou tente de retourner dans son monde d'origine.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": true,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171036,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e36"
+}

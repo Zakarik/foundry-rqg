@@ -1,0 +1,13 @@
+<div class="rqgData {{class}}" data-id="{{id}}">
+    {{#if flavor}}<span class="flavor">{{flavor}}</span>{{/if}}
+    {{#each content}}
+        {{renderChatField this}}
+    {{/each}}
+    {{#if buttons}}
+        <div class="{{buttons.class}}">
+            {{#each buttons.list}}
+                <a class="{{class}}" data-id="{{id}}" data-path="{{path}}" data-value="{{value}}" data-notenough="{{notenough}}" data-not="{{notpts}}" data-msg="{{msg}}">{{label}}</a>
+            {{/each}}
+        </div>
+    {{/if}}
+</div>

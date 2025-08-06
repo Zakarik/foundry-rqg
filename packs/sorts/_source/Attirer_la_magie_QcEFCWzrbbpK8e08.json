@@ -1,0 +1,66 @@
+{
+  "name": "Attirer la magie",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e08",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, passif, temporaire<br>Une fois lancé, Attirer la magie redirige vers sa propre cible tout autre sort pris dans son aire d'effet, quelle que soit la cible initiale visée. Le point central de la portée du sort est fixé sur la cible d'Attirer la magie. Mais celle-ci doit constituer une cible valide pour les sorts redirigés. Par exemple, si le lanceur n'est pas visible du sorcier, il ne peut pas attirer le sort.<br>Comparer la force d'Attirer la magie à l'intensité d'un sort valide sur la table de résistance. Pour ce sort, chaque point de Rune compte comme 2 points d'intensité. Si Attirer la magie l'emporte, le sort change de cible pour celle désignée par le sorcier, même s'il visait le lanceur du sort initial.<br>Si le lanceur périt, le sort cesse. Si une même attaque magique pourrait être soumise à deux Attirer la magie différents, le plus puissant des deux vérifie le premier s'il parvient à faire effet. Si les deux sont de force égale, c'est alors celui qui est le plus proche de sa cible qui fait en premier le test d'opposition.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": true,
+        "eau": true,
+        "terre": true,
+        "feuciel": true,
+        "air": true,
+        "lune": true
+      },
+      "pouvoir": {
+        "mouvement": true,
+        "stase": true,
+        "harmonie": true,
+        "desordre": true,
+        "verite": true,
+        "illusion": true,
+        "fertilite": true,
+        "mort": true
+      },
+      "forme": {
+        "esprit": true,
+        "plante": true,
+        "bete": true,
+        "homme": true,
+        "chaos": true
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171008,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e08"
+}

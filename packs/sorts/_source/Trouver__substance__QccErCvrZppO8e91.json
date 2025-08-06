@@ -1,0 +1,49 @@
+{
+  "name": "Trouver (substance)",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e91",
+  "system": {
+    "description": "<h3>Trouver (substance)</h3><p style='text-align:justify;'><b>La Rune varie selon le type de substance</b><br>1 point<br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>Ce sort informe le lanceur de la présence de la substance recherchée. Lui seul peut voir la légère lueur qui en émane. Pendant la durée du sort, il reste averti de la présence de l'objet.<br>Ce sort permet de détecter des objets cachés fabriqués dans la matière concernée, à moins qu'ils ne se trouvent derrière 3 mètres ou plus de pierre, de terre ou de métal.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 100049,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283091,
+    "modifiedTime": 1754488374764,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e91"
+}

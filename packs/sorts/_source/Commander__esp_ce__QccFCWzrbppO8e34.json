@@ -1,0 +1,49 @@
+{
+  "name": "Commander (espèce)",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e34",
+  "system": {
+    "description": "<h3>Commander (espèce)</h3><p style='text-align:justify;'><b>La Rune dépend du culte<br>2 points</b><br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>Une fois actif, ce sort permet au lanceur de contrôler les actes et la volonté d'une créature non intelligente. Il doit voir (ou sentir distinctement) l'animal afin de lancer le sort. Il doit aussi remporter une opposition de POU dans un test de résistance. En cas de réussite, il s'établit à portée de vue une forme de communication télépathique entre les deux. Le lanceur doit former dans son esprit une image mentale des actions qu'il souhaite voir accomplies par la créature. Commander une créature nécessite du lanceur qu'il se concentre pendant tout un round.<br>Les cultes runiques disposent de sorts Commander pour différents animaux en rapport avec leurs propres mythes et leur culture.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 11800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281034,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e34"
+}

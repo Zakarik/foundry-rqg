@@ -1,0 +1,33 @@
+<div class="tab passions {{tab.cssClass}}" data-group="primary" data-tab="passions">
+    <header>
+        <a
+            data-type="passion"
+            data-tooltip="{{localize 'RQG.ADD.Passion'}}"
+            data-action="onCreateItm"
+            data-document-class='Item'
+        >
+            {{localize 'RQG.ADD.Label'}}
+            <i class="fa-solid fa-plus"></i>
+        </a>
+    </header>
+    {{#each actor.passions}}
+    <div class="passion summary" data-item-id="{{_id}}">
+        <i class="{{ifThen system.description 'fa-solid fa-circle-question hoverItem' ''}}"></i>
+        <span class="clickable"
+            data-action="onRoll" 
+            data-tooltip="{{localize 'RQG.Roll'}}" 
+            data-label="{{name}}" 
+            data-type="passion" 
+            data-value="{{system.value}}">{{name}}</span>        
+        <label class="value">
+            {{system.value}}%
+        </label>
+        {{> systems/runequest-glorantha/templates/parts/cmd.html
+            edit='RQG.EDIT.Passion'
+            delete='RQG.DELETE.Passion'
+            id=_id
+        }}
+        {{> systems/runequest-glorantha/templates/actors/parts/hiddenBox.html txt=enriched}}
+    </div>
+    {{/each}}
+</div>

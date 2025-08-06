@@ -1,0 +1,61 @@
+{
+  "name": "Arbalète à répétition",
+  "type": "armedistance",
+  "img": "systems/runequest-glorantha/assets/distance.svg",
+  "_id": "zVxYdWqrFpdW8e07",
+  "system": {
+    "description": "<p style=\"text-align: justify\">Cette arme mostali particulière s'autodétruit entre les mains de tous les non-Mostali, en sabotant ses propres mécanismes internes si une procédure secrète n'est pas suivie. Ces armes sont traitées comme des arbalètes légères, mais elles peuvent tirer une fois par round de mêlée, jusqu'à la capacité de leur chargeur de 5 carreaux.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 0,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "arbalete",
+    "allonge": {
+      "value": "",
+      "categorie": ""
+    },
+    "ra": {
+      "value": "",
+      "parround": false,
+      "cadence": "1rm"
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 7
+    },
+    "degats": "2D4+2",
+    "type": "e",
+    "durabilite": {
+      "value": 6,
+      "max": 6
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    },
+    "portee": "100",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "RJHw7Zhpoi2IdCE5",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200006,
+    "modifiedTime": 1754143067251,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!zVxYdWqrFpdW8e07"
+}

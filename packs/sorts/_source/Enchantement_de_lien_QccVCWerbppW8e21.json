@@ -1,0 +1,31 @@
+{
+  "name": "Enchantement de lien",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Un enchantement de lien est un objet magique pouvant contenir un esprit ou toute créature venue d'un autre monde. L'objet utilisé pour l'enchantement de lien doit être chargé avec 1 point de POU par caractéristique possédée par la créature (cf. page 249 pour de plus amples informations sur les enchantements de lien).</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000021,
+    "modifiedTime": 1754403203837,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e21",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e21"
+}

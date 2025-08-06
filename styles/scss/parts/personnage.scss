@@ -1,0 +1,29 @@
+.actor.personnage {    
+    .window-content {
+        background:$background;
+        color: $black;
+        overflow: auto;
+
+        span,
+        input {
+            color: $black;
+        }
+        
+        @include menu();
+        @import "subparts/header.scss";
+        @import "subparts/historique.scss";
+        @import "subparts/competence.scss";
+        @import "subparts/passion.scss";
+        @import "subparts/combat.scss";
+        @import "subparts/affinitesruniques.scss";
+        @import "subparts/cultes.scss";
+        @import "subparts/spirituelles.scss";
+        @import "subparts/sorcelleries.scss";
+        @import "subparts/inventaire.scss";
+        @import "subparts/effects.scss";
+
+        div.tab {
+            margin-top: 5px;
+        }
+    }
+}

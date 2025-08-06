@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Nourriture",
+  "color": "#4e2104",
+  "sorting": "a",
+  "_id": "8ixd5H2YNaHly9Hn",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753970062588,
+    "modifiedTime": 1753970116196,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!folders!8ixd5H2YNaHly9Hn"
+}

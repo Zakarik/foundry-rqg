@@ -1,0 +1,66 @@
+{
+  "name": "Parler à l'esprit",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e49",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Ce sort permet au lanceur de communiquer mentalement avec sa cible. Chaque degré de force du sort introduit une autre personne dans la conversation. Il faut murmurer les pensées à transmettre. Le récepteur entend le message dans son esprit, dans la langue dans laquelle il a été prononcé.<br>Il est impossible de transmettre la connaissance d'un sort.<br>Parler à l'esprit ne crée pas un canal ouvert entre les sujets affectés par le lanceur. Par exemple, si Sorala lance ce sort sur Vasana et Vostor, elle est en communication avec chacun d'eux, mais Vasana et Vostor ne sont pas en contact entre eux.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": true,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": true,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171049,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e49"
+}

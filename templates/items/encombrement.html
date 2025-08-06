@@ -1,0 +1,8 @@
+<div class="encombrement">
+    <span>{{localize "RQG.Encombrement"}}</span>
+    {{numberInput (ifThen systemData.encombrement.value systemData.encombrement.value 0) name="system.encombrement.value" min=0}}
+    <a class="btn {{ifThen systemData.encombrement.inferieura1 'active' ''}}" data-action="onSwitch" data-path="system.encombrement.inferieura1" data-type="encombrement" data-value="{{systemData.encombrement.inferieura1}}">
+        {{localize "RQG.Inferieura1"}}
+        <i class="{{ifThen systemData.encombrement.inferieura1 'fa-solid fa-check' ''}}"></i>
+    </a>
+</div>

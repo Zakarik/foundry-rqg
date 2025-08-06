@@ -1,0 +1,44 @@
+{
+  "name": "Cape d'hiver en laine",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">On trouve communément ces protections contre le vent et les nuits froides. La plupart sont faites à partir de peaux d'animaux. La cape est en général accrochée au niveau de l'épaule à l'aide d'une fibule.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 2,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": true,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "PdjBdDSXINFqLYTg",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753966962806,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e05",
+  "sort": 62500,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e05"
+}

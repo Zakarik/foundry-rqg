@@ -1,0 +1,62 @@
+{
+  "name": "Épée large",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e10",
+  "system": {
+    "description": "<p style='text-align:justify;'>Cette épée en bronze mesure généralement entre 75 et 90 centimètres de long, elle a la forme d'une feuille et a une section transversale plate ou en forme de losange. La pointe est assez longue et acérée pour que l'estoc soit mortel, tandis que le bord incurvé est idéal pour la lacération. Les épées larges sont souvent décorées.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 50,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "epee1main",
+    "allonge": {
+      "value": "1",
+      "categorie": "2"
+    },
+    "ra": {
+      "value": 2,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 7
+    },
+    "degats": "1D8+1",
+    "type": "te",
+    "durabilite": {
+      "value": 12,
+      "max": 12
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "3ZaD9qU6V5SblnHQ",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971001005,
+    "modifiedTime": 1754060217594,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e10"
+}

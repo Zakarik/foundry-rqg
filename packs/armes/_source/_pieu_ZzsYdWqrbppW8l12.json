@@ -1,0 +1,62 @@
+{
+  "name": "Épieu",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l12",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">il s'agit d'une longue lance de cavalerie d'environ 3,5 à 4,25 mètres de long, utilisée à une main.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 25,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "lance1main",
+    "allonge": {
+      "value": "3.5+",
+      "categorie": "0"
+    },
+    "ra": {
+      "value": 0,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 7
+    },
+    "degats": "1D10+1",
+    "type": "e",
+    "durabilite": {
+      "value": 10,
+      "max": 10
+    },
+    "encombrement": {
+      "value": 3,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "2Blgzjie9rji0otx",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973500012,
+    "modifiedTime": 1754139232033,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l12"
+}

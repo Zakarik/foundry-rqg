@@ -1,0 +1,66 @@
+{
+  "name": "Augmenter INT",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e11",
+  "system": {
+    "description": "<p style='text-align:justify;'>Toucher, passif, temporaire<br>Ce sort augmente temporairement l'INT de la cible de 1 point. Par tranche de 4 degrés de force du sort, son INT est de nouveau majorée de +1. Ainsi, si la force du sort est améliorée avec 8 points de magie, il ajoute +3 à l'INT de sa cible pendant toute sa durée.<br>Durant cette période, il affecte l'INT libre de la cible et peut pousser la valeur d'INT au-dessus du maximum normal de son espèce.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": true,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": true,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171011,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e11"
+}

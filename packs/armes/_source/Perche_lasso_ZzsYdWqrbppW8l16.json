@@ -1,0 +1,62 @@
+{
+  "name": "Perche-lasso",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l16",
+  "system": {
+    "description": "<p style=\"text-align: justify\"><span class=\"fontstyle0\">Une boucle de corde attachée à l'extré- mité d'une perche, utilisée pour capturer un animal ou un adversaire. Elle ne cause aucun dégâts, mais immobilise la localisation touchée avec la même FOR que celle de l'utilisateur, comme un grappin (cf. page 224).</span></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 7,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "lasso",
+    "allonge": {
+      "value": "3",
+      "categorie": "0"
+    },
+    "ra": {
+      "value": 1,
+      "parround": true,
+      "cadence": "RM"
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 13
+    },
+    "degats": "0",
+    "type": "ec",
+    "durabilite": {
+      "value": 4,
+      "max": 4
+    },
+    "encombrement": {
+      "value": 3,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "JFAzO6gShcdmg9nv",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753974000016,
+    "modifiedTime": 1754142586439,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l16"
+}

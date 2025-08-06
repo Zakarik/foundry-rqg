@@ -1,0 +1,31 @@
+{
+  "name": "Parade",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort fonctionne exactement comme Vivelame si ce n'est qu'il ne s'applique qu'aux boucliers. Chaque point de magie dépensé ajoute +5 % aux chances de parade avec celui-ci.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000043,
+    "modifiedTime": 1754403215611,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e43",
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e43"
+}

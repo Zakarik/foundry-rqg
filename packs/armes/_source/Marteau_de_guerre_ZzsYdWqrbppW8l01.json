@@ -1,0 +1,62 @@
+{
+  "name": "Marteau de guerre",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l01",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">Arme basée sur un marteau, elle a souvent une pointe pour l'impact plutôt qu'une tête plate et est utilisée comme pioche plutôt que comme marteau. Une arme dangereuse, idéale pour percer une armure. </span></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 20,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "marteau1main",
+    "allonge": {
+      "value": "0.8",
+      "categorie": "3"
+    },
+    "ra": {
+      "value": 3,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 11,
+      "dexterite": 9
+    },
+    "degats": "1D6+2",
+    "type": "ec",
+    "durabilite": {
+      "value": 10,
+      "max": 10
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "e6yJXXyrAfZZZhvB",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973000001,
+    "modifiedTime": 1754139487899,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l01"
+}

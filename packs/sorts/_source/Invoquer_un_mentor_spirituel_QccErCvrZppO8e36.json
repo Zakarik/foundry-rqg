@@ -1,0 +1,49 @@
+{
+  "name": "Invoquer un mentor spirituel",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e36",
+  "system": {
+    "description": "<h3>Invoquer un mentor spirituel</h3><p style='text-align:justify;'><b>2 points</b><br>À distance, temporaire</p><p style='text-align:justify;'>Ce sort doit être cumulé avec le sort Invoquer un ancêtre (1). Pendant la durée du sort, l'esprit appelé ainsi peut enseigner des sorts, fournir des informations ou assister le chaman en tant qu'esprit totem. Il permet d'apprendre rapidement des sorts, en une seule journée. Ce sort peut se cumuler avec Invoquer un ancêtre choisi.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283036,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e36"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Peur",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e58",
+  "system": {
+    "description": "<h3>Peur</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, instantané, non cumulable</p><p style='text-align:justify;'>Ce sort cause une peur intense et invalidante qui s'empare de la cible. Pour agir, le lanceur doit vaincre le POU de la victime sur la table de résistance. La qualité de la réussite dans ce test en opposition détermine les effets du sort. Une fois lancé, les effets de Peur ne peuvent pas être dissipés.</p><h4>Effets de la peur</h4><table border='1' style='border-collapse:collapse;'><tr><th>Résultat</th><th>Effet</th></tr><tr><td>Réussite critique</td><td>La victime meurt sous l'effet de la terreur.</td></tr><tr><td>Réussite spéciale</td><td>La victime s'évanouit pour (20–CON) tours et doit réussir un test de CONx5 ou mourir comme indiqué ci-dessus.</td></tr><tr><td>Réussite</td><td>La victime agit comme si elle était sous l'effet de Démoralisation (cf. description des sorts de magie spirituelle) pendant (20–CON) rounds.</td></tr><tr><td>Échec</td><td>Les êtres intelligents ne sont pas affectés. Les créatures non intelligentes, dont les animaux, sont Démoralisés pendant (20–CON) rounds.</td></tr><tr><td>Échec critique</td><td>La victime n'est pas affectée.</td></tr></table>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": true,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283058,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e58"
+}

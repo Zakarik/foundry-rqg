@@ -1,0 +1,66 @@
+{
+  "name": "Voler le souffle",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcWFeWzrbTpO8e05",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Chaque round, ce sort permet de convertir 3 mètres cubes d'air en 1D6 points de magie. Par tranche de 2 degrés de force du sort, un autre volume de 3 mètres cubes d'air est converti en 1D6 points de magie supplémentaire. Si on le lance sur une personne, elle commence à suffoquer après le premier round (cf. Noyade et asphyxie, page 156).<br>Les points de magie gagnés ainsi se comportent comme des points de magie normaux (ils peuvent servir à lancer des sorts, augmenter les chances du sorcier de vaincre la résistance de la cible, etc.), sauf qu'ils ne se régénèrent pas avec le repos. Si le nombre de points de magie du sorcier excède son maximum normal, les points en surplus ne restent disponibles que jusqu'à ce que Voler le souffle expire.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": true,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": true
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171059,
+    "modifiedTime": 1754492803878,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcWFeWzrbTpO8e05"
+}

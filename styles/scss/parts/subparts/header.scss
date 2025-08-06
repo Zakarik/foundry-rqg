@@ -1,0 +1,789 @@
+header.header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 5px;
+    align-items: flex-start;
+
+    @include buttonA(5px, 'resistance');
+
+    div {
+        &.left {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $backgroundTransparent;
+
+            input {
+                text-align: center;
+                border: none;
+                border-bottom: 1px solid $black;
+                font-size: 16px;
+                background: transparent;
+                border-radius: 0px;
+                font-weight: bold;
+                font-variant: small-caps;
+            }
+
+            img {
+                border: none;
+            }
+        }
+
+        &.right {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-row: 1 / 3;
+            grid-column: 2;
+            grid-gap: 5px;
+            align-items: flex-start;
+        }
+
+        &.subLeft {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+            align-items: flex-start;
+        }
+
+        &.subRight {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 5px;
+            align-items: flex-start;
+        }
+        
+        &.ra {
+            display: grid;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 2px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            div {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 80px;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+    
+                &.main {    
+                    i {
+                        cursor: pointer;
+    
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+    
+                    div {
+                        font-size: 15px;
+    
+                        &.label {                                    
+                            font-weight: bold;
+                            font-variant: small-caps;
+                        }
+    
+                        input {
+                            width: 100%;
+                            min-width: 0px;
+                            background: transparent;
+                            border: 0px;
+                            text-align: center;
+                            height: 18px;
+                            padding: 0px;
+                        }
+                    }
+
+                    span {
+                        &.score {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $white;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+    
+                &.sub {    
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    label {
+                        display: grid;
+                        grid-template-columns: 1fr 80px;
+    
+                        span {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $disabled;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        background: $white;
+                        text-align: center;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        width: 100%;
+                        min-width:0px;
+                        padding: 0px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &.degats {
+            display: grid;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 2px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            div {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 80px;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+    
+                &.main {    
+                    i {
+                        cursor: pointer;
+    
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+    
+                    div {
+                        font-size: 15px;
+    
+                        &.label {                                    
+                            font-weight: bold;
+                            font-variant: small-caps;
+                        }
+    
+                        input {
+                            width: 100%;
+                            min-width: 0px;
+                            background: transparent;
+                            border: 0px;
+                            text-align: center;
+                            height: 18px;
+                            padding: 0px;
+                        }
+                    }
+
+                    span {
+                        &.score {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $white;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+    
+                &.sub {    
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    label {
+                        display: grid;
+                        grid-template-columns: 1fr 80px;
+    
+                        span {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $disabled;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        background: $white;
+                        text-align: center;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        width: 100%;
+                        min-width:0px;
+                        padding: 0px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &.caracteristiques {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 5px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            header {
+                grid-column: 1;
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            div {
+                label {                        
+                    display: grid;
+                    grid-template-columns: 1fr 80px;
+                    grid-gap: 2px;
+                }
+
+                &.data {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                }
+
+                &.main {
+                    display: grid;
+                    grid-template-columns: 14px 1fr;
+                    grid-gap: 2px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 15px;
+
+                    i {
+                        cursor: pointer;
+
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+
+                    label {
+                        @include clickable();
+                        span {
+                            &.score {
+                                background: $white;
+                                text-align: center;
+                                font-weight: bold;
+                                border: 1px solid $black;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+
+                &.sub {
+                    display: grid;
+                    grid-template-columns: 14px 1fr;
+                    grid-gap: 2px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 15px;
+
+                    label {
+                        grid-column: 2;
+                        span {
+                            &.score {
+                                text-align: center;
+                                font-weight: bold;
+                                border: 1px solid $black;
+                                border-radius: 5px;
+                                background: $disabled;
+                            }
+                        }
+
+                        input {
+                            background: $white;
+                            text-align: center;
+                            font-weight: bold;
+                            border: 1px solid $black;
+                            border-radius: 5px;
+                            width: 100%;
+                            min-width:0px;
+                            padding: 0px;
+                            height: 19px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.pointsvie,
+        &.pointsmagie {
+            display: grid;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 2px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            div {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 100px;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+    
+                &.main {    
+                    i {
+                        cursor: pointer;
+    
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+    
+                    div {
+                        font-size: 15px;
+    
+                        &.label {                                    
+                            font-weight: bold;
+                            font-variant: small-caps;
+                        }
+    
+                        &.data {
+                            display: grid;
+                            grid-template-columns: 1fr max-content 1fr;
+                            grid-gap: 2px;
+                            align-items: center;
+                            background: $white;
+                            border: 1px solid $black;
+                            border-radius: 2px;
+    
+                            span {
+                                font-weight: bold;
+                                text-align: center;
+                            }
+                        }
+    
+                        input {
+                            width: 100%;
+                            min-width: 0px;
+                            background: transparent;
+                            border: 0px;
+                            text-align: center;
+                            height: 18px;
+                            padding: 0px;
+                        }
+                    }
+                }
+    
+                &.sub {    
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    label {
+                        display: grid;
+                        grid-template-columns: 1fr 100px;
+    
+                        span {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $disabled;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        background: $white;
+                        text-align: center;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        width: 100%;
+                        min-width:0px;
+                        padding: 0px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &.vitesse {
+            display: grid;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 2px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            div {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 80px;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+    
+                &.main {    
+                    i {
+                        cursor: pointer;
+    
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+    
+                    div {
+                        font-size: 15px;
+    
+                        &.label {                                    
+                            font-weight: bold;
+                            font-variant: small-caps;
+                        }
+    
+                        input {
+                            width: 100%;
+                            min-width: 0px;
+                            background: transparent;
+                            border: 0px;
+                            text-align: center;
+                            height: 18px;
+                            padding: 0px;
+                        }
+                    }
+
+                    span {
+                        &.score {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $white;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+    
+                &.sub {    
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    label {
+                        display: grid;
+                        grid-template-columns: 1fr 80px;
+    
+                        span {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $disabled;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        background: $white;
+                        text-align: center;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        width: 100%;
+                        min-width:0px;
+                        padding: 0px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &.guerison {
+            display: grid;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 2px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            div {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 100px;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+    
+                &.main {    
+                    i {
+                        cursor: pointer;
+    
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+    
+                    div {
+                        font-size: 15px;
+    
+                        &.label {                                    
+                            font-weight: bold;
+                            font-variant: small-caps;
+                        }
+    
+                        input {
+                            width: 100%;
+                            min-width: 0px;
+                            background: transparent;
+                            border: 0px;
+                            text-align: center;
+                            height: 18px;
+                            padding: 0px;
+                        }
+                    }
+
+                    span {
+                        &.score {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $white;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+    
+                &.sub {    
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+
+                    label {
+                        display: grid;
+                        grid-template-columns: 1fr 80px;
+    
+                        span {
+                            font-weight: bold;
+                            font-variant: small-caps;
+    
+                            &.score {
+                                border: 1px solid $black;
+                                text-align: center;
+                                background: $disabled;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        background: $white;
+                        text-align: center;
+                        border: 1px solid $black;
+                        border-radius: 5px;
+                        width: 100%;
+                        min-width:0px;
+                        padding: 0px;
+                        height: 19px;
+                    }
+                }
+            }
+        }
+
+        &.localization {
+            grid-column: 1 / 3;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 5px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            header {
+                display: grid;
+                grid-template-columns: 1fr 70px 120px 120px;
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 16px;
+                grid-gap: 2px;
+
+                span {
+                    &.jet,
+                    &.armure,
+                    &.pv {
+                        text-align: center;
+                    }
+                }
+            }
+
+            div {
+                &.data {
+                    display: grid;
+                    grid-template-columns: 1fr 70px 120px 120px;
+                    align-items: flex-start;
+                    grid-gap: 2px;
+
+                    input {
+                        min-width: 0px;
+                        width: 100%;
+                        height: 20px;
+                    }
+
+                    div {
+                        &.main,
+                        &.sub {
+                            display: grid;
+                            grid-template-columns: 1fr 70px 120px 120px;
+                            grid-gap: 2px;
+                            align-items: center;
+                        }
+
+                        &.main {
+                            grid-column: 1 / 5;
+
+                            i {
+                                cursor: pointer;
+
+                                &:hover {
+                                    color: $active;
+                                }
+                            }
+
+                            div {
+                                font-size: 15px;
+
+                                &.nom {                                    
+                                    font-weight: bold;
+                                    font-variant: small-caps;
+                                }
+
+                                &.jet,
+                                &.armure,
+                                &.pv {
+                                    text-align: center;
+                                }
+
+                                &.pv {
+                                    display: grid;
+                                    grid-template-columns: 1fr max-content 1fr;
+                                    grid-gap: 2px;
+                                    align-items: center;
+                                    background: $white;
+                                    border: 1px solid $black;
+                                    border-radius: 2px;
+
+                                    span {
+                                        font-weight: bold;
+                                    }
+                                }
+
+                                input {
+                                    background: transparent;
+                                    border: 0px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+
+                        &.sub {
+                            &.armure,
+                            &.pv {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                grid-gap: 2px;
+                                grid-row: 2;
+                            }
+
+                            &.armure {
+                                grid-column: 3;
+                            }
+
+                            &.pv {
+                                grid-column: 4;
+                            }
+
+                            label {
+                                display: grid;
+                                grid-template-columns: 1fr 54.05px;
+
+                                span {
+                                    font-weight: bold;
+                                    font-variant: small-caps;
+
+                                    &.score {
+                                        border: 1px solid $black;
+                                        text-align: center;
+                                        background: $disabled;
+                                        border-radius: 5px;
+                                    }
+                                }
+                            }
+
+                            input {
+                                background: $white;
+                                text-align: center;
+                                border: 1px solid $black;
+                                border-radius: 5px;
+                                width: 100%;
+                                min-width:0px;
+                                padding: 0px;
+                                height: 19px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

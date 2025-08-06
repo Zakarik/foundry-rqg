@@ -1,0 +1,66 @@
+{
+  "name": "Sauvegarde contre les esprits",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcWFeWzrbTpO8e02",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, passif, temporaire<br>Ce sort fournit à sa cible une protection pendant le combat spirituel. Les points de dégâts spirituels infligés à une créature ainsi protégée sont opposés à la force du sort sur la table de résistance. Si les dégâts l'emportent, ils s'appliquent dans leur totalité à la victime. Dans le cas contraire, la cible ne perd aucun point de magie dans cette passe de combat spirituel.<br>Le sort protège la cible pendant toute sa durée. S'il est combiné avec le sort runique Blocage spirituel ou le sort de magie spirituelle Écran spirituel, les dégâts sont d'abord confrontés sur la table de résistance puis, s'ils atteignent la cible, sont absorbés par Écran spirituel ou Blocage spirituel.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": true,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": true,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171056,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcWFeWzrbTpO8e02"
+}

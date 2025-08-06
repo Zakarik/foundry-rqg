@@ -1,0 +1,49 @@
+{
+  "name": "Incarner un ancêtre",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e26",
+  "system": {
+    "description": "<h3>Incarner un ancêtre</h3><p style='text-align:justify;'><b>3 points</b><br>À distance, temporaire</p><p style='text-align:justify;'>Ce sort invoque l'esprit d'un ancêtre qui va posséder le corps de l'un des ses descendants. Ce membre de la famille doit être volontaire, et le prêtre de Daka Fal sert généralement d'hôte. L'esprit invoqué possède tous les sorts, toutes les connaissances et compétences qu'il avait de son vivant.<br>L'esprit de l'hôte reste temporairement suspendu dans le monde des Esprits et en revient quand le sort expire, à moins qu'un échec critique survienne au lancement du sort ou que sa durée soit rallongée au-delà d'une journée. Dans les deux cas, la possession devient permanente et l'esprit de l'hôte se rend dans le Territoire des morts.<br>Ce sort peut être lancé sans donner un nom d'ancêtre particulier. On détermine alors au hasard celui qui vient. Ce procédé est dangereux, à moins de s'y préparer en lançant un sort d'Axis Mundi (cf. page 319).</p>",
+    "points": 3,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 5900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283026,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e26"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Matraque",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort affecte toute arme contondante ou d'écrasement. Par point investi dans le sort, il ajoute +5 % aux chances de toucher et 1 point de dégât supplémentaire. Il ne se cumule pas avec les autres sorts destinés à améliorer une arme, comme Vivelame ou Lame de feu.<br><br>Notez que des dégâts magiques peuvent atteindre les créatures autrement invulnérables aux armes normales. Par exemple, les Frères-Loups telmori ne subissent aucun dégât des armes normales, mais seront vulnérables aux bonus de dégâts magiques.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000037,
+    "modifiedTime": 1754403212375,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e37",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e37"
+}

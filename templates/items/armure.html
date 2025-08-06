@@ -1,0 +1,41 @@
+
+<div class="data armure">
+    <div class="col">
+
+        <label class="type">
+            <span>{{localize "RQG.Type"}}</span>
+            <input type="text" name="system.type" value="{{systemData.type}}" />
+        </label>
+        
+        <label class="matiere">
+            <span>{{localize "RQG.ARMURE.Matiere"}}</span>
+            <input type="text" name="system.matiere" value="{{systemData.matiere}}" />
+        </label>
+
+        <label class="deplacementsilencieux">
+            <span>{{localize "RQG.COMPETENCES.Deplacementsilencieux"}}</span>
+            {{numberInput (ifThen systemData.deplacementsilencieux systemData.deplacementsilencieux 0) name="system.deplacementsilencieux" min=0}}
+        </label>
+
+        <div class="encombrement">
+            <span>{{localize "RQG.Encombrement"}}</span>
+            {{numberInput (ifThen systemData.encombrement.value systemData.encombrement.value 0) name="system.encombrement.value" min=0}}
+            <a class="btn {{ifThen systemData.encombrement.inferieura1 'active' ''}}" data-action="onSwitch" data-path="system.encombrement.inferieura1" data-type="encombrement" data-value="{{systemData.encombrement.inferieura1}}">
+                {{localize "RQG.Inferieura1"}}
+                <i class="{{ifThen systemData.encombrement.inferieura1 'fa-solid fa-check' ''}}"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col">
+        <div class="loc">
+            <header>{{localize "RQG.LOCALIZATIONS.Plural"}}</header>
+
+            {{#each systemData.localisations as |data key|}}
+                <label>
+                    <span>{{getLocalization 'localisation' key}}</span>
+                    {{numberInput (ifThen data data 0) name=(concat "system.localisations." key)}}
+                </label>
+            {{/each}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+{
+  "name": "Javelot (Distance)",
+  "type": "armedistance",
+  "img": "systems/runequest-glorantha/assets/distance.svg",
+  "_id": "zVxYdWqrFpdW8e10",
+  "system": {
+    "description": "<p style='text-align:justify;'></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 35,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "javelot",
+    "allonge": {
+      "value": "",
+      "categorie": ""
+    },
+    "ra": {
+      "value": "",
+      "parround": false,
+      "cadence": "1rm"
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 9
+    },
+    "degats": "1D10",
+    "type": "e",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "20",
+    "projectile": true
+  },
+  "effects": [],
+  "folder": "NLNS6iNOu9sPDun6",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200009,
+    "modifiedTime": 1754143169023,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!zVxYdWqrFpdW8e10"
+}

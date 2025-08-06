@@ -1,0 +1,31 @@
+{
+  "name": "Seconde vue",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Il donne à la cible la capacité de percevoir le POU des êtres vivants et des esprits, et d'évaluer leur force relative. Ce sort ne lui permet pas de voir le monde des Esprits. Les chamans possèdent naturellement cette aptitude et n'ont pas besoin de dépenser des points de magie pour y faire appel (cf. page 358). L'aura de toutes les créatures à portée se met à luire. Seul le lanceur peut voir cet effet. Si elles sont nombreuses, il lui devient difficile de déterminer le POU de chacune d'entre elles. Les choses morts-vivantes ne produisent pas cette lueur, elle n'ont pas de caractéristique POU. Les auras de POU des objets enchantés apparaissent également, mais pas les points de magie investis dans des sorts.<br><br>La meneuse doit déclarer au joueur si les auras de POU observées sont bien plus faibles, bien plus fortes ou dans une tranche de 5 points en-dessous ou au-dessus de celle du lanceur. Pour un chaman, elle doit y inclure le POU de l'esprit totem avant de l'annoncer.<br><br>Un aventurier peut utiliser le sort Seconde vue pour cibler (attaques physiques et magiques) des ennemis dans les ténèbres, du moment qu'ils possèdent un score en POU. Par contre, il ne peut pas essayer d'esquiver ou parer les coups qu'ils lui portent. Seconde vue révèle simplement leur position, mais guère plus de détails.<br><br>Une surface opaque et épaisse (une grosse couverture de laine, un mur de bois, etc.) bloque ce sort.</p>",
+    "points": 3,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000047,
+    "modifiedTime": 1754403217759,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e47",
+  "sort": 4600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e47"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Invocation de l'esprit de culte",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e29",
+  "system": {
+    "description": "<h3>Invocation de l'esprit de culte</h3><p style='text-align:justify;'><b>La Rune varie selon l'esprit de culte</b><br>1 à 3 points (selon l'esprit de culte)<br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Le lanceur peut, grâce à ce sort, quémander auprès de sa divinité l'aide d'un esprit de culte d'une sorte ou d'une autre. La taille de celui-ci dépend du nombre de points de Rune cumulés dans le sort. En règle générale, plus une divinité est influente, plus les esprits qu'elle contrôle sont variés.<br>Invoquer un élémentaire constitue un exemple particulier de ce sort, mais il en existe de nombreuses autres versions. Ainsi, les adorateurs de Chalana Arroy peuvent appeler un esprit de guérison (dans une variante à 1 point). De leur côté, les fidèles d'Engizi connaissent une version à 2 points pour invoquer une naïade du Ruisseau (cf. Bestiaire de Glorantha pour des exemples d'esprits de culte).</p>",
+    "points": 0,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 5400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283029,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e29"
+}

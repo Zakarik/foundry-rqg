@@ -1,0 +1,31 @@
+{
+  "name": "Contremagie",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Ce sort défensif</strong> protège sa cible contre tous les autres sorts qui le visent, dont ceux de Protection et même les sorts de Soins. Toutefois, il n'interfère pas avec les objets déjà enchantés, par exemple une épée sur laquelle a été lancée Vivelame. Il n'a aucun effet contre les esprits, mais peut fonctionner contre les sorts lancés par ceux-ci.<br><br>Si le sort contré coûte 2 (ou plus) points de moins, celui-ci est annulé et Contremagie perdure. <br>Si le coût du sort contré est égal à celui de Contremagie (plus ou moins 1), les deux disparaissent. <br>Si le coût du sort d'attaque surpasse celui de Contremagie de 2 points ou plus, il annule cette protection.<br>Si la cible perd alors son opposition sur la table de résistance, elle subit les effets du sort qui la vise.<br><br><strong>L'efficacité de Contremagie</strong> est réduite de moitié face à des sorts de magie runique. Ainsi, il faut 2 points de Contremagie pour se prémunir contre un Dispersion de la magie à 1 point.<br><br><strong>Cumul :</strong> Ce sort ne se cumule pas avec Protection, Distorsion ou Écran spirituel.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000003,
+    "modifiedTime": 1754403191845,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e03",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e03"
+}

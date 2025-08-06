@@ -1,0 +1,396 @@
+$white:white;
+$black:black;
+$active:rgb(138, 097, 046);
+$disabled:lightgrey;
+$activeTransparent:rgb(138, 097, 046, 0.2);
+$background:url('../../../ui/parchment.jpg') repeat;
+$backgroundTransparent:rgba(139, 69, 19, 0.2);
+$backgroundSemiTransparent:rgba(139, 69, 19, 0.4);
+$background:url(../../../ui/parchment.jpg) repeat;
+$limegreen:green;
+$green:DarkGreen;
+$blue:blue;
+$firered:FireBrick;
+$red:DarkRed;
+$backgroundDie:url("../../../icons/svg/d10-grey.svg");
+
+@mixin input($textalign:center) {    
+    input {
+        width: 100%;
+        min-width: 0px;
+        background: $white;
+        border-radius: 2px;
+        border: 1px solid $black;
+        text-align: center;
+        font-weight: bold;
+        height: 20px;
+        font-size: 16px;
+        text-align: $textalign;
+        color: $black;
+
+        &[disabled] {
+            background: $disabled;
+            border-radius: 5px;
+        }
+    }
+}
+
+@mixin select() {            
+    select {
+        background: $white;
+        text-align: center;
+        border-radius: 2px;
+        border: 1px solid $black;
+        height: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-variant: small-caps;
+        font-size: 16px;
+        font-weight: bold;
+        color: $black;
+    }
+}
+
+@mixin check() {
+    input {
+        &[type=checkbox] {
+            background: unset;
+            border: none;
+            padding: 0px;
+            width: max-content;
+            margin: auto;
+    
+            &::before {
+                color: $black;
+            }
+    
+            &::after {
+                color: $white;
+            }
+        }
+    }
+}
+
+@mixin span($class:false, $textalign:left, $size:16px) {
+    @if $class {
+        span.#{$class} {
+            display: grid;
+            align-items: center;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: $size;
+            text-align: $textalign;    
+            @content;
+        }
+    } @else {        
+        span {
+            display: grid;
+            align-items: center;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: $size; 
+            text-align: $textalign;    
+            @content;       
+        }
+    }
+}
+
+@mixin score($background:$white, $textalign:center, $size:16px) {
+    span.score {
+        text-align: $textalign;
+        font-weight: bold;
+        border: 1px solid $black;
+        border-radius: 5px;
+        background: $background;
+        font-size: $size;
+    }
+}
+
+@mixin buttonA($padding:5px, $class:false) {    
+    @if $class {
+        a.#{$class} {
+            display: grid;
+            grid-template-columns: 1fr max-content;
+            border: 1px solid $black;
+            background: $disabled;
+            grid-gap: 2px;
+            align-items: center;
+            border-radius: 5px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+            padding:$padding;
+            text-shadow: none;
+            color: $black;
+            @content;
+
+            &.active {                 
+                outline:none;
+                box-shadow:none;
+                
+                i {
+                    color: $green;
+                }
+            }
+
+            &.unactive {
+                i {
+                    color:$red;
+                }
+            }
+
+            &:hover {
+                background: $backgroundTransparent;
+            }
+        }
+    } @else {
+        a {
+            display: grid;
+            grid-template-columns: 1fr max-content;
+            border: 1px solid $black;
+            background: $disabled;
+            grid-gap: 2px;
+            align-items: center;
+            border-radius: 5px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+            padding:$padding;
+            text-shadow: none;
+            @content;
+
+            &.active {                 
+                i {
+                    color: $green;
+                }
+            }
+
+            &.inactive {
+                i {
+                    color:$red;
+                }
+            }
+
+            &:hover {
+                background: $backgroundTransparent;
+            }
+        }
+    } 
+}
+
+@mixin cmd() {    
+    div {
+        &.cmd {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2px;
+
+            i {
+                cursor: pointer;
+
+                &:hover {
+                    color: $active;
+                }
+            }
+        }
+    }
+}
+
+@mixin encart($column:1fr) {    
+    display: grid;
+    grid-template-columns: $column;
+    padding: 2px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    grid-gap: 5px;
+    align-items: flex-start;
+    background: $backgroundTransparent;
+}
+
+@mixin header() {   
+    header {
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: 20px;
+        grid-gap: 5px;
+        align-items: center;
+        align-content: flex-start;
+        border-bottom: 1px solid $black;
+
+        i {
+            cursor: pointer;
+
+            &:hover {
+                color: $active;
+            }
+        }
+    }
+}
+
+@mixin deployBtn() {    
+    a.deploy {
+        display: flex;
+        justify-content: center;
+        border: 1px solid $black;
+        background:  $backgroundTransparent;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        font-variant: small-caps;
+        font-weight: bold;
+        @content;
+
+        i {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-top: 2px;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        &:hover {
+            background: $active;
+            color: $white;
+            font-weight: normal;
+            text-shadow: none;
+        }
+    }
+}
+
+@mixin menu($number:5) {
+    nav.tabs {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        display: grid;
+        grid-template-columns: repeat($number, 1fr);
+        grid-gap: 5px;
+        margin-top: 5px;
+        
+        a {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            border: 1px solid $black;
+            background: $disabled;
+            grid-gap: 2px;
+            align-items: center;
+            padding: 5px;
+            border-radius: 5px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+            line-height: 20px;
+            color: $black;
+    
+            i {
+                display: none;
+                color: $green;
+            }
+    
+            &.show {
+                display: none;
+            }
+    
+            &.active {
+                background: $activeTransparent;
+                text-shadow: none;
+
+                i {
+                    display: inline-block;
+                }
+            }
+    
+            &:hover {
+                background: $activeTransparent;
+                text-shadow: none;
+            }
+        }
+
+        @content;
+    }
+}
+
+@mixin effects() {
+    div {
+        &.effects {
+            @include encart();
+            @include header();
+        }
+    }
+}
+
+@mixin hovered() {
+    div {
+        &.hovered {
+            display: none;
+            position: absolute;
+            width: 100px;
+            height: max-content;
+            top: 18px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $background;
+            z-index: 10;
+
+            div {
+                background: $backgroundSemiTransparent;
+                padding: 5px;
+            }
+        }
+    }
+
+    i {
+        &.hoverItem {            
+            cursor: pointer;
+
+            &:hover {
+                color: $active;
+            }
+        }
+    }
+}
+
+@mixin wear() {
+    i.wear {
+        cursor: pointer;
+    }
+}
+
+@mixin tags() {
+    div.tags {
+        display: flex;
+        column-gap: 2px;
+        row-gap: 2px;
+        flex-wrap: wrap;
+
+        span.tag {
+            display: inline-block;
+            width: max-content;
+            font-variant: small-caps;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $disabled;   
+            padding: 2px; 
+        }
+    }
+}
+
+@mixin clickable() {
+    span.clickable {
+        width: max-content;
+        cursor: pointer;
+
+        &:hover {
+            color: $active;
+        }
+    }
+}

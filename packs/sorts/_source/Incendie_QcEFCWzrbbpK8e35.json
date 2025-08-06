@@ -1,0 +1,66 @@
+{
+  "name": "Incendie",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e35",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Ce sort invoque un feu déjà existant vers un emplacement situé dans la limite de sa portée. L'intensité des flammes dépend de la force du sort :</p><table border='1' style='text-align:center; border-collapse: collapse; margin: 8px 0;'><tr><th>Force</th><th>Luminosité</th><th>Dégâts par round de mêlée</th></tr><tr><td>1–3</td><td>Une bougie</td><td>1D3</td></tr><tr><td>4–7</td><td>Une torche</td><td>1D6</td></tr><tr><td>8–11</td><td>Un feu actif, assez chaud pour faire fondre l'étain</td><td>2D6</td></tr><tr><td>12–15</td><td>Un feu violent, assez chaud pour faire fondre le plomb</td><td>3D6</td></tr><tr><td>16–19</td><td>Un brasier, assez chaud pour faire fondre le bronze, le cuivre, l'or ou l'argent</td><td>4D6</td></tr><tr><td>20+</td><td>Un feu assez chaud pour faire fondre le fer</td><td>5D6</td></tr></table><p style='text-align:justify;'>Le feu ne se déplace pas, il peut toutefois se propager aux objets inflammables à sa portée. S'il est lancé sur un être vivant, il inflige des dégâts liés à la force du sort, jusqu'à ce que la cible puisse s'éloigner.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": true,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": true,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171035,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e35"
+}

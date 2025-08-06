@@ -1,0 +1,49 @@
+{
+  "name": "Changer la direction du vent",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e29",
+  "system": {
+    "description": "<h3>Changer la direction du vent</h3><p style='text-align:justify;'><b>1 point</b><br>À distance (100 mètres de rayon autour du lanceur), temporaire, cumulable</p><p style='text-align:justify;'>Au gré du lanceur, ce sort change la direction du vent de 30 degrés. Des points de sort supplémentaires augmentent le rayon de 100 mètres ou ajustent le changement de direction de +30°. Ce sort double les effets du vent sur les projectiles.<br>Lorsqu'il s'arrête, le vent hésite, immobile, pendant tout un round, puis reprend brusquement sa course normale. De petits tourbillons se forment parfois aux limites du sort, là où le vent lutte contre lui-même.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": true,
+      "lune": false,
+      "tenebres": false,
+      "terre": true,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": true,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 12300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281029,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e29"
+}

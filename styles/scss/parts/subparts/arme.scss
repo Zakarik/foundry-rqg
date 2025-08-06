@@ -1,0 +1,243 @@
+
+&.arme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    align-items: flex-start;
+
+    label {
+        display: grid;
+        grid-gap: 2px;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        select {
+            background: $white;
+            border-radius: 2px;
+            border: 1px solid $black;
+            height: 20px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            font-variant: small-caps;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        &.categorie,
+        &.competence {
+            grid-template-columns: 1fr 80px;
+            width: 100%;
+
+            select {
+                grid-column: 1 / 3
+            }
+
+            @include span(false, center);
+            @include input;
+
+            input[type=text] {
+                text-align: left;
+            }
+
+            span {
+                &.header {
+                    grid-column: 1 / 3;
+                }
+            }
+        }
+
+        &.degats,
+        &.type {
+            grid-template-columns: 1fr 80px;
+            align-items: center;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            
+            @include span;
+            @include input;
+
+            select {
+                text-align: center;
+            }
+        }
+    }
+
+    div {
+        &.col {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+        }
+
+        &.prerequis {
+            display: grid;
+            grid-template-columns: 1fr;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span('header', center, 16px);
+
+            label {
+                display: grid;
+                grid-template-columns: 1fr 80px;
+                align-items: center;
+                
+                @include span(false, left, 14px);
+                @include input;
+            }
+        }
+
+        &.encombrement {
+            display: grid;
+            grid-template-columns: 1fr 80px;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span;
+            @include input;
+            @include buttonA(0px);
+
+            a {
+                grid-column: 1 / 3;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        &.durabilite {
+            display: grid;
+            grid-template-columns: 1fr 80px max-content 80px;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span;
+            @include input;
+        }
+
+        &.categorie,
+        &.competence {
+            @include encart;
+        }
+
+        &.categorie {
+            padding: 5px;
+        }
+
+        &.cmphalf {
+            @include buttonA(0px);
+
+            a {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        &.projectile {
+            @include span;
+            @include input;
+            @include score;
+            @include buttonA(0px);
+
+            a {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        &.allonge {
+            display: grid;
+            grid-template-columns: 1fr 80px 80px;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span;
+            @include input;
+
+            input {
+                grid-column: 3;
+            }
+
+            select {
+                grid-column: 2 / 4;
+                background: $white;
+                text-align: center;
+                border-radius: 2px;
+                border: 1px solid $black;
+                height: 20px;
+                padding-bottom: 0px;
+                padding-top: 0px;
+                font-variant: small-caps;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+
+        &.portee {
+            display: grid;
+            grid-template-columns: 1fr 80px;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span;
+            @include input;
+        }
+
+        &.ra {
+            display: grid;
+            grid-template-columns: 1fr 80px;                            
+            background: $backgroundTransparent;
+            border: 1px solid $black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100%;
+            grid-gap: 2px;
+
+            @include span;
+            @include input;
+            @include score;
+            @include buttonA(0px);
+
+            a {
+                grid-column: 1 / 3;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            select {
+                background: $white;
+                border-radius: 2px;
+                border: 1px solid $black;
+                height: 20px;
+                padding-bottom: 0px;
+                padding-top: 0px;
+                font-variant: small-caps;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}

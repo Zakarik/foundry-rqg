@@ -1,0 +1,66 @@
+{
+  "name": "Créer une odeur",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e18",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Ce sort crée des odeurs illusoires. Ce parfum reste le même pour toutes les espèces et peut servir à tromper toutes les créatures. La force de l'illusion détermine l'intensité de l'odeur.</p><table border='1' style='text-align:center; border-collapse: collapse; margin: 8px 0;'><tr><th>Force</th><th>Exemple</th></tr><tr><td>1–2</td><td>L'eau après la pluie</td></tr><tr><td>3–4</td><td>Une rose ou du blé fraîchement coupé</td></tr><tr><td>5–7</td><td>Des oignons frits ou un parfum écœurant</td></tr><tr><td>8–9</td><td>De l'huile brûlée</td></tr><tr><td>10+</td><td>Une projection fraîche de moufette</td></tr></table><p style='text-align:justify;'>Une odeur plus forte qu'un parfum ambiant peut servir à le masquer (un mort-vivant peut ainsi cacher ses relents de décomposition). Si elle est plus faible, elle peut tout de même la modifier ou l'altérer, comme par exemple transformer la senteur du chêne coupé en l'odeur du cèdre.<br>Une odeur nauséabonde peut servir d'arme offensive. Pour cela, comparez son intensité avec la CON de la cible. Si la puanteur l'emporte, la cible est rendue inactive pour ce round. Relancez les dés chaque round jusqu'à ce que la cible l'emporte. Elle est alors habituée à la pestilence et n'a plus besoin de faire de test, à moins que l'intensité ne se renforce encore.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": true,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": true,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171018,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e18"
+}

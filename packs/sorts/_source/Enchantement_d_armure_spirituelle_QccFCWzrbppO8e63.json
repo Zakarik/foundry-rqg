@@ -1,0 +1,49 @@
+{
+  "name": "Enchantement d'armure spirituelle",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e63",
+  "system": {
+    "description": "<h3>Enchantement d'armure spirituelle</h3><p style='text-align:justify;'><b>1 point</b><br>Rituel (enchantement), cumulable</p><p style='text-align:justify;'>Cet enchantement sert à créer une armure spirituelle qui absorbe, en combat spirituel, les dégâts aux points de magie.<br>Il nécessite un rituel d'une heure au bout de laquelle le lanceur sacrifie un ou plusieurs points de POU. Chaque point investi dans cet enchantement apporte à la cible l'équivalent d'une protection de 1D3 points d'armure spirituelle.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 8900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281063,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e63"
+}

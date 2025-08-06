@@ -1,0 +1,62 @@
+{
+  "name": "Ceste léger",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e18",
+  "system": {
+    "description": "<p style='text-align:justify;'>Des gants métalliques qui dépendent de l'impact du métal (comme nos « poings américains »), pour causer des dommages.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "couppoing",
+    "allonge": {
+      "value": "0",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 0
+    },
+    "degats": "1D3+1",
+    "type": "cc",
+    "durabilite": {
+      "value": 4,
+      "max": 4
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": true
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "lp2f2pDIm6CuDvrC",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971505012,
+    "modifiedTime": 1754060283866,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e18"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Téléportation guidée",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e82",
+  "system": {
+    "description": "<h3>Téléportation guidée</h3><p style='text-align:justify;'><b>3 points</b><br>Soi-même, instantané, non cumulable</p><p style='text-align:justify;'>Après un rituel complexe long d'une semaine, ce sort non cumulable ramène toujours le lanceur à un endroit spécifique considéré comme sacré aux yeux d'Orlanth. Il ne comporte aucune limitation de distance.</p>",
+    "points": 3,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": true,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283082,
+    "modifiedTime": 1754488358392,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e82"
+}

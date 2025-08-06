@@ -1,0 +1,31 @@
+{
+  "name": "Réparation",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort permet de réparer les objets cassés. Il faut avoir sous la main toutes les parties. Ainsi, une épée sera ressoudée, un bouclier réparé, une armure consolidée. Chaque point de sort restaure 1D10 points de dégâts, si l'objet dispose de points de durabilité. Dans le cas contraire, il est simplement remis en état. L'objet réparé présente une marque et perd définitivement 1 point de durabilité de son maximum possible. Sur un objet magique, Réparation ne restitue pas pour autant les enchantements brisés ou les esprits libérés.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000046,
+    "modifiedTime": 1754403217206,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e46",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e46"
+}

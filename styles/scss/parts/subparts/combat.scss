@@ -1,0 +1,276 @@
+div.tab.combat.active {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    div {
+        &.combatspirituel {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: max-content minmax(100px, max-content);
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 5px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            header {
+                display: grid;
+                grid-template-columns: 1fr 200px 200px;
+                grid-gap: 5px;
+                align-items: flex-start;
+                align-content: flex-start;
+
+                span {
+                    &.label {
+                        font-variant: small-caps;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            div {
+                &.rangaction,
+                &.degats {
+                    display: grid;
+                    grid-template-columns: 1fr;
+    
+                    label {                        
+                        display: grid;
+                        grid-template-columns: 1fr 80px;
+                        grid-gap: 2px;
+                        align-items: center;
+                    }
+                }
+
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr 80px 14px;
+                    grid-gap: 2px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 15px;
+                    align-items: center;
+        
+                    i {
+                        cursor: pointer;
+        
+                        &:hover {
+                            color: $active;
+                        }
+                    }
+        
+                    div {
+                        &.label {
+                            display: grid;
+                            grid-template-columns: 14px 1fr;
+                            grid-gap: 2px;
+                            align-items: center;
+                        }
+                    }
+        
+                    span {
+                        &.score {
+                            background: $white;
+                            text-align: center;
+                            font-weight: bold;
+                            border: 1px solid $black;
+                            border-radius: 2px;
+                        }
+                    }
+                }
+        
+                &.sub {
+                    display: grid;
+                    grid-template-columns: 14px 1fr 14px;
+                    grid-gap: 2px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 15px;
+                    margin-top: 2px;
+                    align-items: center;
+        
+                    label {
+                        grid-column: 2;
+                        span {
+                            &.label {
+                                font-size: 14px;
+                            }
+
+                            &.score {
+                                text-align: center;
+                                font-weight: bold;
+                                border: 1px solid $black;
+                                border-radius: 5px;
+                                background: $disabled;
+                            }
+                        }
+        
+                        input {
+                            background: $white;
+                            text-align: center;
+                            font-weight: bold;
+                            border: 1px solid $black;
+                            border-radius: 5px;
+                            width: 100%;
+                            min-width:0px;
+                            padding: 0px;
+                            height: 20px;
+                        }
+                    }
+                }
+
+                &.editor {
+                    border-top: 1px solid $black;
+                    padding-top: 5px;
+                }
+            }
+        }
+
+        &.combatmelee,
+        &.combatdistance {
+            @include clickable;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            grid-gap: 5px;
+            align-items: flex-start;
+            background: $backgroundTransparent;
+
+            header {
+                &.main {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 5px;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 18px;
+                    border-bottom: 1px solid $black;
+                }
+            }
+
+            div {
+                &.data {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 2px;
+                    align-items: flex-start;
+                    align-content: flex-start;
+
+                    header {
+                        display: grid;
+                        grid-template-columns: 1fr repeat(7, 100px);
+                        grid-gap: 2px;
+                        font-variant: small-caps;
+                        font-weight: bold;
+                        font-size: 15px;
+
+                        span {
+                            &.center {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                &.wpn {
+                    display: grid;
+                    grid-template-columns: 1fr repeat(7, 100px);
+                    grid-gap: 2px;
+
+                    span {
+                        &.center {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.armures {
+            @include encart(1fr 1fr);
+            @include header();
+            @include cmd();
+            @include hovered();
+            @include wear();
+
+            header {
+                grid-column: 1 / 3;
+            }
+
+            div {
+
+                &.subheader {
+                    display: grid;
+                    grid-gap: 2px;
+                    grid-template-columns: 1fr 200px 100px 30px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 16px;
+
+                    span {
+                        &.matiere,
+                        &.loc {
+                            grid-template-columns: 1fr;
+                            text-align: center;
+                        }
+                    }
+                }
+                
+                &.line {
+                    display: grid;
+                    position: relative;
+                    grid-template-columns: max-content 1fr 200px 100px max-content;
+                    align-items: center;
+                    border-bottom: 1px solid $black;
+                    grid-gap: 2px;
+
+                    span {
+                        display: grid;
+                        grid-template-columns: max-content max-content;
+                        grid-gap: 5px;
+                        align-items: center;
+                        line-height: 22px;
+                        height: 22px;
+
+                        p {
+                            margin: 0px;
+                            padding: 0px;
+
+                            &.use {
+                                cursor: pointer;
+
+                                &:hover {
+                                    font-weight: bold;
+                                    color: $active;
+                                }
+
+                                i {
+                                    vertical-align : super; 
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        &.matiere,
+                        &.loc {
+                            grid-template-columns: 1fr;
+                            text-align: center;
+                            height: fit-content;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

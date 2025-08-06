@@ -1,0 +1,31 @@
+{
+  "name": "Protection",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Chaque point de sort rajoute 1 point d'armure sur l'ensemble du corps ou à un objet. Cette protection se comporte exactement comme une armure normale.<br><br>Ce sort ne se cumule pas avec Contremagie, Distorsion ou Écran spirituel.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000044,
+    "modifiedTime": 1754403216158,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e44",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e44"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Restaurer la santé",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e69",
+  "system": {
+    "description": "<h3>Restaurer la santé</h3><p style='text-align:justify;'><b>1 point</b><br>Toucher, instantané, cumulable</p><p style='text-align:justify;'>Ce sort restaure les points de caractéristiques perdus à la suite d'une maladie, des effets du sort de sorcellerie Entaille, ou de toute autre cause. Par contre, il ne guérit pas d'une maladie dont le sujet souffre actuellement. Il ne restaure pas les pertes de caractéristiques conséquentes au trépas.<br>Chaque point de Rune de Restaurer la santé restitue un point dans une caractéristique particulière. Ce sort ne peut pas augmenter les valeurs de caractéristiques au-delà de leur score initial.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": true,
+      "mort": false,
+      "harmonie": true,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283069,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e69"
+}

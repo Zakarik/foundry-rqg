@@ -1,0 +1,49 @@
+{
+  "name": "Dispersion de la magie",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e57",
+  "system": {
+    "description": "<h3>Dispersion de la magie</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, instantané, cumulable</p><p style='text-align:justify;'>Ce sort annule la magie affectant une cible. Chaque point annule 2 points de magie spirituelle ou de sorcellerie, ou 1 point de magie runique. Pour les sorts de sorcellerie, il suffit de surpasser leur force (cf. page 385).<br>Lancé contre une cible sans plus de précision, Dispersion de la magie annule d'abord les sorts défensifs, en commençant par le plus puissant qu'il puisse contrer. On peut néanmoins l'utiliser contre un sort spécifique que le lanceur aura su identifier magiquement ou par un autre moyen.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 9500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281057,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e57"
+}

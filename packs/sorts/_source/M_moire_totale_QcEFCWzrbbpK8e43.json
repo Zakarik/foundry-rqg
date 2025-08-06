@@ -1,0 +1,66 @@
+{
+  "name": "Mémoire totale",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e43",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, passif, temporaire<br>La cible peut, grâce à ce sort, se remémorer parfaitement, et avec tous les détails, une série d'expériences vécues par le passé. La force du sort détermine jusqu'à quel moment il est possible de remonter.</p><table border='1' style='border-collapse:collapse; text-align:center; margin:8px 0;'><tr><th>Force</th><th>Intervalle de temps</th></tr><tr><td>1</td><td>1 an</td></tr><tr><td>2</td><td>2 ans</td></tr><tr><td>3</td><td>3 ans</td></tr><tr><td>4</td><td>5 ans</td></tr><tr><td>5</td><td>8 ans</td></tr><tr><td>6</td><td>13 ans</td></tr><tr><td>7</td><td>21 ans</td></tr><tr><td>8</td><td>34 ans</td></tr><tr><td>9</td><td>55 ans</td></tr><tr><td>10</td><td>89 ans</td></tr><tr><td>11</td><td>144 ans</td></tr><tr><td>+1</td><td>Cf. ci-dessous</td></tr></table><p style='text-align:justify;'>Des degrés de force supplémentaires augmentent le temps de retour en arrière, additionnant ensemble les deux périodes précédentes pour déterminer le nouvel intervalle.<br>Le sujet peut effectuer des tests d'Observation, de Recherche, d'Écoute, de Lecture/Écriture, de Langue (plus ceux paraissant appropriés) comme s'il était à nouveau sur place. Cependant, cette réminiscence n'altère en rien les événements passés. Ce sort permet uniquement au sorcier de reconstituer ses souvenirs à l'intérieur de son propre esprit, pas de voyager dans le temps. Les informations qu'il est possible de récupérer ainsi restent à l'entière discrétion de la meneuse.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": true,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": true,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171043,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e43"
+}

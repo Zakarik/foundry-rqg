@@ -1,0 +1,31 @@
+{
+  "name": "Enchantement de matrice de sort",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Grâce à une matrice de sort, un enchanteur peut stocker la connaissance d'un sortilège de magie spirituelle dans un objet. Tant qu'il reste en contact avec lui, quiconque peut se servir de cet objet gagne la capacité de lancer ce sort. Dès que ce lien physique cesse, il perd immédiatement cette possibilité.<br><br>Un enchanteur ne peut pas créer de matrice pour un sort auquel il n'a pas accès.<br><br>Dans la procédure, le lanceur doit sacrifier un nombre de points de POU égal aux points de magie nécessaires pour jeter ce sort. Ainsi, il faut dépenser 1 point de POU pour faire d'une épée une matrice du sort Vivelame (1). Une matrice du sort Vivelame (3) coûte donc 3 points de POU. Au fil du temps, il est possible d'en améliorer la puissance. Une matrice de Vivelame (2) peut être renforcée à 4 points par des sacrifices ultérieurs de POU et des tests d'enchantement réussis. Elle peut également être créée sur plusieurs périodes espacées. Par exemple, une matrice de Vivelame (3), nécessitant le sacrifice de 3 points de POU, peut se façonner sur plusieurs semaines, voire plusieurs saisons. Bien entendu, le sort n'est pas utilisable tant que la totalité de l'enchantement n'est pas terminée.<br><br>Les chances de lancer le sort dans la matrice pour son utilisateur sont égales à son POU×5. Il doit également dépenser 1 point de magie par point du sort. Posséder un objet renfermant une matrice de sort ne compte pas dans la limite des sorts accessibles en fonction du CHA du porteur.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000023,
+    "modifiedTime": 1754403204891,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e23",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e23"
+}

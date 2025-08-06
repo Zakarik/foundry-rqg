@@ -1,0 +1,49 @@
+{
+  "name": "Sanctification",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e73",
+  "system": {
+    "description": "<h3>Sanctification</h3><p style='text-align:justify;'><b>1 point</b><br>Rituel, cumulable</p><p style='text-align:justify;'>Ce sort bénit une zone de 10 mètres de rayon, en général sous la forme d'une sphère (bien que pour les cultes de la Terre, il s'agisse systématiquement d'un cube). Lancé au niveau du sol, l'un des hémisphères englobera une partie à l'air libre, l'autre s'étendra sous la surface. Bien qu'elle ne soit pas détectable par le toucher ou le Sens des ténèbres des trolls, ses limites luisent légèrement en pleine lumière.<br>Les cérémonies ne pouvant être accomplies que dans des temples, comme pour récupérer des points de Rune, peuvent être menées dans une zone sanctifiée.<br>Toute personne qui pénètre, ne serait-ce qu'en partie, à l'intérieur de la sphère, est considérée comme totalement dedans. Si des non initiés ou des esprits en franchissent les limites, le lanceur est immédiatement alerté de leur présence.<br>Chaque point de Rune cumulé dans Sanctification augmente de moitié le rayon de la zone protégée. Aussi, 2 points de Sanctification englobent une aire de 15 mètres de rayon, et ainsi de suite.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283073,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e73"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Hache-dague",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e05",
+  "system": {
+    "description": "<p style=\"text-align: justify\">Cette arme d'hast est composée d'une tête en forme de dague perpendiculaire à un long manche, d'apparence similaire à une faux à lame courte. Elle est très efficace contre les ennemis montés qui pensent être hors de portée. Une pointe de lance est souvent fichée au sommet du manche. Jusqu'à 2 mètres de long.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 75,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "hache2mains",
+    "allonge": {
+      "value": "1,5–2",
+      "categorie": "1"
+    },
+    "ra": {
+      "value": 1,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 13,
+      "dexterite": 9
+    },
+    "degats": "3D6",
+    "type": "l",
+    "durabilite": {
+      "value": 10,
+      "max": 10
+    },
+    "encombrement": {
+      "value": 3,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "Y9pAAhjLSvK6Ml9Z",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753970540105,
+    "modifiedTime": 1754060062599,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e05"
+}

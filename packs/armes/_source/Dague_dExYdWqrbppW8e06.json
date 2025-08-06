@@ -1,0 +1,62 @@
+{
+  "name": "Dague",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e06",
+  "system": {
+    "description": "<p style='text-align:justify;'>Arme à lame courte ne dépassant pas 40 cm de long. Les dagues peuvent être tranchantes sur un bord ou sur les deux, ou avoir une section transversale triangulaire si elles sont destinées uniquement à poignarder. Elles sont souvent décorées. La plupart des adultes de la Passe du Dragon portent une dague ou un couteau. Si elle est lancée, utilisez la compétence Dague de lancer.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "dague",
+    "allonge": {
+      "value": "0,2–0,3",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 0,
+      "dexterite": 0
+    },
+    "degats": "1D4+2",
+    "type": "te",
+    "durabilite": {
+      "value": 6,
+      "max": 6
+    },
+    "encombrement": {
+      "value": 4,
+      "inferieura1": true
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "3ZaD9qU6V5SblnHQ",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971001001,
+    "modifiedTime": 1754060085345,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e06"
+}

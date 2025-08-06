@@ -1,0 +1,31 @@
+{
+  "name": "Mortelame",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Malgré son nom, ce sort réduit les dégâts causés par n'importe quelle arme de mêlée, tranchante ou contondante. Il faut cibler l'arme pour qu'il fonctionne correctement. Celle-ci voit ses chances de toucher baisser de –5 % et ses dégâts diminuer de 1 point par point de sort investi. Si l'arme renferme un esprit, il faut d'abord vaincre les points de magie de celui-ci avant que le sort ne puisse faire effet. Mortelame ne fonctionne pas sur les armes naturelles comme les crocs, les griffes, etc.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000039,
+    "modifiedTime": 1754403213506,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e39",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e39"
+}

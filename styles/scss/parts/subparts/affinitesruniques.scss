@@ -1,0 +1,387 @@
+div.tab.affinitesruniques.active {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    img {
+        border: none;
+    }
+
+    div {
+        &.elementaire {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            justify-items: center;
+            row-gap: 5px;
+            padding-left: 25px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            position: relative;
+            background: $backgroundTransparent;
+            border-radius: 5px;
+            border: 1px solid $black;
+
+            i {
+                &.fa-gear {
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    font-size: 20px;
+                    cursor: pointer;
+    
+                    &:hover {
+                        color: $active;
+                    }
+                }
+            }
+
+            div {  
+                width: 80px;
+                color: $black;
+                position: relative;
+                background: transparent; 
+
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-variant: small-caps;
+                }
+
+                >div {
+                    display: flex;
+
+                    span {
+                        margin-left: auto;
+                        width: max-content;
+                        margin-right: auto;
+                    }
+
+                    @include clickable();
+                }
+
+                &.feu {
+                    grid-column: 1 / 5;
+
+                    label span {
+                        position: absolute;
+                        top: 0px;
+                        right: -25px;
+                    }
+                }
+
+                &.air {
+                    grid-column: 1;
+
+                    label span {
+                        position: absolute;
+                        top: 0px;
+                        left: -25px;
+                    }
+                }
+
+                &.tenebres {
+                    grid-column: 4;
+
+                    label span {
+                        position: absolute;
+                        top: calc(100% - 20px);
+                        right: -20px;
+                    }
+                }
+
+                &.lune {
+                    grid-column: 2 / 4;
+                    grid-row: 2 / 4;
+                    margin-top: -70px;
+
+                    label span {
+                        position: absolute;
+                        bottom: 0px;
+                        right: -25px;
+                    }
+                }
+
+                &.terre {
+                    grid-column: 1;
+                    margin-right: -80px;
+                    margin-top: 30px;
+
+                    label span {
+                        position: absolute;
+                        left: -40px;
+                        bottom: 20px;
+                    }
+                }
+
+                &.eau {
+                    grid-column: 4;
+                    margin-left: -80px;
+                    margin-top: 10px;
+
+                    label span {
+                        position: absolute;
+                        top: calc(100% - 20px);
+                        right: -25px;
+                    }
+                }
+            }
+
+            label {
+                width: 80px;
+                color: $black;
+                position: relative;
+                background: transparent; 
+                
+                span {
+                    text-align: center;
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: $black;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    width: 45px;
+                    background: $white;
+                }
+
+                img {
+                    position: relative;
+                    z-index: 100;
+                }
+            }
+
+            img {
+                &.arrow {
+                    position: absolute;
+                }
+
+                &.a1 {
+                    top: 60px;
+                    rotate:70deg;
+                    right: 80px;
+                    width: 75px;
+                }
+
+                &.a2 {
+                    width: 65px;
+                    rotate: 140deg;
+                    right: 35px;
+                    bottom: 120px;
+                }
+
+                &.a3 {
+                    rotate: 215deg;
+                    width: 110px;
+                    bottom: 0px;
+                    right: 165px;
+                }
+
+                &.a4 {
+                    width: 65px;
+                        rotate: 280deg;
+                        left: 47px;
+                        bottom: 100px;
+                }
+
+                &.a5 {
+                    top: 61px;
+                    left: 105px;
+                    rotate: 355deg;
+                    width: 80px;
+                }
+            }
+        }
+
+        &.pouvoir {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+            column-gap: 5px;
+            padding-left: 25px;
+            padding-right: 20px;
+            padding-top: 17px;
+            padding-bottom: 16px;
+            position: relative;
+            background: $backgroundTransparent;
+            border-radius: 5px;
+            border: 1px solid $black;
+
+            i {
+                &.fa-gear {
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    font-size: 20px;
+                    cursor: pointer;
+    
+                    &:hover {
+                        color: $active;
+                    }
+                }
+            }
+
+            div {
+                label {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                @include clickable();
+
+                &.homme {
+                    grid-column: 1 / 3;
+                    display: grid;
+                    grid-template-columns: max-content;
+                    width: max-content;
+                    align-items: center;
+
+                    img {
+                        margin-right: -10px;
+                    }
+
+                    label {
+                        grid-row: 1;
+                    }
+
+                    div {
+                        grid-row: 2;
+                        text-align: center;
+
+                        span {
+                            text-align: center;
+                            font-variant: small-caps;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                &.bete {
+                    grid-column: 1 / 3;
+                    display: grid;
+                    grid-template-columns: max-content 1fr;
+                    width: max-content;
+                    align-items: center;
+
+                    img {
+                        margin-left: -10px;
+                    }
+
+                    label {
+                        grid-row: 2;
+                        flex-direction: row-reverse;
+                    }
+
+                    div {
+                        grid-row: 1;
+                        text-align: center;
+
+                        span {
+                            text-align: center;
+                            font-variant: small-caps;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                &.mort,
+                &.desordre,
+                &.illusion,
+                &.mouvement {
+                    display: grid;
+                    grid-template-columns: 1fr max-content;
+                    width: 100%;
+                    align-items: center;
+
+                    div {
+                        text-align: left;
+
+                        span {
+                            font-variant: small-caps;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+
+                    label {
+                        img {
+                            margin-right: -10px;
+                        }
+                    }
+                }
+
+                &.fertilite,
+                &.harmonie,
+                &.verite,
+                &.stase {
+                    display: grid;
+                    grid-template-columns: max-content 1fr;
+                    width: 100%;
+                    align-items: center;
+                    padding-right: 5px;
+                    border-right: 1px solid $black;
+
+                    div {
+                        grid-column: 2;
+                        grid-row: 1;
+                        text-align: right;
+
+                        span {
+                            font-variant: small-caps;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+
+                    label {
+                        grid-column: 1;
+                        grid-row: 1;
+                        flex-direction: row-reverse;
+
+                        img {
+                            margin-left: -10px;
+                        }
+                    }
+                }
+            }
+
+            label {
+                color: $black;
+                position: relative;
+                background: transparent; 
+                
+                span {
+                    display: inline-block;
+                    text-align: center;
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: $black;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    width: 45px;
+                    background: $white;
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    object-fit: contain;
+                    z-index: 100;
+                }
+            }
+        }
+    }
+}

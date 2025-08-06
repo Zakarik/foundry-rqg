@@ -1,0 +1,51 @@
+{
+  "name": "Haubert de disques",
+  "type": "armure",
+  "img": "systems/runequest-glorantha/assets/armor.svg",
+  "system": {
+    "description": "",
+    "cout": {
+      "roues": 0,
+      "lunars": 150,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "matiere": "Disques",
+    "localisations": {
+      "jambegauche": 4,
+      "jambedroite": 4,
+      "abdomen": 5,
+      "poitrine": 5,
+      "brasgauche": 4,
+      "brasdroit": 4,
+      "tete": 0
+    },
+    "deplacementsilencieux": -10,
+    "encombrement": {
+      "value": 3,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1717680720000,
+    "modifiedTime": 1717680720000,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZsCWerbppW8e26",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZsCWerbppW8e26"
+}

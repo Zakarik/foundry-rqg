@@ -1,0 +1,49 @@
+{
+  "name": "Enchantement (métal)",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e62",
+  "system": {
+    "description": "<h3>Enchantement (métal)</h3><p style='text-align:justify;'><b>La Rune varie selon le type de métal<br>1 point</b><br>Enchantement, rituel</p><p style='text-align:justify;'>Ce rituel doit être accompli au-dessus du métal runique auquel il est associé. Les métaux runiques sont décrits plus en détail dans le Guide de la meneuse de RuneQuest.<br>Il faut sacrifier 1 point de POU par tranche de 10 points d'ENC de métal à enchanter. Le métal doit être forgé (par l'intermédiaire de la compétence d'artisanat adéquate) dans la forme désirée avant de lancer le sort. Le reforger ensuite annule toujours l'enchantement. Le métal gagne systématiquement un nombre de points de durabilité ou d'armure équivalent à celui du bronze (sauf le fer, qui en gagne une fois et demi ces nombres). Il peut bénéficier d'autres avantages, selon son type.<br>Si un objet enchanté est brisé, il peut être remis en état avec Réparation ou être reforgé. Dans les deux cas, l'enchantement est perdu. Le rituel doit être à nouveau accompli.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 9000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281062,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e62"
+}

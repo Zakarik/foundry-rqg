@@ -1,0 +1,16 @@
+<div class="img sort">
+    <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "RQG.Nom"}}" />
+    {{#if document.actor}}
+    <label class="fixe">
+        <span>{{localize "RQG.Maitrise"}} :</span>
+        <input type="number" name="system.maitrise" value="{{systemData.maitrise}}" min="0" />
+    </label>
+    {{/if}}
+    <img 
+        class="profile-img {{ifThen systemData.variable 'margin' ''}}" 
+        src="{{document.img}}" 
+        data-edit="img" 
+        data-tooltip="{{document.name}}"
+        data-action='onEditImg'
+    />
+</div>  

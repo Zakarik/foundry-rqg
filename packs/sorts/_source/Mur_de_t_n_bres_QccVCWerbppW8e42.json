@@ -1,0 +1,31 @@
+{
+  "name": "Mur de ténèbres",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort crée un mur de ténèbres de 10 mètres carrés de surface sur 10 cm d'épaisseur. Le lanceur peut le déplacer de 3 mètres par round, mais il ne peut accomplir aucune autre action. Ce mouvement a lieu au rang d'action égal à la somme du rang d'action de DEX du lanceur et des points de magie du sort. Aucune source de lumière n'éclaire au sein de ces ténèbres qui bloquent également toute ligne de vue. Les autres sens, comme l'ouïe, le Sens des ténèbres, l'odorat, etc. ne s'en trouvent pas affectés. Tant que sa surface totale reste de 10 mètres carrés, la forme du mur peut être modelée à volonté, en hauteur comme en longueur. Son épaisseur reste cependant toujours égale à 10 cm. Si un Mur de lumière est lancé au même endroit, les deux sorts se neutralisent tant qu'ils occupent le même espace.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000042,
+    "modifiedTime": 1754403215069,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e42",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e42"
+}

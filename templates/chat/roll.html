@@ -1,0 +1,32 @@
+<div class="rqgRoll">
+    {{#if flavor}}<span class="flavor">{{flavor}}</span>{{/if}}
+    {{#if tags}}
+    <div class="tags">
+        {{#each tags}}
+            <span class="tag" data-tooltip="{{tooltip}}" data-name="{{data.name}}" data-value="{{data.value}}">{{label}}{{ifThen value (concat ' : ' value) ''}}</span>
+        {{/each}}
+    </div>
+    {{/if}}
+    {{#if difficulte}}
+    <label>
+        <span class="label">{{localize "RQG.CHAT.Difficulte"}}</span>
+        <span class="value" data-tooltip="{{difficulte.tooltip}}">{{difficulte.value}}</span>
+    </label>  
+    {{/if}}
+    <label class="total">
+        <span class="label">{{localize "RQG.CHAT.Resultat"}}</span>
+        <span class="value">{{total}}</span>
+    </label>
+    {{{tooltip}}}
+    <span class="result {{result.class}}">{{result.txt}}</span>
+    {{#each other}}
+    <span class="result">{{this}}</span>
+    {{/each}}
+    {{#if buttons}}
+        <div class="{{buttons.class}}">
+            {{#each buttons.list}}
+                <a class="{{class}}" data-id="{{id}}" data-path="{{path}}" data-value="{{value}}" data-notenough="{{notenough}}" data-not="{{notpts}}" data-msg="{{msg}}">{{label}}</a>
+            {{/each}}
+        </div>
+    {{/if}}
+</div>

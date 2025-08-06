@@ -1,0 +1,31 @@
+{
+  "name": "Sommeil",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Si le lanceur remporte une opposition de POU contre sa cible, il la plonge dans un sommeil profond pendant toute la durée du sort. Elle ne se réveille que si elle est blessée ou visée par un sort hostile.</p>",
+    "points": 3,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000050,
+    "modifiedTime": 1754403219324,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e50",
+  "sort": 4900000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e50"
+}

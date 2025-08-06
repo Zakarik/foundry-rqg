@@ -1,0 +1,66 @@
+{
+  "name": "Ouverture des mers",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e48",
+  "system": {
+    "description": "<p style='text-align:justify;'>Rituel, passif, durée (spéciale)<br>Il faut dix minutes pour lancer ce sort. Le rituel doit être accompli à chaque fois qu'un navire lève l'ancre ou appareille. Si le sort échoue, la Closure des mers produit à nouveau ses effets dès que le bateau perd la côte de vue et le voue à la catastrophe.<br>Tous les marins de haute mer à travers Glorantha connaissent ce rituel ou, dans le cas contraire, ont à leur bord un expert capable de le lancer. Sans lui, aucun voyage à travers les étendues bleues ne serait possible.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": true,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171048,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e48"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Réparer la chair",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e4E",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, passif, instantané<br>Ce sort soigne 1D3 points de dégâts dans une localisation donnée. Avec une force de 4, ces soins passent à 1D6, puis 2D6 avec une force de 8, 3D6 avec une force de 12, et ainsi de suite. Ce sort peut ressouder un membre tranché (si la partie amputée est présente et apposée sur la blessure) et même le guérir s'il était broyé, si tous les points de vie dans cette localisation sont récupérés. Les blessures soignées par ce sort ne laissent aucune cicatrice.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": true,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": true,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171054,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e4E"
+}

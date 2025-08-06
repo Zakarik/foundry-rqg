@@ -1,0 +1,44 @@
+{
+  "name": "Corset",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Un ceinturon porté serré autour de la taille, souvent orné de pampilles ou d'un tablier.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 1,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": true,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "JvKi1H6VwQJv7Xpm",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753966938867,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZkdWqrbppW8e15",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZkdWqrbppW8e15"
+}

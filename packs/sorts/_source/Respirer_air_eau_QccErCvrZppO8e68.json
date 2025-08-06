@@ -1,0 +1,49 @@
+{
+  "name": "Respirer air/eau",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e68",
+  "system": {
+    "description": "<h3>Respirer air/eau</h3><p style='text-align:justify;'><b>2 points</b><br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>On peut le lancer sur des créatures respirant dans l'eau ou dans l'air. Pour la durée du sort, il leur permet de respirer dans l'autre élément comme si elles étaient dans le leur.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": true,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": true,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283068,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e68"
+}

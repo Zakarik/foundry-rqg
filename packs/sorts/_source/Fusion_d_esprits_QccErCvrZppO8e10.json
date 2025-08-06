@@ -1,0 +1,49 @@
+{
+  "name": "Fusion d'esprits",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e10",
+  "system": {
+    "description": "<h3>Fusion d'esprits</h3><p style='text-align:justify;'><b>2 points</b><br>Toucher, temporaire, non cumulable</p><p style='text-align:justify;'>Ce sort doit être jeté sur l'esprit d'un ancêtre amical enveloppant le lanceur. Pendant toute sa durée, le POU de l'esprit s'ajoute au sien pour mieux résister à un combat spirituel ou face à des sorts. Si l'esprit quitte le lanceur, les effets du sort cessent.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 7200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283010,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e10"
+}

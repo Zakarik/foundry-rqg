@@ -1,0 +1,19 @@
+<div class="tab effects {{tab.cssClass}}" data-group="primary" data-tab="effets">    
+    <div class="actif">
+        <header>
+            <span>{{localize "RQG.EFFECTS.Actif"}}</span>                
+            <i class="fa-solid fa-plus effect-create" data-action="onCreateEffects" data-type="actif" title="{{localize 'RQG.ADD.Effect'}}"></i>
+        </header>
+
+        {{> systems/runequest-glorantha/templates/parts/effects.html effects=actor.effects}}
+    </div>
+    
+    <div class="inactif">
+        <header>
+            <span>{{localize "RQG.EFFECTS.Inactif"}}</span>                
+            <i class="fa-solid fa-plus effect-create" data-action="onCreateEffects" data-type="inactif" title="{{localize 'RQG.ADD.Effect'}}"></i>
+        </header>
+
+        {{> systems/runequest-glorantha/templates/parts/effects.html effects=actor.uneffects}}
+    </div>
+</div>

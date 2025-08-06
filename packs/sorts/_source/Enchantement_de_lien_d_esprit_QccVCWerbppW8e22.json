@@ -1,0 +1,31 @@
+{
+  "name": "Enchantement de lien d'esprit",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Il permet de lier des esprits dans des familiers ou des objets magiques (cf. sort Enchantement de lien page 249 et Lier des esprits dans des animaux page 250 pour de plus amples informations). Lier des esprits dans des familiers demande l'utilisation d'animaux spécialement élevés au sein du culte, comme décrits dans le chapitre Les esprits. Les objets destinés à les renfermer sont créés par un rituel d'Enchantement de lien (cf. page 249), ou obtenus auprès d'un temple, voire au cours d'une aventure.<br><br>À la mort de l'enchanteur, l'esprit est libéré même si une intervention divine ou toute autre méthode rappelle immédiatement le magicien à la vie.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000022,
+    "modifiedTime": 1754403204375,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e22",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e22"
+}

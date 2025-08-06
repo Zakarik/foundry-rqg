@@ -1,0 +1,62 @@
+{
+  "name": "Ceste lourd",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e17",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ces gants en métal ont un poids niché dans le poing pour plus d'impact.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 20,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "couppoing",
+    "allonge": {
+      "value": "0",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 11,
+      "dexterite": 0
+    },
+    "degats": "1D3+2",
+    "type": "cc",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "lp2f2pDIm6CuDvrC",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971505011,
+    "modifiedTime": 1754060286631,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e17"
+}

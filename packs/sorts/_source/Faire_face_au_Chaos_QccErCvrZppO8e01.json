@@ -1,0 +1,49 @@
+{
+  "name": "Faire face au Chaos",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e01",
+  "system": {
+    "description": "<h3>Faire face au Chaos</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Il est impossible de résister à ce sort qui ne peut être lancé que sur des cibles non chaotiques. Lancé sur un unique guerrier, celui-ci tient sa position et affronte tout adversaire chaotique se dressant devant lui, même s'il aurait plutôt choisi la fuite en temps normal. En général, ce sort est lancé sur des étrangers puisque les fidèles de Taureau Tempête se dressent devant le Chaos en oubliant leur peur. Chaque point supplémentaire affecte une personne de plus.<br>Faire face au Chaos n'immunise pas la cible aux effets de sorts comme Démoralisation ou Panique, même si celle-ci ne s'enfuira pas pour autant. Un guerrier Démoralisé continue à se battre, mais avec la moitié de ses chances de réussite normales. Paniqué, il ne peut pas se battre du tout, mais reste sur place, etc.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": true,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 8000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283001,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e01"
+}

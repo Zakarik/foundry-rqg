@@ -1,0 +1,78 @@
+
+<header class="header {{tab.cssClass}}">
+    <div class="left">
+        <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "RQG.Nom"}}" />
+        <img 
+            class="profile-img" 
+            src="{{document.img}}" 
+            data-edit="img" 
+            data-tooltip="{{document.name}}"
+            data-action='onEditImg'
+        />
+    </div>
+    <a class="button resistance clickable" 
+        data-action="onRollSpecial"
+        data-type="resistance" 
+        data-tooltip="{{localize 'RQG.Roll'}}"
+        data-label="{{localize 'RQG.Resistance'}}">
+        {{localize 'RQG.Resistance'}}
+    </a>
+
+    <div class="right">
+        <div class="subLeft">
+            <div class="caracteristiques">
+                <header class="caracteristique">{{localize "RQG.CARACTERISTIQUES.Plural"}}</header>
+                {{#each systemData.caracteristiques as |data key|}}
+                    {{> systems/runequest-glorantha/templates/actors/parts/caracteristique.html key=key}}
+                {{/each}}
+            </div>
+
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(localize "RQG.RaTai") data=systemData.rangaction.tai path='system.rangaction.tai' class='ra'}}
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(localize "RQG.RaDex") data=systemData.rangaction.dex path='system.rangaction.dex' class='ra'}}
+
+            <div class="degats">
+                <div class="main js-toggler">
+                    <div class="label">
+                        <i class="fa-solid fa-square-plus"></i>
+                        {{localize "RQG.COMBAT.BonusDegats"}}
+                    </div>
+                    <span class='score'>{{systemData.combats.bonusDmg.total}}</span>
+                </div>   
+                <div class="sub" style="display:none;">
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-des-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.bonusDmg.moddice.mod systemData.combats.bonusDmg.moddice.mod 0) name="system.combats.bonusDmg.moddice.mod"}}
+                    </label>
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-face-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.bonusDmg.modface.mod systemData.combats.bonusDmg.modface.mod 0) name="system.combats.bonusDmg.modface.mod"}}
+                    </label>
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-bonus-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.bonusDmg.modbonus.mod systemData.combats.bonusDmg.modbonus.mod 0) name="system.combats.bonusDmg.modbonus.mod"}}
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="subRight">                
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithMax.html label=(localize "RQG.PV.Label") data=systemData.pv path='system.pv' class='pointsvie'}}
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithMax.html label=(localize "RQG.PM.Label") data=systemData.magies.points path='system.magies.points' class='pointsmagie'}}
+            
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(localize "RQG.Vitesse") data=systemData.deplacement path='system.deplacement' class='vitesse'}}
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(localize "RQG.Guerison") data=systemData.guerison path='system.guerison' class='guerison'}}
+
+            <div class="localization">
+                <header>
+                    <span class="name">{{localize "RQG.LOCALIZATIONS.Singular"}}</span>                    
+                    <span class="jet">{{localize "RQG.D20"}}</span>                    
+                    <span class="armure">{{localize "RQG.ARMURE.Singular"}}</span>                    
+                    <span class="pv">{{localize "RQG.PV.Short"}}</span>                    
+                </header>
+                {{#each (orderLocalization systemData.localisations) as |data key|}}
+                    {{> systems/runequest-glorantha/templates/actors/parts/localization.html key=key}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</header>

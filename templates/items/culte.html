@@ -1,0 +1,15 @@
+<div class="img culte">
+    <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "RQG.Nom"}}" />
+    <input name="system.sousculte" type="text" value="{{systemData.sousculte}}" placeholder="{{localize "RQG.CULTE.Sousculte"}}" />       
+    <label>
+        <span>{{localize "RQG.CULTE.PtsMod"}} : </span>
+        <input name="system.ptsrune.mod" type="number" value="{{systemData.ptsrune.mod}}" />    
+    </label>
+    <img 
+        class="profile-img" 
+        src="{{document.img}}" 
+        data-edit="img" 
+        data-tooltip="{{document.name}}"
+        data-action='onEditImg'
+    />
+</div>  

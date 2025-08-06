@@ -1,0 +1,49 @@
+{
+  "name": "Flotter",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e03",
+  "system": {
+    "description": "<h3>Flotter</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Chaque point de sort maintient 16 points de TAI juste sous la surface de l'eau. Les objets plus lourds ne flottent pas, mais ils couleront moins vite si le sort est lancé sur eux. Plus légers, ils dépassent pour moitié au-dessus de la surface, tressautant comme des bouchons.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": true,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 7800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283003,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e03"
+}

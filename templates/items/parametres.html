@@ -1,0 +1,37 @@
+<div class="tab parametres {{tab.cssClass}} 
+{{ifThen (eq document.type 'objet') 'active' ''}} 
+{{ifThen (or (eq document.type 'armecontact') (eq document.type 'armedistance') (eq document.type 'armure')) 'arme' ''}}
+"
+    {{#if (or (eq document.type "armedistance") (eq document.type "armecontact") (eq document.type "armure"))}}
+        data-group='primary'
+        data-tab='parametres'
+    {{/if}}
+        >    
+    {{#if (eq document.type "objet")}}
+    <div class="col">
+        {{> systems/runequest-glorantha/templates/parts/button.html 
+            class='equipable' 
+            label='RQG.Equipable' 
+            value=systemData.parametres.equipable
+            path='system.parametres.equipable'
+        }}
+        
+        {{> systems/runequest-glorantha/templates/parts/button.html 
+            class='utilisable' 
+            label='RQG.Utilisable' 
+            value=systemData.parametres.utilisable
+            path='system.parametres.utilisable'
+        }}
+    </div>
+    {{/if}}
+    {{#if  (eq document.type "objet")}}<div class="col">{{/if}}
+        <div class="effects">
+            <header>
+                <span>{{localize "RQG.EFFECTS.Label"}}</span>                
+                <i class="fa-solid fa-plus effect-create" data-action="onCreateEffects" data-type="equipable" title="{{localize 'RQG.ADD.Effect'}}"></i>
+            </header>
+
+            {{> systems/runequest-glorantha/templates/parts/effects.html effects=document.effects}}
+        </div>
+    {{#if  (eq document.type "objet")}}</div>{{/if}}
+</div>

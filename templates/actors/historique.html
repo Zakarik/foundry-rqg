@@ -1,0 +1,48 @@
+<div class="tab historique {{tab.cssClass}}" data-group="primary" data-tab="historique">
+    <div class="left">
+        <div class="data">
+            {{#each systemData.historique as |data key|}}
+                {{#unless (eq key 'histoire')}}
+                <label class="{{key}}">
+                    <span>{{getLocalization 'historique' key}}</span>
+                    <input type="text" name="system.historique.{{key}}" value="{{data}}" />
+                </label>
+                {{/unless}}
+            {{/each}}
+        </div>
+    
+        <div class="historique">
+            {{#if editable}}
+            <prose-mirror name="system.historique.histoire" data-document-uuid="{{document.uuid}}" value="{{systemData.historique.histoire}}" collaborate="true" toggled="true">
+                {{{tab.histoire}}}
+            </prose-mirror>
+            {{else}} 
+                {{{tab.histoire}}}
+            {{/if}}
+        </div>
+    </div>
+    {{log tab}}
+    <div class="langue">
+        <header>
+            <span>{{localize "RQG.Langues"}}</span>
+            <i class="fa-solid fa-plus" 
+                data-action="onCreateItm"
+                data-document-class='Item' 
+                data-type="langue" 
+                data-tooltip="{{localize 'RQG.ADD.Langue'}}"></i>
+        </header>
+
+        {{#each actor.langues}}
+        <div class="line summary withHover">
+            <i class="{{ifThen system.description 'fa-solid fa-circle-question hoverItem' ''}}"></i>
+            <span>{{name}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Langue'
+                delete='RQG.DELETE.Langue'
+                id=_id
+            }}
+            {{> systems/runequest-glorantha/templates/actors/parts/hiddenBox.html txt=enriched}}
+        </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,0 +1,49 @@
+{
+  "name": "Altérer une créature",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e03",
+  "system": {
+    "description": "<h3>Altérer une créature</h3><p style='text-align:justify;'><b>2 points</b><br>Permanent, à distance, non cumulable, usage unique</p><p style='text-align:justify;'>Lorsque le prêtre lance ce sort sur une créature, et remporte une opposition de POU, le rôle de celle-ci, tel qu'il fut déterminé dans l'Accord pour la Survie (un ancien contrat négocié par le dieu Waha) est inversé. Le bétail devient personnes et les personnes deviennent du bétail. Altérer une créature n'affecte que ceux qui acceptent l'Accord pour la Survie : hommes, bétail humain, Morokanth, impala, antilope noire, bison, lama, et rhino.<br>Il faut un round complet pour que ce sort opère la transmutation, du rang d'action 1 quand il est lancé au rang d'action 12 du même round. Si Contremagie ou Dispersion de la magie brise le sort pendant ce délai, Altérer une créature ne fonctionne pas. Mais une fois achevé, ses effets sont permanents. Seul un autre Altérer une créature ou une intervention divine peut ramener la victime à son état d'origine.<br>Un animal qui devient un humain gagne une INT de 2D6+6 et un CHA de 3D6. Il devient omnivore et ingurgite la même quantité de nourriture que n'importe qui. Ce nouvel humain peut encore procréer avec les représentants de son ancienne espèce, mais leur progéniture ne sera pas douée de raison. Il garde les mêmes compétences d'attaque, plus ou moins les bonus éventuels de catégories découlant de sa nouvelle INT. Il parlera le praxien, avec un score de compétence initial égal à son INT. Ce nouvel humain peut améliorer ses compétences et en apprendre de nouvelles, ainsi que de nouveaux sorts, selon les méthodes habituelles. Sa vision de l'existence reste celle de l'animal, à moins de recevoir un enseignement différent.<br>Une personne réduite à l'état animal perd son INT et son CHA. Elle devient herbivore et capable de survivre dans les plaines. Elle ne peut plus avoir de progéniture intelligente avec son ancienne espèce. Cette bête conserve toutes ses compétences d'attaque sans arme. Le bonus de catégorie est éventuellement modifié suite à la perte d'INT. Elle oublie la maîtrise des armes, de ses sorts et de toutes les autres compétences. Elle ne comprend plus les langues, sauf quelques ordres que l'on peut lui apprendre. Seule l'éducation reçue d'un maître des bêtes peut lui permettre d'améliorer ses compétences. Tout esprit lié est libéré. Un esprit allié reste allié, mais il est désormais lié à une créature n'ayant plus accès au langage.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 14800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281003,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e03"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "1 kg de fromage",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Fromage à pâte dure au lait de vache ou de brebis.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 0,
+      "clacks": 2,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "8ixd5H2YNaHly9Hn",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753970074984,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e57",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e57"
+}

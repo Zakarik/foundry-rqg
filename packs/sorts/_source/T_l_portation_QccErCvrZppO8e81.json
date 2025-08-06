@@ -1,0 +1,49 @@
+{
+  "name": "Téléportation",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e81",
+  "system": {
+    "description": "<h3>Téléportation</h3><p style='text-align:justify;'><b>3 points</b><br>Soi-même (et toucher), instantané, non cumulable</p><p style='text-align:justify;'>Il faut avoir une vue dégagée vers le point d'arrivée pour lancer ce sort. Le lanceur peut se téléporter vers n'importe quel endroit qu'il peut voir, de ses propres yeux ou à travers ceux d'un esprit allié. Chaque point de Rune supplémentaire permet de téléporter avec soi une autre créature vivante, mais elle doit être en contact avec le lanceur. La destination désignée doit être un lieu précis capable de recevoir la cible. Il ne peut s'agir de quelque chose d'aussi vague que « dans le ciel ».<br>Ce sort peut servir à téléporter une tierce personne, mais la cible doit alors se trouver en contact physique avec le lanceur. Il faut vaincre son pouvoir si celle-ci n'est pas volontaire.</p>",
+    "points": 3,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": true,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283081,
+    "modifiedTime": 1754488357284,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e81"
+}

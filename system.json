@@ -1,0 +1,138 @@
+{
+  "id": "runequest-glorantha",
+  "title": "Runequest : Aventure dans Glorantha",
+  "description": "La fiche officielle de Runequest : Aventure dans Glorantha, approuvée par Deadcrows.",
+  "version": "#{VERSION}#",
+  "esmodules": [
+    "module/rqg.mjs"
+  ],
+  "styles": [
+    "styles/rqg.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json",
+      "flags": {}
+    },    
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "personnage": {}
+    },
+    "Item":{
+      "langue":{},
+      "passion":{},
+      "armedistance":{},
+      "armecontact":{},
+      "armure":{},
+      "culte":{},
+      "magierunique":{},
+      "magiespirituelle":{},
+      "sorcellerie":{},
+      "objet":{}
+    }
+  },
+  "authors": [
+    {
+      "name": "Zakarik",
+      "url": "https://fr.tipeee.com/zakarik",
+      "discord": "Zakarik#9006",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "label": "Équipements",
+      "type": "Item",
+      "name": "equipements",
+      "path": "packs/equipements",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Armes",
+      "type": "Item",
+      "name": "armes",
+      "path": "packs/armes",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Armures",
+      "type": "Item",
+      "name": "armures",
+      "path": "packs/armures",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Boucliers",
+      "type": "Item",
+      "name": "boucliers",
+      "path": "packs/boucliers",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Sorts",
+      "type": "Item",
+      "name": "sorts",
+      "path": "packs/sorts",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tables",
+      "type": "RollTable",
+      "name": "tables",
+      "path": "packs/tables",
+      "system": "runequest-glorantha",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "grid":{
+    "distance":5,
+    "units":"m"
+  },
+  "primaryTokenAttribute": "pv",
+  "secondaryTokenAttribute": "magies.points",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "changelog": "https://raw.githubusercontent.com/Zakarik/foundry-rqg/main/changelog.md"
+}

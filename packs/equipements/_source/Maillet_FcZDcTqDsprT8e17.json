@@ -1,0 +1,44 @@
+{
+  "name": "Maillet",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Taillé en bois, parfois enroulé dans du cuir.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 0,
+      "clacks": 6,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "iodIvbsZ3VTYgSQ4",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753969277166,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e17",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e17"
+}

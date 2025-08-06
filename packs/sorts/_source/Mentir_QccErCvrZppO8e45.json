@@ -1,0 +1,49 @@
+{
+  "name": "Mentir",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e45",
+  "system": {
+    "description": "<h3>Mentir</h3><p style='text-align:justify;'><b>2 points</b><br>Soi-même, instantané, non cumulable</p><p style='text-align:justify;'>Ce sort peut être lancé sans qu'il soit possible de le détecter, au moment où le trompeur profère un mensonge. Quiconque écoute croit automatiquement entendre la vérité, aussi invraisemblable soit-elle. Les victimes du sort continuent d'y croire jusqu'à faire face à des preuves flagrantes. Dans tous les cas, cet effet perdure au minimum pendant un round. Par exemple, si un trompeur se sert de ce sort afin d'affirmer devant un prêtre de Yelm que le soleil ne se lèvera pas demain, cela causera une véritable panique jusqu'à l'aube suivante, jusqu'à ce que le prêtre pratique une Divination et demande à son dieu ce qu'il va arriver ou jusqu'à la fin du round pendant lequel le sort est lancé.<br>Ceux à qui une autre personne raconte le mensonge ne sont pas obligés d'y croire. Ils peuvent tenter de dissuader les victimes du sort.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": true,
+      "verite": false,
+      "illusion": true,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283045,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e45"
+}

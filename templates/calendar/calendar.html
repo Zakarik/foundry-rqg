@@ -1,0 +1,59 @@
+<div>
+    {{#each data.seasons}}
+        <div class="season {{ifThen selected 'show' 'hide'}}" data-index="{{index}}">
+            <div class="season-title">
+                {{#if (isGM)}}
+                <a class="left" data-action="previous" data-type="season" data-tooltip="{{localize previous}}">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+                {{else}}
+                <span></span>
+                {{/if}}
+                <img src="{{icon}}" class="left" />
+                <span>
+                    {{localize title}}
+                </span>
+                <img src="{{icon}}" class="right" />
+                {{#if (isGM)}}
+                <a class="right" data-action="next" data-type="season" data-tooltip="{{localize next}}">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                {{else}}
+                <span></span>
+                {{/if}}
+            </div>
+            {{#each weeks}}
+                <div class="week {{ifThen (or selected (eq ../title 'RQG.SORCELLERIE.SEASON.Sacre')) 'show' 'hide'}}" data-index="{{index}}">
+                    {{#if title}}
+                    <div class="week-title">
+                        {{#if (isGM)}}
+                        <a class="left" data-action="previous" data-type="week" data-tooltip="{{localize previous}}">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        {{else}}
+                        <span></span>
+                        {{/if}}
+                        <img src="{{icon}}" class="left" />
+                        <span>
+                            {{localize title}}
+                        </span>
+                        <img src="{{icon}}" class="right" />
+                        {{#if (isGM)}}
+                        <a class="right" data-action="next" data-type="week" data-tooltip="{{localize next}}">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        {{else}}
+                        <span></span>
+                        {{/if}}
+                    </div>
+                    {{/if}}
+                    {{#each days}}
+                        <span class="day {{ifThen selected 'highlight' ''}} {{ifThen (or (eq index 7) (eq index 14)) 'last' ''}} {{ifThen (and (ne selected true) (isGM)) 'clickable' ''}}" {{#if (and (ne selected true) (isGM))}}data-action="day"{{/if}} data-index="{{index}}" data-day="{{index}}" data-tooltip="{{localize title}} {{ifThen (and (ne selected true) (isGM)) (concat ' / ' (localize 'RQG.SORCELLERIE.DAY.Choose')) ''}}">
+                            {{index}} <img src="{{icon}}" />
+                        </span>
+                    {{/each}}
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>

@@ -1,0 +1,92 @@
+<div class="tab combat {{tab.cssClass}}" data-group="primary" data-tab="combat">
+    <div class="combatspirituel">
+        <header>
+            <span class="label">{{localize "RQG.COMBAT.Spirituel"}}</span>
+            
+            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(localize "RQG.COMBAT.Rangaction") data=systemData.combats.combatspirituel.rangaction path="system.combats.combatspirituel.rangaction" class='rangaction'}}
+            
+            <div class="degats">
+                <div class="main js-toggler">
+                    <div class="label">
+                        <i class="fa-solid fa-square-plus"></i>
+                        {{localize "RQG.COMBAT.Degats"}}
+                    </div>
+                    <span class='score'>{{systemData.combats.combatspirituel.degats.total}}</span>
+                </div>   
+                <div class="sub" style="display:none;">
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-des-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.combatspirituel.degats.moddice.mod systemData.combats.combatspirituel.degats.moddice.mod 0) name="system.combats.combatspirituel.degats.moddice.mod"}}
+                    </label>
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-face-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.combatspirituel.degats.modface.mod systemData.combats.combatspirituel.degats.modface.mod 0) name="system.combats.combatspirituel.degats.modface.mod"}}
+                    </label>
+                    <label>
+                        <span class="label">{{localize "RQG.Modificateur-bonus-short"}}</span>
+                        {{numberInput (ifThen systemData.combats.combatspirituel.degats.modbonus.mod systemData.combats.combatspirituel.degats.modbonus.mod 0) name="system.combats.combatspirituel.degats.modbonus.mod"}}
+                    </label>
+                </div>
+            </div>
+        </header>
+        {{#if editable}}
+        <prose-mirror name="system.combats.combatspirituel.description" data-document-uuid="{{document.uuid}}" value="{{systemData.combats.combatspirituel.description}}" collaborate="true" toggled="true">
+            {{{tab.spirituelle}}}
+        </prose-mirror>
+        {{else}} 
+            {{{tab.spirituelle}}}
+        {{/if}}
+    </div>
+    <div class="combatmelee">
+        <header class="main">{{localize "RQG.COMBAT.Melee"}}</header>
+        {{> systems/runequest-glorantha/templates/actors/parts/melee.html data=actor.wpneqp.melee}}
+    </div>
+    
+    <div class="combatdistance">
+        <header class="main">{{localize "RQG.COMBAT.Distance"}}</header>
+        {{> systems/runequest-glorantha/templates/actors/parts/distance.html data=actor.wpneqp.distance}}
+    </div>
+
+    <div class="armures">
+        <header>
+            <span>{{localize "RQG.ARMURE.Plural"}}</span>
+        </header>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="loc">{{localize "RQG.LOCALIZATIONS.Plural"}}</span>
+            <span class="matiere">{{localize "RQG.ARMURE.Matiere"}}</span>
+            <span></span>
+        </div>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="loc">{{localize "RQG.LOCALIZATIONS.Plural"}}</span>
+            <span class="matiere">{{localize "RQG.ARMURE.Matiere"}}</span>
+            <span></span>
+        </div>
+        {{#each actor.armureeqp}}
+        <div class="line summary withHover">
+            <i class="{{ifThen system.description 'fa-solid fa-circle-question hoverItem' ''}}"></i>
+            <span>
+                <p>
+                    {{name}}
+                </p>        
+                <i class="fa-{{ifThen system.wear 'solid' 'regular'}} fa-shield wear switch" 
+                data-item-id='{{id}}'
+                data-document-class='Item'
+                data-action="onWear"
+                data-tooltip="{{ifThen system.wear (localize 'RQG.INVENTAIRE.Unwear') (localize 'RQG.INVENTAIRE.Wear')}}"
+                data-txt="{{ifThen system.wear 'RQG.CHAT.Unwear' 'RQG.CHAT.Wear'}}"
+                ></i>
+            </span>    
+            <span class="loc">{{getArmorLoc this}}</span>
+            <span class="matiere">{{system.matiere}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Armure'
+                delete='RQG.DELETE.Armure'
+                id=_id
+            }}
+            {{> systems/runequest-glorantha/templates/actors/parts/hiddenBox.html txt=enriched}}
+        </div>
+        {{/each}}
+    </div>
+</div>

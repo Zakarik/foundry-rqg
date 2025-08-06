@@ -1,0 +1,66 @@
+{
+  "name": "Enchantement de points de magie",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e28",
+  "system": {
+    "description": "<p style='text-align:justify;'>Rituel (enchantement), passif<br>Chaque point de POU sacrifié dans cet enchantement permet de stocker 1D10 points de magie. Le rituel dure 1 heure par point de POU sacrifié. Les points de magie stockés peuvent servir à lancer ou renforcer les sorts de toute personne capable d'utiliser l'objet. Ces points de magie placés dans des objets enchantés ne se régénèrent pas d'eux-mêmes (ils n'ont pas de caractéristique POU). Mais leur utilisateur peut le recharger à l'aide de ses propres points de magie.<br>Il faut un round afin de stocker 1 point de magie dans un objet enchanté. Celui-ci ne peut pas en contenir plus que sa capacité définie au départ.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": true,
+        "eau": true,
+        "terre": true,
+        "feuciel": true,
+        "air": true,
+        "lune": true
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171028,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e28"
+}

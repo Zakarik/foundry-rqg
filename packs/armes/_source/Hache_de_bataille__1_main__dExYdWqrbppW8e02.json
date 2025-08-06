@@ -1,0 +1,62 @@
+{
+  "name": "Hache de bataille (1 main)",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e02",
+  "system": {
+    "description": "<p style=\"text-align: justify\">Cette arme à manche commune possède une lame de bronze semi-circulaire et peut être à un ou deux tranchants, selon son origine. Elle peut être utilisée à une main par un combattant doté d'une bonne FOR, mais elle se destine en réalité à une utilisation à deux mains. Elle n'est pas conçue pour être lancée.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 20,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "hache1main",
+    "allonge": {
+      "value": "0,8",
+      "categorie": "3"
+    },
+    "ra": {
+      "value": 3,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 13,
+      "dexterite": 7
+    },
+    "degats": "1D8+2",
+    "type": "l",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "Y9pAAhjLSvK6Ml9Z",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753970540102,
+    "modifiedTime": 1754060042373,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e02"
+}

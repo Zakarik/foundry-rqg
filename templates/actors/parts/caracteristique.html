@@ -1,0 +1,28 @@
+<div class="data">
+    <div class="main js-toggler">
+        <i class="fa-solid fa-square-plus"></i>
+        <label>
+            <span class="label clickable" 
+                data-action="onRoll" 
+                data-tooltip="{{localize 'RQG.Roll'}}" 
+                data-label="{{getLocalization 'caracteristique' key}}" 
+                data-type="caracteristique" 
+                data-value="{{total}}">{{getLocalization 'caracteristique' key}}</span>
+            <span class="score">{{total}}</span>
+        </label>
+    </div>
+    <div class="sub" style="display:none;">
+        <label>
+            <span class="label clickable" data-action="onRoll">{{localize "RQG.Base"}}</span>
+            {{numberInput base name=(concat "system.caracteristiques." key ".base") min=0}}
+        </label>
+        <label title="{{modDetails mod}}">
+            <span class="label">{{localize "RQG.Modificateur-short"}}</span>
+            <span class="score">{{mod mod}}</span>
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Temporaire-short"}}</span>
+            {{numberInput (ifThen mod.temp mod.temp 0) name=(concat "system.caracteristiques." key ".mod.temp")}}
+        </label>
+    </div>
+</div>

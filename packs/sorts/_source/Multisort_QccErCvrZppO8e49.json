@@ -1,0 +1,49 @@
+{
+  "name": "Multisort",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e49",
+  "system": {
+    "description": "<h3>Multisort</h3><p style='text-align:justify;'><b>1 point</b><br>Soi-même, temporaire, cumulable</p><p style='text-align:justify;'>Le lanceur peut combiner deux sorts de magie spirituelle et les jeter en même temps. Leurs effets sont résolus comme deux attaques séparées. La seule exception concerne le sort de Disruption. Il peut se cumuler avec lui-même et fonctionne alors comme une seule attaque infligeant 2D3 points de dégâts dans une seule localisation.<br>Ce sort affecte tous les autres jetés par le lanceur pendant sa durée. Ainsi, à chaque round, il a la capacité de lancer deux sorts de magie spirituelle. Ceux-ci peuvent être différents à chaque fois.<br>Multisort peut servir à lancer deux sorts différents ou bien deux fois le même sort vers des cibles différentes, au même moment. Il ne réduit pas le coût en points de magie des sorts combinés. Le lanceur dépense la totalité de ces points, comme s'il avait jeté séparément les deux sorts. Multisort ne change pas la limitation d'utilisation possible d'un sort variable. De même, il ne permet pas de lancer vers une même cible des sorts incompatibles entre eux. Ainsi, Multisort ne permet pas créer une unique flèche modifiée par un Daredart (2), ou faire en sorte qu'un même aventurier bénéficie à la fois de Contremagie et de Protection. Une attaque avec des sorts combinés grâce à Multisort prend effet au rang d'action le plus élevé entre les sorts lancés. Par exemple, si Joshfar tente de lancer Démoralisation sur un ennemi et Disruption sur un autre, les deux avec le coût minimum possible, il faut prendre en compte le RA 2 de Démoralisation, et non pas le RA 1 de Disruption.<br>Pour chaque point additionnel cumulé dans Multisort, il est possible de lancer un sort de magie spirituelle supplémentaire. Ainsi, Multisort (2) permet de combiner trois sorts de magie spirituelle, lancés en même temps.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283049,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e49"
+}

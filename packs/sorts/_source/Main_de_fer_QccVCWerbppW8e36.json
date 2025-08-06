@@ -1,0 +1,31 @@
+{
+  "name": "Main de fer",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort augmente les dégâts et les chances de toucher dans un combat à mains nues. Chaque point de sort ajoute 1 point aux dégâts éventuels et +5 % en attaque. Bien que son nom ne mentionne que les mains, il affecte aussi bien le reste du corps, ce qui implique coups de tête ou de pied. Différentes créatures non humaines en connaissent des versions nommées Griffe de fer, Bec de fer, Sabot de fer, etc. Ces sorts fonctionnent tous de la même manière. Notez que ces dégâts magiques peuvent atteindre les créatures autrement invulnérables aux armes normales. Par exemple, les Frères-Loups telmori ne subissent aucun dégât des armes normales, mais seront vulnérables aux bonus aux dégâts magiques.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000036,
+    "modifiedTime": 1754403211872,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e36",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e36"
+}

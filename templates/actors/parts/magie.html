@@ -1,0 +1,37 @@
+<div class="data">
+    <div class="main summary js-toggler" data-item-id="{{id}}">
+        <i class="fa-solid fa-square-plus"></i>
+        <span class="name clickable"
+            data-item-id="{{id}}"
+            data-document-class='Item' 
+            data-action="onRollSpecial" 
+            data-type="{{type}}" 
+            data-tooltip="{{localize 'RQG.Roll'}}" 
+            data-label="{{name}}">{{name}}
+        </span>
+        {{#if addAfterName}}<span class='afterName'>{{addAfterName}}</span>{{/if}}
+        {{#if select}}
+            <select class="select" 
+                data-path="system.culte" 
+                data-document-class='Item'
+                data-item-id="{{id}}">
+                {{selectOptions (selectItems select 'RQG.PLACEHOLDER.ChoisirCulte') selected=system.culte localize=false}}
+            </select>
+        {{else}}
+        {{#if maitrise}}
+        <span class="points">{{localize "RQG.Maitrise"}} : {{system.maitrise}}%</span>
+        {{else}}        
+        <span></span>
+        {{/if}}
+        {{/if}}
+        <span class="points">{{#if system.variable}}{{localize "RQG.CoutVariable"}} ({{system.points}}){{else}}{{system.points}} {{localize "RQG.Points"}}{{/if}}</span>
+        {{> systems/runequest-glorantha/templates/parts/cmd.html
+            edit='RQG.EDIT.Culte'
+            delete='RQG.DELETE.Culte'
+            id=id
+        }}
+    </div>
+    <div class="sub" style="display:none;">
+        {{{enriched}}}
+    </div>
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "Extinction",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort éteint feux et flammes, et refroidit les matériaux brûlants jusqu'au niveau de la température ambiante. Un point d'Extinction étouffe une chandelle, une torche ou une lanterne. 2 points suffisent pour un feu de camp et 3 points un feu de cheminée, etc. Les feux éteints ainsi le restent et doivent être rallumés.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000025,
+    "modifiedTime": 1754403206003,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e25",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e25"
+}

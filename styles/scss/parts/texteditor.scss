@@ -1,0 +1,18 @@
+div {
+    &.editor {
+        min-height: 100px;
+    }
+
+    &.editor-container {
+        min-height: 200px;
+    }
+}
+
+menu span {
+    color: var(--button-text-color) !important;
+}
+
+prose-mirror {
+    height: 100%;
+    min-height: 0px;
+}

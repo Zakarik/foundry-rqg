@@ -1,0 +1,66 @@
+{
+  "name": "Créer un son",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e16",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif (pour des sons complexes), temporaire<br>Ce sort crée des illusions sonores. Chaque point de force augmente la puissance du bruit produit. Comme pour un sort actif, le sorcier doit se concentrer afin de créer une musique ou un discours compréhensible.</p> <table border='1' style='text-align:center; border-collapse: collapse; margin: 8px 0;'><tr><th>Force</th><th>Son équivalent</th></tr><tr><td>1</td><td>Une respiration normale</td></tr><tr><td>2</td><td>Le bruissement de l'herbe et des feuilles</td></tr><tr><td>3</td><td>Des conversations feutrées dans une taverne calme</td></tr><tr><td>4</td><td>Des conversations à un volume normal</td></tr><tr><td>5</td><td>Un centre-ville fréquenté</td></tr><tr><td>6</td><td>Des vagues s'écrasant sur une plage</td></tr><tr><td>7</td><td>Une taverne bruyante pleine de gens et de musique</td></tr><tr><td>8–9</td><td>Le rugissement d'un lion</td></tr><tr><td>10–11</td><td>Des vagues s'écrasant sur une falaise</td></tr><tr><td>12–13</td><td>Le tonnerre</td></tr><tr><td>14–15</td><td>Un mur de château s'écroulant</td></tr><tr><td>16+</td><td>Un éboulement rocheux</td></tr></table><p style='text-align:justify;'>Un son illusoire assez fort assourdira une cible pendant 1D10+5 minutes si la force du sort l'emporte contre la CON de celle-ci.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": true,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": true,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171016,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e16"
+}

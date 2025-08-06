@@ -1,0 +1,31 @@
+<div class="{{class}}">
+    <div class="main js-toggler">
+        <div class="label">
+            <i class="fa-solid fa-square-plus"></i>
+            {{label}}
+        </div>
+        <div class="data">                        
+            {{#if twospan}}
+                <span class='score first'>{{data.value}}</span>
+            {{else}}
+                {{numberInput data.value name=(concat path '.value')}}
+            {{/if}}
+            <span class="separation">/</span>
+            <span class='score second'>{{data.total}}</span>
+        </div>
+    </div>   
+    <div class="sub" style="display:none;">
+        <label>
+            <span class="label">{{localize "RQG.Base"}}</span>
+            <span class="score">{{data.base}}</span>
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Modificateur-short"}}</span>
+            {{numberInput (ifThen data.mod.mod data.mod.mod 0) name=(concat path '.mod.mod')}}
+        </label>
+        <label>
+            <span class="label">{{localize "RQG.Temporaire-short"}}</span>
+            {{numberInput (ifThen data.mod.temp data.mod.temp 0) name=(concat path '.mod.temp')}}
+        </label>
+    </div>
+</div>

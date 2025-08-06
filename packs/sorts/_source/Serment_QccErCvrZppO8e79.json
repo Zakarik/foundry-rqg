@@ -1,0 +1,49 @@
+{
+  "name": "Serment",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e79",
+  "system": {
+    "description": "<h3>Serment</h3><p style='text-align:justify;'><b>2 points</b><br>Rituel, permanent (cf. ci-dessous), cumulable</p><p style='text-align:justify;'>Ce sort lie deux personnes (ou plus) dans un pacte. Quiconque se parjure subit une attaque d'Amputer l'esprit (cf. page 318) lancée avec autant de points de magie que le nombre placé au départ dans le Serment. Plus le Serment est important, plus le nombre de points de magie investis l'est également. Par exemple, si deux Humaktiens placent chacun 15 points de magie dans le sort runique Serment puis que l'un d'eux le brise, il devra affronter avec son propre POU les 30 points investis. S'il perd l'opposition, le parjure mourra.<br>Chaque point de Rune supplémentaire cumulé dans Serment permet d'ajouter une personne à ce lien. Les participants ne doivent pas être nécessairement humaktien. Le sort peut être lancé par un tiers, membre du culte.</p>",
+    "points": 2,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": true,
+      "harmonie": false,
+      "desordre": false,
+      "verite": true,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283079,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e79"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Silence",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort supprime les bruits générés par les mouvements d'un aventurier, un monstre ou un objet. Ainsi, il assourdit le cliquetis d'une armure de plaques quand son porteur tente de se cacher dans les ombres. Il n'arrête toutefois pas les sons puissants produits délibérément ou par inadvertance comme invoquer un sort, crier des ordres, marcher sur une branche et la casser, faire tomber et briser un vase au sol, et toute autre maladresse résultant d'un test de Déplacement silencieux raté.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000048,
+    "modifiedTime": 1754403218289,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e48",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e48"
+}

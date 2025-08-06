@@ -1,0 +1,31 @@
+{
+  "name": "Mobilité",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort double la vitesse de déplacement de la cible et réduit son rang d'action de 1. Comme Ralentissement, il est souvent l'apanage de chasseurs intelligents qui le lancent sur eux-mêmes ou leurs animaux. Il est également souvent utilisé en temps de guerre par les unités d'élite de la cavalerie afin d'augmenter leur puissance de choc.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000038,
+    "modifiedTime": 1754403212807,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e38",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e38"
+}

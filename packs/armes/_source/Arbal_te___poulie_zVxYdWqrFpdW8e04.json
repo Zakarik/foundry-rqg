@@ -1,0 +1,61 @@
+{
+  "name": "Arbalète à poulie",
+  "type": "armedistance",
+  "img": "systems/runequest-glorantha/assets/distance.svg",
+  "_id": "zVxYdWqrFpdW8e04",
+  "system": {
+    "description": "<p style=\"text-align: justify\">Une arbalète équipée d'un petit treuil pour l'armer, car elle est trop difficile à armer manuellement. Si sa cadence de tir laisse à désirer, elle est relativement facile à manier et mortelle quand elle touche. Comme toutes les arbalètes, c'était un cadeau offert par un nain.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 150,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "arbalete",
+    "allonge": {
+      "value": "",
+      "categorie": ""
+    },
+    "ra": {
+      "value": "",
+      "parround": false,
+      "cadence": "15r"
+    },
+    "prerequis": {
+      "force": 13,
+      "dexterite": 7
+    },
+    "degats": "3D6+1",
+    "type": "e",
+    "durabilite": {
+      "value": 10,
+      "max": 10
+    },
+    "encombrement": {
+      "value": 3,
+      "inferieura1": false
+    },
+    "portee": "150",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "RJHw7Zhpoi2IdCE5",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200003,
+    "modifiedTime": 1754143060658,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!zVxYdWqrFpdW8e04"
+}

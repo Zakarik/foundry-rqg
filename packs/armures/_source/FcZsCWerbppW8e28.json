@@ -1,0 +1,51 @@
+{
+  "name": "Haubert d’écailles lourdes",
+  "type": "armure",
+  "img": "systems/runequest-glorantha/assets/armor.svg",
+  "system": {
+    "description": "",
+    "cout": {
+      "roues": 0,
+      "lunars": 200,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "matiere": "Écailles lourdes",
+    "localisations": {
+      "jambegauche": 5,
+      "jambedroite": 5,
+      "abdomen": 5,
+      "poitrine": 5,
+      "brasgauche": 5,
+      "brasdroit": 5,
+      "tete": 0
+    },
+    "deplacementsilencieux": -25,
+    "encombrement": {
+      "value": 4,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1717680720000,
+    "modifiedTime": 1717680720000,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZsCWerbppW8e28",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZsCWerbppW8e28"
+}

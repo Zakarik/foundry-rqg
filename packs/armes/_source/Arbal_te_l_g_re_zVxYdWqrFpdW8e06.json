@@ -1,0 +1,61 @@
+{
+  "name": "Arbalète légère",
+  "type": "armedistance",
+  "img": "systems/runequest-glorantha/assets/distance.svg",
+  "_id": "zVxYdWqrFpdW8e06",
+  "system": {
+    "description": "<p style=\"text-align: justify\">L'arbalète légère est armée en coinçant une extrémité avec un pied et en l'utilisant comme levier.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 80,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "arbalete",
+    "allonge": {
+      "value": "",
+      "categorie": ""
+    },
+    "ra": {
+      "value": "",
+      "parround": false,
+      "cadence": "12r"
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 7
+    },
+    "degats": "2D4+2",
+    "type": "e",
+    "durabilite": {
+      "value": 6,
+      "max": 6
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    },
+    "portee": "100",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "RJHw7Zhpoi2IdCE5",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200005,
+    "modifiedTime": 1754143073061,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!zVxYdWqrFpdW8e06"
+}

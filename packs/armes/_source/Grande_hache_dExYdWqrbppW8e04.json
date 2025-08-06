@@ -1,0 +1,65 @@
+{
+  "name": "Grande hache",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e04",
+  "system": {
+    "description": "<p style=\"text-align: justify\">Cette hache en bronze à long manche peut avoir un ou deux tranchants.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 30,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "hache2mains",
+    "allonge": {
+      "value": "1,2",
+      "categorie": "2"
+    },
+    "ra": {
+      "value": 2,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 11,
+      "dexterite": 7
+    },
+    "degats": "2D6+2",
+    "type": "l",
+    "durabilite": {
+      "value": 10,
+      "max": 10
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false,
+    "competence": {
+      "id": "arccomposite"
+    }
+  },
+  "effects": [],
+  "folder": "Y9pAAhjLSvK6Ml9Z",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753970540104,
+    "modifiedTime": 1754137874785,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e04"
+}

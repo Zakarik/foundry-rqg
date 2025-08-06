@@ -1,0 +1,31 @@
+{
+  "name": "Lumière",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort doit être lancé sur un objet physique d'une sorte ou d'une autre. Un bâton, un doigt, un mur feront l'affaire. Il éclaire alors une zone de 10 mètres de rayon à partir de ce point. Si son intensité suffit à la lecture, elle n'égale tout de même pas celle du jour. Extinction n'affecte pas le sort de Lumière.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000035,
+    "modifiedTime": 1754403211273,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e35",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e35"
+}

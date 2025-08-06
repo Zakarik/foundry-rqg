@@ -1,0 +1,4890 @@
+div.editor {
+  min-height: 100px;
+}
+div.editor-container {
+  min-height: 200px;
+}
+
+menu span {
+  color: var(--button-text-color) !important;
+}
+
+prose-mirror {
+  height: 100%;
+  min-height: 0px;
+}
+
+.actor.personnage .window-content {
+  background: url(../../../ui/parchment.jpg) repeat;
+  color: black;
+  overflow: auto;
+}
+.actor.personnage .window-content span,
+.actor.personnage .window-content input {
+  color: black;
+}
+.actor.personnage .window-content nav.tabs {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  margin-top: 5px;
+}
+.actor.personnage .window-content nav.tabs a {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  line-height: 20px;
+  color: black;
+}
+.actor.personnage .window-content nav.tabs a i {
+  display: none;
+  color: DarkGreen;
+}
+.actor.personnage .window-content nav.tabs a.show {
+  display: none;
+}
+.actor.personnage .window-content nav.tabs a.active {
+  background: rgba(138, 97, 46, 0.2);
+  text-shadow: none;
+}
+.actor.personnage .window-content nav.tabs a.active i {
+  display: inline-block;
+}
+.actor.personnage .window-content nav.tabs a:hover {
+  background: rgba(138, 97, 46, 0.2);
+  text-shadow: none;
+}
+.actor.personnage .window-content header.header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.actor.personnage .window-content header.header a.resistance {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+  text-shadow: none;
+  color: black;
+}
+.actor.personnage .window-content header.header a.resistance.active {
+  outline: none;
+  box-shadow: none;
+}
+.actor.personnage .window-content header.header a.resistance.active i {
+  color: DarkGreen;
+}
+.actor.personnage .window-content header.header a.resistance.unactive i {
+  color: DarkRed;
+}
+.actor.personnage .window-content header.header a.resistance:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.left input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 0px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.left img {
+  border: none;
+}
+.actor.personnage .window-content header.header div.right {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-row: 1/3;
+  grid-column: 2;
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.actor.personnage .window-content header.header div.subLeft {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.actor.personnage .window-content header.header div.subRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.actor.personnage .window-content header.header div.ra {
+  display: grid;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 2px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.ra div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.ra div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.ra div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.ra div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.ra div.main div.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.ra div.main div input {
+  width: 100%;
+  min-width: 0px;
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  height: 18px;
+  padding: 0px;
+}
+.actor.personnage .window-content header.header div.ra div.main span.score {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.ra div.main span.score.score {
+  border: 1px solid black;
+  text-align: center;
+  background: white;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.ra div.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.ra div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+.actor.personnage .window-content header.header div.ra div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.ra div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.ra div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.degats {
+  display: grid;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 2px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.degats div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.degats div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.degats div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.degats div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.degats div.main div.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.degats div.main div input {
+  width: 100%;
+  min-width: 0px;
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  height: 18px;
+  padding: 0px;
+}
+.actor.personnage .window-content header.header div.degats div.main span.score {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.degats div.main span.score.score {
+  border: 1px solid black;
+  text-align: center;
+  background: white;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.degats div.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.degats div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+.actor.personnage .window-content header.header div.degats div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.degats div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.degats div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.caracteristiques {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.caracteristiques header {
+  grid-column: 1;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.actor.personnage .window-content header.header div.caracteristiques div label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main label span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main label span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.main label span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content header.header div.caracteristiques div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.pointsvie, .actor.personnage .window-content header.header div.pointsmagie {
+  display: grid;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 2px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.pointsvie div.main, .actor.personnage .window-content header.header div.pointsmagie div.main {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main i, .actor.personnage .window-content header.header div.pointsmagie div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main i:hover, .actor.personnage .window-content header.header div.pointsmagie div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main div, .actor.personnage .window-content header.header div.pointsmagie div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main div.label, .actor.personnage .window-content header.header div.pointsmagie div.main div.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main div.data, .actor.personnage .window-content header.header div.pointsmagie div.main div.data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-gap: 2px;
+  align-items: center;
+  background: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main div.data span, .actor.personnage .window-content header.header div.pointsmagie div.main div.data span {
+  font-weight: bold;
+  text-align: center;
+}
+.actor.personnage .window-content header.header div.pointsvie div.main div input, .actor.personnage .window-content header.header div.pointsmagie div.main div input {
+  width: 100%;
+  min-width: 0px;
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  height: 18px;
+  padding: 0px;
+}
+.actor.personnage .window-content header.header div.pointsvie div.sub, .actor.personnage .window-content header.header div.pointsmagie div.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.pointsvie div.sub label, .actor.personnage .window-content header.header div.pointsmagie div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+.actor.personnage .window-content header.header div.pointsvie div.sub label span, .actor.personnage .window-content header.header div.pointsmagie div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.pointsvie div.sub label span.score, .actor.personnage .window-content header.header div.pointsmagie div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.pointsvie div.sub input, .actor.personnage .window-content header.header div.pointsmagie div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.vitesse {
+  display: grid;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 2px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.vitesse div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.vitesse div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.vitesse div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.vitesse div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.vitesse div.main div.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.vitesse div.main div input {
+  width: 100%;
+  min-width: 0px;
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  height: 18px;
+  padding: 0px;
+}
+.actor.personnage .window-content header.header div.vitesse div.main span.score {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.vitesse div.main span.score.score {
+  border: 1px solid black;
+  text-align: center;
+  background: white;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.vitesse div.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.vitesse div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+.actor.personnage .window-content header.header div.vitesse div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.vitesse div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.vitesse div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.guerison {
+  display: grid;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 2px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.guerison div.main {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.guerison div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.guerison div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.guerison div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.guerison div.main div.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.guerison div.main div input {
+  width: 100%;
+  min-width: 0px;
+  background: transparent;
+  border: 0px;
+  text-align: center;
+  height: 18px;
+  padding: 0px;
+}
+.actor.personnage .window-content header.header div.guerison div.main span.score {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.guerison div.main span.score.score {
+  border: 1px solid black;
+  text-align: center;
+  background: white;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.guerison div.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.guerison div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+.actor.personnage .window-content header.header div.guerison div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.guerison div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.guerison div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content header.header div.localization {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content header.header div.localization header {
+  display: grid;
+  grid-template-columns: 1fr 70px 120px 120px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content header.header div.localization header span.jet, .actor.personnage .window-content header.header div.localization header span.armure, .actor.personnage .window-content header.header div.localization header span.pv {
+  text-align: center;
+}
+.actor.personnage .window-content header.header div.localization div.data {
+  display: grid;
+  grid-template-columns: 1fr 70px 120px 120px;
+  align-items: flex-start;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content header.header div.localization div.data input {
+  min-width: 0px;
+  width: 100%;
+  height: 20px;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main, .actor.personnage .window-content header.header div.localization div.data div.sub {
+  display: grid;
+  grid-template-columns: 1fr 70px 120px 120px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main {
+  grid-column: 1/5;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div {
+  font-size: 15px;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div.nom {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div.jet, .actor.personnage .window-content header.header div.localization div.data div.main div.armure, .actor.personnage .window-content header.header div.localization div.data div.main div.pv {
+  text-align: center;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div.pv {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-gap: 2px;
+  align-items: center;
+  background: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div.pv span {
+  font-weight: bold;
+}
+.actor.personnage .window-content header.header div.localization div.data div.main div input {
+  background: transparent;
+  border: 0px;
+  text-align: center;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub.armure, .actor.personnage .window-content header.header div.localization div.data div.sub.pv {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  grid-row: 2;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub.armure {
+  grid-column: 3;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub.pv {
+  grid-column: 4;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 54.05px;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub label span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub label span.score {
+  border: 1px solid black;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content header.header div.localization div.data div.sub input {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content div.tab.historique.active {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 100%;
+}
+.actor.personnage .window-content div.tab.historique.active div.data {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.historique.active div.data label {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.historique.active div.data label span {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 16px;
+  color: black;
+}
+.actor.personnage .window-content div.tab.historique.active div.data label input {
+  background: white;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: 0px;
+  width: 100%;
+  height: 20px;
+  color: black;
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.historique.active div.historique {
+  min-height: 100px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.historique.active div.historique prose-mirror {
+  min-height: 90px;
+}
+.actor.personnage .window-content div.tab.historique.active div.left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 100%;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.historique.active div.langue header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.hovered {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue i.hoverItem {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue i.hoverItem:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.historique.active div.langue div.line {
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  border-bottom: 1px solid black;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.competences.active {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.competences.active div.col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+.actor.personnage .window-content div.tab.competences.active div.cmp {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.competences.active div.mainCMP {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.actor.personnage .window-content div.tab.competences.active div.mainCMP div.main div.label {
+  grid-template-columns: 20px max-content 20px;
+}
+.actor.personnage .window-content div.tab.competences.active div.mainCMP div.main div.label,
+.actor.personnage .window-content div.tab.competences.active div.mainCMP div.main span {
+  font-size: 18px;
+}
+.actor.personnage .window-content div.tab.competences.active div.mainCMP div.sub {
+  grid-template-columns: 20px 1fr 14px;
+}
+.actor.personnage .window-content div.tab.competences.active div.mainCMP.retract {
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+.actor.personnage .window-content div.tab.competences.active div.subCMP {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.actor.personnage .window-content div.tab.competences.active div.header span {
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+}
+.actor.personnage .window-content div.tab.competences.active div.header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.competences.active div.header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.competences.active div label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.competences.active div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.competences.active div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.competences.active div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.competences.active div.main i.fa-dice-d10 {
+  font-size: 15px;
+}
+.actor.personnage .window-content div.tab.competences.active div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.competences.active div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.competences.active div.main div.label.custom {
+  grid-template-columns: 14px 1fr max-content;
+}
+.actor.personnage .window-content div.tab.competences.active div.main span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content div.tab.competences.active div.main span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.competences.active div.main span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.competences.active div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.competences.active div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.competences.active div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.competences.active div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 19px;
+}
+.actor.personnage .window-content div.tab.competences.active div a.addcustomwpn {
+  font-variant: small-caps;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  background: rgba(139, 69, 19, 0.4);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.actor.personnage .window-content div.tab.competences.active div a.addcustomwpn:hover {
+  text-shadow: none;
+  background: #8a612e;
+  color: white;
+}
+.actor.personnage .window-content div.tab.competences.active div input[type=text] {
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  border: 0px;
+  background: transparent;
+  border-bottom: 1px dashed black;
+  border-radius: 0px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.passions.active {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.passions.active header {
+  display: flex;
+  grid-column: 1/4;
+  justify-content: right;
+}
+.actor.personnage .window-content div.tab.passions.active header a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgba(139, 69, 19, 0.2);
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  grid-gap: 5px;
+}
+.actor.personnage .window-content div.tab.passions.active header a:hover {
+  background: #8a612e;
+  text-shadow: none;
+  color: white;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion {
+  display: grid;
+  grid-template-columns: max-content 1fr 40px max-content;
+  grid-gap: 2px;
+  column-gap: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: rgba(139, 69, 19, 0.2);
+  padding: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion span {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion span.value {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion label.value {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  height: 18px;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion label.value input {
+  border: 0px;
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion div.hovered {
+  grid-gap: 1/5;
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.passions.active div.passion i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content minmax(100px, max-content);
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel header {
+  display: grid;
+  grid-template-columns: 1fr 200px 200px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel header span.label {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.rangaction, .actor.personnage .window-content div.tab.combat.active div.combatspirituel div.degats {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.rangaction label, .actor.personnage .window-content div.tab.combat.active div.combatspirituel div.degats label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.main span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatspirituel div.editor {
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee, .actor.personnage .window-content div.tab.combat.active div.combatdistance {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee span.clickable, .actor.personnage .window-content div.tab.combat.active div.combatdistance span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee span.clickable:hover, .actor.personnage .window-content div.tab.combat.active div.combatdistance span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee header.main, .actor.personnage .window-content div.tab.combat.active div.combatdistance header.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee div.data, .actor.personnage .window-content div.tab.combat.active div.combatdistance div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee div.data header, .actor.personnage .window-content div.tab.combat.active div.combatdistance div.data header {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 100px);
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee div.data header span.center, .actor.personnage .window-content div.tab.combat.active div.combatdistance div.data header span.center {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee div.wpn, .actor.personnage .window-content div.tab.combat.active div.combatdistance div.wpn {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 100px);
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.combat.active div.combatmelee div.wpn span.center, .actor.personnage .window-content div.tab.combat.active div.combatdistance div.wpn span.center {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.combat.active div.armures header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.hovered {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures i.hoverItem {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures i.hoverItem:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures i.wear {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures header {
+  grid-column: 1/3;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.subheader {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 200px 100px 30px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.subheader span.matiere, .actor.personnage .window-content div.tab.combat.active div.armures div.subheader span.loc {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line {
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content 1fr 200px 100px max-content;
+  align-items: center;
+  border-bottom: 1px solid black;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+  align-items: center;
+  line-height: 22px;
+  height: 22px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span p {
+  margin: 0px;
+  padding: 0px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span p.use {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span p.use:hover {
+  font-weight: bold;
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span p.use i {
+  vertical-align: super;
+  font-size: 12px;
+}
+.actor.personnage .window-content div.tab.combat.active div.armures div.line span.matiere, .actor.personnage .window-content div.tab.combat.active div.armures div.line span.loc {
+  grid-template-columns: 1fr;
+  text-align: center;
+  height: fit-content;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active img {
+  border: none;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  row-gap: 5px;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  background: rgba(139, 69, 19, 0.2);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire i.fa-gear {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire i.fa-gear:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div {
+  width: 80px;
+  color: black;
+  position: relative;
+  background: transparent;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div > div {
+  display: flex;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div > div span {
+  margin-left: auto;
+  width: max-content;
+  margin-right: auto;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div > div span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div > div span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.feu {
+  grid-column: 1/5;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.feu label span {
+  position: absolute;
+  top: 0px;
+  right: -25px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.air {
+  grid-column: 1;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.air label span {
+  position: absolute;
+  top: 0px;
+  left: -25px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.tenebres {
+  grid-column: 4;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.tenebres label span {
+  position: absolute;
+  top: calc(100% - 20px);
+  right: -20px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.lune {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  margin-top: -70px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.lune label span {
+  position: absolute;
+  bottom: 0px;
+  right: -25px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.terre {
+  grid-column: 1;
+  margin-right: -80px;
+  margin-top: 30px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.terre label span {
+  position: absolute;
+  left: -40px;
+  bottom: 20px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.eau {
+  grid-column: 4;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire div.eau label span {
+  position: absolute;
+  top: calc(100% - 20px);
+  right: -25px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire label {
+  width: 80px;
+  color: black;
+  position: relative;
+  background: transparent;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire label span {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 45px;
+  background: white;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire label img {
+  position: relative;
+  z-index: 100;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.arrow {
+  position: absolute;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.a1 {
+  top: 60px;
+  rotate: 70deg;
+  right: 80px;
+  width: 75px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.a2 {
+  width: 65px;
+  rotate: 140deg;
+  right: 35px;
+  bottom: 120px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.a3 {
+  rotate: 215deg;
+  width: 110px;
+  bottom: 0px;
+  right: 165px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.a4 {
+  width: 65px;
+  rotate: 280deg;
+  left: 47px;
+  bottom: 100px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.elementaire img.a5 {
+  top: 61px;
+  left: 105px;
+  rotate: 355deg;
+  width: 80px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  column-gap: 5px;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  position: relative;
+  background: rgba(139, 69, 19, 0.2);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir i.fa-gear {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir i.fa-gear:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div label {
+  display: flex;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.homme {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: max-content;
+  width: max-content;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.homme img {
+  margin-right: -10px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.homme label {
+  grid-row: 1;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.homme div {
+  grid-row: 2;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.homme div span {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.bete {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  width: max-content;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.bete img {
+  margin-left: -10px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.bete label {
+  grid-row: 2;
+  flex-direction: row-reverse;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.bete div {
+  grid-row: 1;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.bete div span {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mort, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.desordre, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.illusion, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mouvement {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  width: 100%;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mort div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.desordre div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.illusion div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mouvement div {
+  text-align: left;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mort div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.desordre div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.illusion div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mouvement div span {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mort label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.desordre label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.illusion label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.mouvement label img {
+  margin-right: -10px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.fertilite, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.harmonie, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.verite, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.stase {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  width: 100%;
+  align-items: center;
+  padding-right: 5px;
+  border-right: 1px solid black;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.fertilite div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.harmonie div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.verite div, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.stase div {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.fertilite div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.harmonie div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.verite div span, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.stase div span {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.fertilite label, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.harmonie label, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.verite label, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.stase label {
+  grid-column: 1;
+  grid-row: 1;
+  flex-direction: row-reverse;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.fertilite label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.harmonie label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.verite label img, .actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir div.stase label img {
+  margin-left: -10px;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir label {
+  color: black;
+  position: relative;
+  background: transparent;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir label span {
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 45px;
+  background: white;
+}
+.actor.personnage .window-content div.tab.affinitesruniques.active div.pouvoir label img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  z-index: 100;
+}
+.actor.personnage .window-content div.tab.cultes.active {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.subheader {
+  display: grid;
+  grid-template-columns: 1fr 200px 150px 30px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.subheader span {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main {
+  display: grid;
+  grid-template-columns: max-content 1fr 200px 150px 30px;
+  align-items: center;
+  align-content: flex-start;
+  font-variant: small-caps;
+  font-size: 16px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-plus,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-minus {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-plus:hover,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-minus:hover {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-plus:hover:hover,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main i.fa-square-minus:hover:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.cmd,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.cmd {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.name,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.counter,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.counter {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.counter > span,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.counter > span {
+  font-weight: bold;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.counter div.score,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.counter div.score {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  grid-gap: 2px;
+  text-align: center;
+  justify-content: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.counter i,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.counter i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main div.counter i:hover,
+.actor.personnage .window-content div.tab.cultes.active div.culte div.main span.counter i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header {
+  grid-template-columns: 1fr max-content;
+  align-items: flex-start;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.main span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie header div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main {
+  display: grid;
+  grid-template-columns: max-content 1fr 200px 150px 30px;
+  align-items: center;
+  align-content: flex-start;
+  font-variant: small-caps;
+  font-size: 16px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-plus,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-minus {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-plus:hover,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-minus:hover {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-plus:hover:hover,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main i.fa-square-minus:hover:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main div.cmd,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main span.cmd {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main div.name,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main span.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main div.points,
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main span.points {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.cultes.active div.magie div.main select {
+  background: white;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active {
+  display: grid;
+  grid-template-columns: 200px 1fr 220px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main div.data {
+  display: grid;
+  grid-template-columns: 1fr 6px 1fr;
+  grid-gap: 2px;
+  border: 1px solid black;
+  background: white;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.main span.score {
+  background: transparent;
+  border: none;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.limitecha.red div.main span.score.first {
+  color: DarkRed;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-column: 1/4;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header {
+  grid-template-columns: 1fr max-content;
+  align-items: flex-start;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.main span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie header div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main {
+  display: grid;
+  grid-template-columns: max-content 1fr 200px 150px 30px;
+  align-items: center;
+  align-content: flex-start;
+  font-variant: small-caps;
+  font-size: 16px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-plus,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-minus {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-plus:hover,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-minus:hover {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-plus:hover:hover,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main i.fa-square-minus:hover:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main div.cmd,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main span.cmd {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main div.name,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main span.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main div.points,
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main span.points {
+  font-weight: bold;
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.magiesspirituelles.active div.magie div.main span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active {
+  display: grid;
+  grid-template-columns: 200px 1fr 220px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main div.data {
+  display: grid;
+  grid-template-columns: 1fr 6px 1fr;
+  grid-gap: 2px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.main span.score {
+  background: transparent;
+  border: none;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.intlibre.red div.main span.score.first {
+  color: DarkRed;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique a.deploy {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background: rgba(139, 69, 19, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  font-variant: small-caps;
+  font-weight: bold;
+  grid-column: 1/4;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique a.deploy i {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique a.deploy p {
+  margin: 0px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique a.deploy:hover {
+  background: #8a612e;
+  color: white;
+  font-weight: normal;
+  text-shadow: none;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique img {
+  border: 0px;
+  width: 40px;
+  max-height: 25px;
+  object-fit: contain;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.selected {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+  justify-content: space-between;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.selected span {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  width: 140px;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.selected span i {
+  color: DarkGreen;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.selected span:hover {
+  background: #8a612e;
+  color: white;
+  font-weight: normal;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.unselected {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+  justify-content: space-between;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.unselected span {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  width: 140px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.unselected span i {
+  color: DarkGreen;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.technique div.unselected span:hover {
+  background: #8a612e;
+  color: white;
+  font-weight: normal;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-column: 1/4;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie span.clickable {
+  width: max-content;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie span.clickable:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header {
+  grid-template-columns: 1fr max-content;
+  align-items: flex-start;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.main i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.main i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.main div.label {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-gap: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.main span.score {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.sub {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.sub label {
+  grid-column: 2;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.sub label span.label {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.sub label span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie header div.sub label input {
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 0px;
+  padding: 0px;
+  height: 20px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main {
+  display: grid;
+  grid-template-columns: max-content max-content 1fr 200px 150px 30px;
+  align-items: center;
+  align-content: flex-start;
+  font-variant: small-caps;
+  font-size: 16px;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-plus,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-minus {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-plus:hover,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-minus:hover {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-plus:hover:hover,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main i.fa-square-minus:hover:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main div.cmd,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main span.cmd {
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main div.name,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main span.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main div.afterName img,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main span.afterName img {
+  display: inline;
+  height: 18px;
+}
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main div.points,
+.actor.personnage .window-content div.tab.sorcellerie.active div.magie div.main span.points {
+  font-weight: bold;
+  font-size: 14px;
+}
+.actor.personnage .window-content div.tab.inventaire.active {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 200px;
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.main {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.sub {
+  display: grid;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.sub span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.sub input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.sub input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.sub label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement div.data {
+  display: grid;
+  grid-template-columns: 1fr 6px 1fr;
+  grid-gap: 2px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement span.header {
+  font-variant: small-caps;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement span.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 15px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement span.red {
+  color: DarkRed;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement span.score {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.encombrement i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-column: 2/4;
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie span {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie span:not(:first-of-type) {
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie span:first-of-type {
+  margin-left: auto;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.monnaie i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.hovered {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes i.hoverItem {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes i.hoverItem:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes i.wear {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.subheader {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 100px 30px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.line {
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content 1fr 100px max-content;
+  align-items: center;
+  border-bottom: 1px solid black;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.hovered > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div.hovered > div > div {
+  grid-column: 1/3;
+  background: transparent;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes div span.enc {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes.left {
+  grid-column: 1/3;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armes.right {
+  grid-column: 3/5;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-column: 1/3;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.hovered {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire i.hoverItem {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire i.hoverItem:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire i.wear {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.subheader {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 100px 30px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.subheader span.enc {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line {
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content 1fr 100px max-content;
+  align-items: center;
+  border-bottom: 1px solid black;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+  align-items: center;
+  line-height: 22px;
+  height: 22px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span p {
+  margin: 0px;
+  padding: 0px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span p.use {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span p.use:hover {
+  font-weight: bold;
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span p.use i {
+  vertical-align: super;
+  font-size: 12px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.inventaire div.line span.enc {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-column: 3/5;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.hovered {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: max-content;
+  top: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  z-index: 10;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.hovered div {
+  background: rgba(139, 69, 19, 0.4);
+  padding: 5px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures i.hoverItem {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures i.hoverItem:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures i.wear {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.subheader {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 100px 30px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.subheader span.enc {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.hovered > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.hovered > div > div {
+  background: transparent;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.line {
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content 1fr 100px max-content;
+  align-items: center;
+  border-bottom: 1px solid black;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.line span {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+  align-items: center;
+  line-height: 22px;
+  height: 22px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.line span p {
+  margin: 0px;
+  padding: 0px;
+}
+.actor.personnage .window-content div.tab.inventaire.active div.armures div.line span.enc {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.effects.active {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif, .actor.personnage .window-content div.tab.effects.active div.inactif {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.actor.personnage .window-content div.tab.effects.active div.actif header, .actor.personnage .window-content div.tab.effects.active div.inactif header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif header i, .actor.personnage .window-content div.tab.effects.active div.inactif header i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif header i:hover, .actor.personnage .window-content div.tab.effects.active div.inactif header i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.cmd, .actor.personnage .window-content div.tab.effects.active div.inactif div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.cmd i, .actor.personnage .window-content div.tab.effects.active div.inactif div.cmd i {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.cmd i:hover, .actor.personnage .window-content div.tab.effects.active div.inactif div.cmd i:hover {
+  color: #8a612e;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.line, .actor.personnage .window-content div.tab.effects.active div.inactif div.line {
+  display: grid;
+  grid-template-columns: max-content 1fr 100px 280px max-content;
+  grid-gap: 5px;
+  align-items: center;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.line span.name, .actor.personnage .window-content div.tab.effects.active div.inactif div.line span.name {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.line span.source, .actor.personnage .window-content div.tab.effects.active div.actif div.line span.special, .actor.personnage .window-content div.tab.effects.active div.inactif div.line span.source, .actor.personnage .window-content div.tab.effects.active div.inactif div.line span.special {
+  text-align: center;
+}
+.actor.personnage .window-content div.tab.effects.active div.actif div.line i.switch, .actor.personnage .window-content div.tab.effects.active div.inactif div.line i.switch {
+  cursor: pointer;
+}
+.actor.personnage .window-content div.tab {
+  margin-top: 5px;
+}
+
+.item.rqgitem section.window-content {
+  background: url(../../../ui/parchment.jpg) repeat;
+  color: black;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content nav.tabs {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  margin-top: 5px;
+  grid-column: 1/3;
+  margin-top: 0px;
+}
+.item.rqgitem section.window-content nav.tabs a {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  line-height: 20px;
+  color: black;
+}
+.item.rqgitem section.window-content nav.tabs a i {
+  display: none;
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content nav.tabs a.show {
+  display: none;
+}
+.item.rqgitem section.window-content nav.tabs a.active {
+  background: rgba(138, 97, 46, 0.2);
+  text-shadow: none;
+}
+.item.rqgitem section.window-content nav.tabs a.active i {
+  display: inline-block;
+}
+.item.rqgitem section.window-content nav.tabs a:hover {
+  background: rgba(138, 97, 46, 0.2);
+  text-shadow: none;
+}
+.item.rqgitem section.window-content span,
+.item.rqgitem section.window-content input,
+.item.rqgitem section.window-content select {
+  color: black;
+}
+.item.rqgitem section.window-content img.profile-img {
+  width: 100%;
+}
+.item.rqgitem section.window-content div.img {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.img input[type=text], .item.rqgitem section.window-content div.img input[type=number] {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 0px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: black;
+  height: 26px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.item.rqgitem section.window-content div.img input[type=checkbox]::before {
+  color: black;
+}
+.item.rqgitem section.window-content div.img input[type=checkbox]::after {
+  color: white;
+}
+.item.rqgitem section.window-content div.img img {
+  border: none;
+}
+.item.rqgitem section.window-content div.img img.margin {
+  margin-top: 32px;
+}
+.item.rqgitem section.window-content div.img.passion {
+  grid-template-columns: 1fr 40px;
+}
+.item.rqgitem section.window-content div.img.passion img {
+  grid-column: 1/3;
+}
+.item.rqgitem section.window-content div.img.culte label {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  grid-gap: 2px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-left: 2px;
+}
+.item.rqgitem section.window-content div.img.culte label input {
+  border: 0px;
+  padding: 0px;
+  height: 20px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  background: white;
+  border-top-left-radius: 2px;
+}
+.item.rqgitem section.window-content div.img.sort {
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.img.sort label.fixe {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  grid-gap: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid black;
+  font-variant: small-caps;
+  font-weight: bold;
+  align-items: center;
+  font-size: 14px;
+}
+.item.rqgitem section.window-content div.img.sort label.fixe input {
+  font-size: 14px;
+  border: none;
+}
+.item.rqgitem section.window-content div.img.sort label.variable {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid black;
+  font-variant: small-caps;
+  font-weight: bold;
+  align-items: center;
+  font-size: 14px;
+}
+.item.rqgitem section.window-content div.description {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(139, 69, 19, 0.2);
+  height: 100%;
+}
+.item.rqgitem section.window-content div.description div.editor {
+  height: 100%;
+}
+.item.rqgitem section.window-content div.description.arme {
+  grid-column: 1/3;
+}
+.item.rqgitem section.window-content div.data.arme {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.item.rqgitem section.window-content div.data.arme label {
+  display: grid;
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.data.arme label select {
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie, .item.rqgitem section.window-content div.data.arme label.competence {
+  grid-template-columns: 1fr 80px;
+  width: 100%;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie select, .item.rqgitem section.window-content div.data.arme label.competence select {
+  grid-column: 1/3;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie span, .item.rqgitem section.window-content div.data.arme label.competence span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie input, .item.rqgitem section.window-content div.data.arme label.competence input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie input[disabled], .item.rqgitem section.window-content div.data.arme label.competence input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie input[type=text], .item.rqgitem section.window-content div.data.arme label.competence input[type=text] {
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme label.categorie span.header, .item.rqgitem section.window-content div.data.arme label.competence span.header {
+  grid-column: 1/3;
+}
+.item.rqgitem section.window-content div.data.arme label.degats, .item.rqgitem section.window-content div.data.arme label.type {
+  grid-template-columns: 1fr 80px;
+  align-items: center;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.item.rqgitem section.window-content div.data.arme label.degats span, .item.rqgitem section.window-content div.data.arme label.type span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme label.degats input, .item.rqgitem section.window-content div.data.arme label.type input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme label.degats input[disabled], .item.rqgitem section.window-content div.data.arme label.type input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme label.degats select, .item.rqgitem section.window-content div.data.arme label.type select {
+  text-align: center;
+}
+.item.rqgitem section.window-content div.data.arme div.col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis span.header {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis label {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  align-items: center;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis label span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis label input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.prerequis label input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.arme div.encombrement a {
+  grid-column: 1/3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.durabilite {
+  display: grid;
+  grid-template-columns: 1fr 80px max-content 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.durabilite span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.durabilite input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.durabilite input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.categorie, .item.rqgitem section.window-content div.data.arme div.competence {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.arme div.categorie {
+  padding: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.cmphalf a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.data.arme div.cmphalf a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.data.arme div.cmphalf a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.data.arme div.cmphalf a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.arme div.cmphalf a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.data.arme div.projectile a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.arme div.projectile a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge {
+  display: grid;
+  grid-template-columns: 1fr 80px 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge input {
+  grid-column: 3;
+}
+.item.rqgitem section.window-content div.data.arme div.allonge select {
+  grid-column: 2/4;
+  background: white;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+}
+.item.rqgitem section.window-content div.data.arme div.portee {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.portee span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.portee input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.portee input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.ra {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.arme div.ra span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.arme div.ra input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.arme div.ra input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.ra span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.item.rqgitem section.window-content div.data.arme div.ra a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.data.arme div.ra a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.data.arme div.ra a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.data.arme div.ra a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.arme div.ra a {
+  grid-column: 1/3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem section.window-content div.data.arme div.ra select {
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.item.rqgitem section.window-content div.data.armure {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  align-items: flex-start;
+}
+.item.rqgitem section.window-content div.data.armure label {
+  display: grid;
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 4px;
+}
+.item.rqgitem section.window-content div.data.armure label input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.armure label input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.armure label span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.armure label select {
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+}
+.item.rqgitem section.window-content div.data.armure label.matiere {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-template-columns: 1fr 150px;
+  grid-gap: 2px;
+  padding: 5px !important;
+}
+.item.rqgitem section.window-content div.data.armure label.type {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-template-columns: 1fr 150px;
+  grid-gap: 2px;
+  padding: 5px !important;
+}
+.item.rqgitem section.window-content div.data.armure label.deplacementsilencieux {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  grid-template-columns: 1fr 80px;
+  padding: 5px !important;
+}
+.item.rqgitem section.window-content div.data.armure div.col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+.item.rqgitem section.window-content div.data.armure div.loc {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.armure div.loc header {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 18px;
+}
+.item.rqgitem section.window-content div.data.armure div.loc label {
+  grid-template-columns: 1fr 50px;
+  grid-gap: 2px;
+  padding: 0px;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.data.armure div.encombrement a {
+  grid-column: 1/3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem section.window-content div.data label.matiere {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  display: grid;
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+  grid-template-columns: 1fr 150px;
+  padding: 5px;
+}
+.item.rqgitem section.window-content div.data label.matiere input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem section.window-content div.data label.matiere input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem section.window-content div.data label.matiere span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem section.window-content div.affinites {
+  display: grid;
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.affinites div.selected {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.affinites div.unselected {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.affinites a.deploy {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background: rgba(139, 69, 19, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  font-variant: small-caps;
+  font-weight: bold;
+  grid-column: 1/6;
+}
+.item.rqgitem section.window-content div.affinites a.deploy i {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+}
+.item.rqgitem section.window-content div.affinites a.deploy p {
+  margin: 0px;
+}
+.item.rqgitem section.window-content div.affinites a.deploy:hover {
+  background: #8a612e;
+  color: white;
+  font-weight: normal;
+  text-shadow: none;
+}
+.item.rqgitem section.window-content div.affinites span {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  height: 20px;
+  cursor: pointer;
+}
+.item.rqgitem section.window-content div.affinites span i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.affinites span:hover {
+  background: #8a612e;
+  color: white;
+  font-weight: normal;
+}
+.item.rqgitem section.window-content div.affinites img {
+  border: 0px;
+  height: 14px;
+}
+.item.rqgitem section.window-content div.cout {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.item.rqgitem section.window-content div.cout label {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-gap: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.item.rqgitem section.window-content div.cout label input {
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+  text-align: right;
+  border-radius: 0px;
+  height: 15px;
+}
+.item.rqgitem section.window-content div.parametres.active {
+  display: grid;
+  grid-column: 1/3;
+  grid-template-columns: 1fr 3fr;
+  align-items: flex-start;
+  align-content: flex-start;
+  grid-gap: 5px;
+  min-height: 180px;
+}
+.item.rqgitem section.window-content div.parametres.active a.button {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+  text-shadow: none;
+  color: black;
+}
+.item.rqgitem section.window-content div.parametres.active a.button.active {
+  outline: none;
+  box-shadow: none;
+}
+.item.rqgitem section.window-content div.parametres.active a.button.active i {
+  color: DarkGreen;
+}
+.item.rqgitem section.window-content div.parametres.active a.button.unactive i {
+  color: DarkRed;
+}
+.item.rqgitem section.window-content div.parametres.active a.button:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.parametres.active div.effects {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.parametres.active div.effects header {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 1px solid black;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects header i {
+  cursor: pointer;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects header i:hover {
+  color: #8a612e;
+}
+.item.rqgitem section.window-content div.parametres.active div.col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line {
+  display: grid;
+  grid-template-columns: 1fr 280px 30px;
+  grid-gap: 2px;
+  align-items: center;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line span {
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line span.special {
+  text-align: center;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line div.cmd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line div.cmd i {
+  cursor: pointer;
+}
+.item.rqgitem section.window-content div.parametres.active div.effects div.line div.cmd i:hover {
+  color: #8a612e;
+}
+.item.rqgitem section.window-content div.parametres.active a.active {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem section.window-content div.parametres.active.arme {
+  grid-template-columns: 1fr;
+}
+.item.rqgitem.rqgsort section.window-content {
+  grid-template-rows: 0fr 1fr;
+}
+.item.rqgitem.rqgsort section.window-content div.img.sort {
+  grid-row: 1/3;
+  height: 100%;
+}
+.item.rqgitem.rqgobjet section.window-content {
+  grid-template-rows: 0fr 230px max-content 1fr;
+}
+.item.rqgitem.rqgobjet section.window-content div.img {
+  grid-row: 1/3;
+  height: 100%;
+}
+.item.rqgitem.rqgobjet section.window-content div.tab.description {
+  grid-row: 2/4;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  grid-gap: 2px;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  text-shadow: none;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement a.active i {
+  color: DarkGreen;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement a.inactive i {
+  color: DarkRed;
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+.item.rqgitem.rqgobjet section.window-content div.encombrement a {
+  grid-column: 1/3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item.rqgitem.rqgarme section.window-content {
+  grid-template-rows: 0fr 270px max-content 1fr;
+}
+.item.rqgitem.rqgarme section.window-content div.img {
+  grid-row: 1/3;
+  height: 100%;
+}
+
+form.rqgcalendar section.window-content {
+  background: url(../../../ui/parchment.jpg) repeat;
+  color: black;
+  overflow: auto;
+  padding: 10px;
+}
+form.rqgcalendar section.window-content div span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+form.rqgcalendar section.window-content div.season {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+form.rqgcalendar section.window-content div.week-title {
+  grid-row: 1;
+  grid-column: 1/8;
+  margin-bottom: 5px;
+}
+form.rqgcalendar section.window-content div.season-title, form.rqgcalendar section.window-content div.week-title {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content 1fr max-content;
+  grid-gap: 2px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgba(139, 69, 19, 0.2);
+}
+form.rqgcalendar section.window-content div.season-title span, form.rqgcalendar section.window-content div.week-title span {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+form.rqgcalendar section.window-content div.season-title img.right, form.rqgcalendar section.window-content div.week-title img.right {
+  margin-right: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+form.rqgcalendar section.window-content div.season-title img.left, form.rqgcalendar section.window-content div.week-title img.left {
+  margin-left: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+form.rqgcalendar section.window-content div.week {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  align-items: center;
+}
+form.rqgcalendar section.window-content div.hide {
+  display: none;
+}
+form.rqgcalendar section.window-content div img {
+  display: inline;
+  max-height: 18px;
+  max-width: 18px;
+}
+form.rqgcalendar section.window-content div a {
+  display: grid;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+form.rqgcalendar section.window-content div a.left {
+  border-right: 1px solid black;
+}
+form.rqgcalendar section.window-content div a.right {
+  border-left: 1px solid black;
+}
+form.rqgcalendar section.window-content div a:hover {
+  background: #8a612e;
+  color: white;
+}
+form.rqgcalendar section.window-content span.day {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: rgba(139, 69, 19, 0.2);
+  text-align: right;
+}
+form.rqgcalendar section.window-content span.day.highlight {
+  background: lightgrey;
+  color: black;
+}
+form.rqgcalendar section.window-content span.day.clickable {
+  cursor: pointer;
+}
+form.rqgcalendar section.window-content span.day.clickable:hover {
+  background: #8a612e;
+  color: white;
+}
+form.rqgcalendar section.window-content span.day.last {
+  border-right: 1px solid black;
+}
+form.rqgcalendar section.window-content span.moon {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  grid-gap: 5px;
+  align-items: flex-start;
+  background: rgba(139, 69, 19, 0.2);
+  margin-top: 5px;
+}
+
+.rqgDialog section.window-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: flex-start;
+  grid-gap: 5px;
+  background: url(../../../ui/parchment.jpg) repeat;
+  color: black;
+}
+.rqgDialog div.dialog-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  background: rgba(139, 69, 19, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.rqgDialog div.dialog-content span.score {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+}
+.rqgDialog div.dialog-content input {
+  width: 100%;
+  min-width: 0px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.rqgDialog div.dialog-content input[disabled] {
+  background: lightgrey;
+  border-radius: 5px;
+}
+.rqgDialog div.dialog-content select {
+  background: white;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid black;
+  height: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.rqgDialog div.dialog-content input[type=checkbox] {
+  background: unset;
+  border: none;
+  padding: 0px;
+  width: max-content;
+  margin: auto;
+}
+.rqgDialog div.dialog-content input[type=checkbox]::before {
+  color: black;
+}
+.rqgDialog div.dialog-content input[type=checkbox]::after {
+  color: white;
+}
+.rqgDialog div.dialog-content label {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 50px;
+  grid-gap: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+}
+.rqgDialog div.dialog-content label.select {
+  grid-template-columns: 1fr 150px;
+}
+.rqgDialog div.dialog-content hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+}
+.rqgDialog.elementaire div.dialog-content {
+  grid-template-columns: repeat(3, 1fr);
+}
+.rqgDialog.pouvoir div.dialog-content {
+  grid-template-columns: repeat(2, 1fr);
+}
+.rqgDialog.pouvoir div.dialog-content label.homme, .rqgDialog.pouvoir div.dialog-content label.bete {
+  grid-column: 1/3;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rqgDialog.pouvoir div.dialog-content label.mort, .rqgDialog.pouvoir div.dialog-content label.desordre, .rqgDialog.pouvoir div.dialog-content label.illusion, .rqgDialog.pouvoir div.dialog-content label.mouvement {
+  grid-template-columns: 50px 1fr;
+}
+.rqgDialog.pouvoir div.dialog-content label.mort span, .rqgDialog.pouvoir div.dialog-content label.desordre span, .rqgDialog.pouvoir div.dialog-content label.illusion span, .rqgDialog.pouvoir div.dialog-content label.mouvement span {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+}
+.rqgDialog.pouvoir div.dialog-content label.mort input, .rqgDialog.pouvoir div.dialog-content label.desordre input, .rqgDialog.pouvoir div.dialog-content label.illusion input, .rqgDialog.pouvoir div.dialog-content label.mouvement input {
+  grid-column: 1;
+  grid-row: 1;
+}
+.rqgDialog button {
+  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  background: lightgrey;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  text-transform: none;
+  color: black;
+}
+.rqgDialog button:hover {
+  background: #8a612e;
+  color: white;
+}
+
+.dialog.rqg section.window-content {
+  background: url(../../../ui/parchment.jpg) repeat;
+  color: black;
+}
+.dialog.rqg section.window-content button {
+  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  background: lightgrey;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  text-transform: none;
+  color: black;
+}
+.dialog.rqg section.window-content button:hover {
+  background: #8a612e;
+  color: white;
+}
+
+li.chat-message {
+  background: linear-gradient(rgba(139, 69, 19, 0.2), rgba(139, 69, 19, 0.2)), url("../../../ui/parchment.jpg") repeat;
+}
+li.chat-message header.message-header {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 17px;
+}
+li.chat-message.whisper {
+  background: linear-gradient(rgba(232, 232, 239, 0.8), rgba(232, 232, 239, 0.8)), url("../../../ui/parchment.jpg") repeat;
+}
+li.chat-message.blind {
+  background: linear-gradient(rgba(245, 234, 245, 0.8), rgba(245, 234, 245, 0.8)), url("../../../ui/parchment.jpg") repeat;
+}
+li.chat-message.emote {
+  background: linear-gradient(rgba(243, 237, 222, 0.8), rgba(243, 237, 222, 0.8)), url("../../../ui/parchment.jpg") repeat;
+}
+li.chat-message div.message-content div.rqgTxt {
+  text-align: center;
+}
+li.chat-message div.message-content div.rqgTxt.left {
+  text-align: left;
+}
+li.chat-message div.message-content div.rqgRoll div.tags {
+  display: flex;
+  column-gap: 2px;
+  row-gap: 2px;
+  flex-wrap: wrap;
+}
+li.chat-message div.message-content div.rqgRoll div.tags span.tag {
+  display: inline-block;
+  width: max-content;
+  font-variant: small-caps;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightgrey;
+  padding: 2px;
+}
+li.chat-message div.message-content div.rqgRoll a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+  text-shadow: none;
+}
+li.chat-message div.message-content div.rqgRoll a.active i {
+  color: DarkGreen;
+}
+li.chat-message div.message-content div.rqgRoll a.inactive i {
+  color: DarkRed;
+}
+li.chat-message div.message-content div.rqgRoll a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+li.chat-message div.message-content div.rqgRoll label {
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  font-size: 16px;
+}
+li.chat-message div.message-content div.rqgRoll label span.label {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgRoll label span.value {
+  text-align: center;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgRoll label.total {
+  cursor: pointer;
+}
+li.chat-message div.message-content div.rqgRoll span.flavor {
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+li.chat-message div.message-content div.rqgRoll span.result {
+  display: grid;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+li.chat-message div.message-content div.rqgRoll span.result.critique {
+  color: green;
+}
+li.chat-message div.message-content div.rqgRoll span.result.special {
+  color: blue;
+}
+li.chat-message div.message-content div.rqgRoll span.result.success {
+  color: DarkGreen;
+}
+li.chat-message div.message-content div.rqgRoll span.result.fail {
+  color: DarkRed;
+}
+li.chat-message div.message-content div.rqgRoll span.result.epicfail {
+  color: FireBrick;
+}
+li.chat-message div.message-content div.rqgRoll div.double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+li.chat-message div.message-content div.rqgRoll div.double a.full {
+  grid-column: 1/3;
+}
+li.chat-message div.message-content div.rqgRoll div.double a.center {
+  text-align: center;
+  justify-content: center;
+}
+li.chat-message div.message-content div.rqgRoll div.simple {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+li.chat-message div.message-content div.rqgRoll div.simple a.center {
+  text-align: center;
+  justify-content: center;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  align-content: flex-start;
+  border-top: 1px solid black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip header.rqg-formula {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: flex-end;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip header.rqg-formula span.value {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background: url(../../../ui/parchment.jpg) repeat;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip ol.rqg-dices {
+  list-style-type: none;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 2px;
+  margin: 0px;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip ol.rqg-dices li.die {
+  display: inline-block;
+  padding: 2px;
+  height: 24px;
+  width: 27px;
+  background: url("../../../icons/svg/d10-grey.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3px;
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip ol.rqg-dices li.die.min {
+  color: DarkGreen;
+  filter: sepia(0.5) hue-rotate(60deg);
+}
+li.chat-message div.message-content div.rqgRoll section.rqg-tooltip ol.rqg-dices li.die.max {
+  filter: sepia(0.5) hue-rotate(-60deg);
+  color: DarkRed;
+}
+li.chat-message div.message-content div.rqgData a {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  border: 1px solid black;
+  background: lightgrey;
+  grid-gap: 2px;
+  align-items: center;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+  text-shadow: none;
+}
+li.chat-message div.message-content div.rqgData a.active i {
+  color: DarkGreen;
+}
+li.chat-message div.message-content div.rqgData a.inactive i {
+  color: DarkRed;
+}
+li.chat-message div.message-content div.rqgData a:hover {
+  background: rgba(139, 69, 19, 0.2);
+}
+li.chat-message div.message-content div.rqgData span {
+  display: grid;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+li.chat-message div.message-content div.rqgData label {
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  font-size: 16px;
+}
+li.chat-message div.message-content div.rqgData label span.label {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgData label span.value {
+  text-align: center;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgData label.total {
+  cursor: pointer;
+}
+li.chat-message div.message-content div.rqgData.double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+li.chat-message div.message-content div.rqgData span.flavor {
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+li.chat-message div.message-content div.rqgData span.label {
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgData span.full {
+  grid-column: 1/3;
+}
+li.chat-message div.message-content div.rqgData span.result {
+  display: grid;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-top: 1px solid black;
+  font-weight: bold;
+}
+li.chat-message div.message-content div.rqgData span.borderTop {
+  border-top: 1px solid black;
+}
+li.chat-message div.message-content div.rqgData span.title {
+  text-align: center;
+  font-size: 20px;
+}
+li.chat-message div.message-content div.rqgData span.line {
+  text-align: center;
+}

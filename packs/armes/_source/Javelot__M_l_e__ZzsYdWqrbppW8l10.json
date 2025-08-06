@@ -1,0 +1,62 @@
+{
+  "name": "Javelot (Mêlée)",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l10",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">une lance courte pouvant être utilisée à une main ou lancée.</span> </p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 35,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "lance1main",
+    "allonge": {
+      "value": "1.5",
+      "categorie": "1"
+    },
+    "ra": {
+      "value": 2,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 9
+    },
+    "degats": "1D6",
+    "type": "e",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "2Blgzjie9rji0otx",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973500010,
+    "modifiedTime": 1754143164843,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l10"
+}

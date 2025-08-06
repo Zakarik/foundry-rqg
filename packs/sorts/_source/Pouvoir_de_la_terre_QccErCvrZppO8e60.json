@@ -1,0 +1,49 @@
+{
+  "name": "Pouvoir de la terre",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e60",
+  "system": {
+    "description": "<h3>Pouvoir de la terre</h3><p style='text-align:justify;'><b>3 points</b><br>Soi-même, instantané, cumulable</p><p style='text-align:justify;'>Ce sort permet au lanceur de puiser dans la force de la terre afin de survivre à un danger mortel ou existentiel. Si les points de magie ou de POU du lanceur tombent à 0, Pouvoir de la terre lui permet de puiser 1 point de POU ou 1D8 points de magie directement de la terre, lui évitant l'évanouissement ou la destruction de son âme. Il doit être en contact physique avec la terre pour que cet effet puisse se produire. Chaque point de Rune supplémentaire cumulé dans Pouvoir de la terre rajoute 1 point de POU ou 1D8 points de magie. Le POU disparaît quand la durée du sort expire. Les points de magie excédant la réserve maximum du lanceur sont temporaires et sont perdus quand ils sont utilisés. Ils ne peuvent être régénérés.</p>",
+    "points": 3,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": true,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283060,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e60"
+}

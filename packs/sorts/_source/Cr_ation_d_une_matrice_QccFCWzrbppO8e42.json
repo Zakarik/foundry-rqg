@@ -1,0 +1,49 @@
+{
+  "name": "Création d'une matrice",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e42",
+  "system": {
+    "description": "<h3>Création d'une matrice</h3><p style='text-align:justify;'><b>1 point</b><br>Enchantement, rituel, cumulable</p><p style='text-align:justify;'>Ce sort sert à stocker le potentiel d'un sortilège de magie spirituelle ou runique dans un objet. Tant qu'il reste en contact avec lui, quiconque peut se servir de cet objet gagne la capacité de lancer ce sort. Dès que ce lien physique cesse, il perd immédiatement cette possibilité.<br>Dans la procédure de création, le lanceur doit sacrifier autant de points de POU que de points de magie ou de Rune nécessaires pour jeter ce sort. Un enchanteur ne peut pas créer de matrice pour un sort auquel il n'a pas accès. Par exemple, il faut dépenser 3 points de POU pour faire d'une lance une matrice du sort Foudre. Au fil du temps, il est possible d'en améliorer la puissance. Ainsi, la matrice de Foudre pourra recevoir un point de POU supplémentaire suite à un nouveau sacrifice de POU. De la même façon, créer une matrice du sort Force requiert le sacrifice de 2 points de POU dans l'objet. La matrice de Foudre, nécessitant le sacrifice de 3 points de POU, peut également être créée sur une période de plusieurs semaines voire plusieurs mois. La lance ne renferme pas le sort runique avant que la totalité du sacrifice ne soit effectué.<br>Les chances de lancer un sort runique contenu dans une matrice sont égales au POU×5 de son utilisateur. S'il échoue, il peut faire une nouvelle tentative au round suivant. Une fois utilisé, l'objet doit être ramené au temple adéquat afin d'y être rechargé au cours d'une cérémonie de Vénération couronnée de succès.<br>Les chances de lancer un sort de magie spirituelle contenu dans une matrice sont égales au POU×5 de l'utilisateur. Il doit également dépenser 1 point de magie par point du sort de magie spirituelle.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 11000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281042,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e42"
+}

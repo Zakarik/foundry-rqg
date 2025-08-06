@@ -1,0 +1,31 @@
+{
+  "name": "Démoralisation",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Effet :</strong> Le lanceur de ce sort doit tout d'abord vaincre sa cible dans une opposition de POU contre POU sur la table de résistance.<br>Si le sort de Démoralisation réussit, la victime perd confiance en ses propres capacités et en ses alliés pour remporter la victoire, trouver le trésor, honorer son clan ou atteindre n'importe quel autre objectif.<br>Elle peut toujours se défendre normalement, mais ses chances de succès en attaque se voient réduites de moitié. Elle ne peut lancer que des sorts défensifs ou de soins. Si le sort de Démoralisation prend effet avant le début du combat, elle n'essaie même pas d'attaquer. Face à une opposition supérieure, la victime préfère alors fuir ou se rendre.<br><br><strong>Fanatisme annule Démoralisation</strong>, et vice-versa. Une victime consciente qu'elle est sous l'effet de ce sort peut effectuer un test de Méditation afin de s'en libérer.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000007,
+    "modifiedTime": 1754403193829,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e07",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e07"
+}

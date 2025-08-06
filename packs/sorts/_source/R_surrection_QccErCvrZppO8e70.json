@@ -1,0 +1,49 @@
+{
+  "name": "Résurrection",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e70",
+  "system": {
+    "description": "<h3>Résurrection</h3><p style='text-align:justify;'><b>3 points</b><br>Rituel, non cumulable</p><p style='text-align:justify;'>Ce rituel permet de ramener un aventurier à la vie. En premier lieu, le corps doit être soigné jusqu'à posséder au moins 3 points de vie. Si le trépas est dû à une maladie, il faut guérir celle-ci sinon la tentative de Résurrection échouera automatiquement.<br>Ce sort rappelle l'esprit du mort vers son corps. Le lanceur, ou ses esprits alliés, doit engager un combat spirituel contre celui du défunt. S'il réussit à faire perdre des points de magie à celui-ci, le lanceur peut le forcer à réintégrer le corps et le ramener à la vie. S'il échoue à finir rapidement cet affrontement ou à vaincre l'esprit, ce dernier retourne dans les Cours du Silence.<br>Chaque jour au-delà du premier après la mort, réduisez de manière permanente chacune des caractéristiques de FOR, CON et DEX de l'aventurier de 1D3 points. Si l'une ou l'autre devait tomber à 0 ou moins, il serait irrévocablement perdu. Donc, une mort due à la perte de caractéristiques implique que l'aventurier ne peut pas être ressuscité.<br>Enfin, ce sort ne peut pas ramener à la vie une personne décédée depuis plus de 7 jours, quels que soient ses scores de caractéristiques. Seule une quête héroïque réussie peut accomplir un tel prodige.</p>",
+    "points": 3,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": true,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283070,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e70"
+}

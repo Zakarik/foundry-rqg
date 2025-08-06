@@ -1,0 +1,51 @@
+{
+  "name": "Cuirasse",
+  "type": "armure",
+  "img": "systems/runequest-glorantha/assets/armor.svg",
+  "system": {
+    "description": "cette armure est composée de centaines de plaques de cuir bouilli qui ont été lacées ensemble. Les plaques sont souvent vernies. Elle est plus légère et moins chère que le haubert d'écailles lourd. Elle protège la poitrine et l'abdomen. Prix : 40 l.",
+    "cout": {
+      "roues": 0,
+      "lunars": 25,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "matiere": "Écailles légères",
+    "localisations": {
+      "jambegauche": 0,
+      "jambedroite": 0,
+      "abdomen": 0,
+      "poitrine": 4,
+      "brasgauche": 0,
+      "brasdroit": 0,
+      "tete": 0
+    },
+    "deplacementsilencieux": -10,
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1717680720000,
+    "modifiedTime": 1717680720000,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZsCWerbppW8e17",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZsCWerbppW8e17"
+}

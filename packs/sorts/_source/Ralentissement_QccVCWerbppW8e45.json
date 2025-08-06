@@ -1,0 +1,31 @@
+{
+  "name": "Ralentissement",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort réduit de moitié le Déplacement de celui qui en subit les effets. Il augmente également son rang d'action de +1. Il peut ainsi amener le DÉP d'une créature à 0.<br><br>Les chasseurs, gardes du guet et bêtes intelligentes comme les babouins utilisent souvent ce sort.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000045,
+    "modifiedTime": 1754403216686,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e45",
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e45"
+}

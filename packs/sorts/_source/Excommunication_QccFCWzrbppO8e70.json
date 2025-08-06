@@ -1,0 +1,49 @@
+{
+  "name": "Excommunication",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e70",
+  "system": {
+    "description": "<h3>Excommunication</h3><p style='text-align:justify;'><b>1 ou 3 points</b><br>Rituel, durée (spécial)</p><p style='text-align:justify;'>Seul un grand prêtre ou un Archi-Prêtre peuvent lancer ce rituel long d'une heure. La plupart des cultes en connaissent une version. Il rend la cible incapable de participer à la vénération au sein du temple, ou des temples placés sous l'autorité du lanceur. Dans le cadre de ce temple précis, la cible n'est plus un initié, ni même un membre laïc, du culte. Elle ne peut plus rejoindre le temple pendant la durée du sort. Elle ne peut plus y récupérer de points de Rune ou faire des sacrifices en vue d'obtenir de nouveaux sorts.<br>De nombreux cultes engagent une procédure formelle, voire demandent l'approbation des membres du temple avant de lancer se sort sur un de leurs adorateurs. Selon le culte, cela peut impliquer également la mise au ban du clan ou de la tribu. Le lanceur (ou son successeur en poste) peut annuler les effets de ce sort à n'importe quel moment.<br>La version à 1 points dure trois ans. La version à 3 points perdure jusqu'à la mort de la cible.</p>",
+    "points": 0,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 8200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281074,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e70"
+}

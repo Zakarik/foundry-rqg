@@ -1,0 +1,44 @@
+{
+  "folder": "RJHw7Zhpoi2IdCE5",
+  "name": "Petit carquois",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "_id": "brG4wGfXFCUsOu8L",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">Un contenant en cuir, en bois ou en tissu renforcé servant à transporter des flèches ou des carreaux</span> <span class=\"fontstyle0\">d'arbalètes. Porté au niveau de la hanche, de la taille ou du dos, le carquois contenant une douzaine de flèches ou de carreaux.</span> </p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 6,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 5,
+      "inferieura1": true
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754143444410,
+    "modifiedTime": 1754143507312,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!brG4wGfXFCUsOu8L"
+}

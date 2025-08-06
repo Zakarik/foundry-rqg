@@ -1,0 +1,61 @@
+{
+  "name": "Atlatl",
+  "type": "armedistance",
+  "img": "systems/runequest-glorantha/assets/distance.svg",
+  "_id": "zVxYdWqrFpdW8e08",
+  "system": {
+    "description": "<p style=\"text-align: justify\"><span class=\"fontstyle0\">Un bâton court pourvu d'un crochet à une extré- mité qui sert à propulser un javelot ou une fléchette, ajoutant de la portée et des dégâts. L'utilisation d'un atlatl rend le javelot plus lent à utiliser (il doit être rechargé) mais permet plus de force, offrant une plus grande portée et causant des dégâts supplémentaires. </span><br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "atlatl",
+    "allonge": {
+      "value": "",
+      "categorie": ""
+    },
+    "ra": {
+      "value": "",
+      "parround": false,
+      "cadence": "1rm"
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 9
+    },
+    "degats": "1D6",
+    "type": "e",
+    "durabilite": {
+      "value": 6,
+      "max": 6
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": true
+    },
+    "portee": "+10",
+    "projectile": true
+  },
+  "effects": [],
+  "folder": "NLNS6iNOu9sPDun6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200007,
+    "modifiedTime": 1754143129476,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!zVxYdWqrFpdW8e08"
+}

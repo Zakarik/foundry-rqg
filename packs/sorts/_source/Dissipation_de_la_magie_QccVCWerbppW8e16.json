@@ -1,0 +1,31 @@
+{
+  "name": "Dissipation de la magie",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort annule la magie : 1 point annule 1 point de magie spirituelle ou d'intensité en sorcellerie. Il faut 2 points pour contrer 1 point de magie runique. Il faut effacer tous les points du sort que l'on souhaite dissiper afin de le faire disparaître. Ainsi, annuler un sort de Confusion requiert 2 points de Dissipation de la magie. Contrer 1 point de Bouclier (un sort runique) nécessite 2 points, et dissiper un sort d'Incendie (4) demande une Dissipation de la magie à 4 points également. On ne peut pas dissiper une portion seule d'un sort.<br><br>Lancé contre une cible sans plus de précision, il dissipe d'abord les sorts défensifs, à commencer par le plus puissant qu'il puisse contrer. On peut néanmoins l'utiliser contre un sort spécifique que le lanceur aura su identifier.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000016,
+    "modifiedTime": 1754403200887,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e16",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e16"
+}

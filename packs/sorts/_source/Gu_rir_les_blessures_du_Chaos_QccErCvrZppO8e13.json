@@ -1,0 +1,49 @@
+{
+  "name": "Guérir les blessures du Chaos",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e13",
+  "system": {
+    "description": "<h3>Guérir les blessures du Chaos</h3><p style='text-align:justify;'><b>1 point</b><br>Toucher, instantané, non cumulable</p><p style='text-align:justify;'>Ce sort ne peut être lancé seul ou cumulé avec lui-même, mais avec un autre sort de guérison destiné à soigner une blessure ou toute autre affliction infligée par une créature chaotique. Il fournit tous les points de magie nécessaires. Il a ainsi peu d'effets sur la plupart des sorts runiques, mais devient plus efficace avec Guérison de blessure. Par exemple, cumulé avec Soins (6), le sort guérira 6 points de dégâts et ne coûte aucun point de magie au lanceur. De plus, il guérit totalement la victime d'une imprégnation par un broo et annule ses conséquences. Il soigne également les maladies transmises par une créature chaotique.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": true,
+      "mort": false,
+      "harmonie": true,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 6900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283013,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e13"
+}

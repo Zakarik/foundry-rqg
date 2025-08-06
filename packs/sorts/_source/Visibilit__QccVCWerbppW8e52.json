@@ -1,0 +1,31 @@
+{
+  "name": "Visibilité",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort spécial transfère une créature depuis le monde des Esprits dont elle est originaire vers le monde du Milieu et lui donne une forme translucide. Son apparence correspond à celle qui était la sienne quand cet être invisible était encore vivant, le cas échéant. Ce sort ne peut être lancé que sur des créatures dans le monde des Esprits. L'esprit affecté peut désormais interagir avec le monde matériel, y compris lancer des sorts et en être la cible. Les armes normales ou enchantées ne peuvent pas le blesser. Certaines créatures venues des autres plans maîtrisent naturellement cette faculté et n'ont pas besoin de dépenser des points de magie pour l'activer.<br><br>Ce sort n'est pas sensible aux effets normaux de Dissipation, Neutralisation ou Dispersion.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000052,
+    "modifiedTime": 1754403220360,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e52",
+  "sort": 5100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e52"
+}

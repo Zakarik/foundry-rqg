@@ -1,0 +1,66 @@
+{
+  "name": "Attirer les projectiles",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e10",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Cf. Attirer la magie (ci-dessus) pour les détails.<br>Lancez 1D20 pour chaque projectile passant dans l'aire d'effet du sort. Si le résultat est inférieur ou égal à la force du sort, il est redirigé vers la nouvelle cible. Si le jet est supérieur, le projectile poursuit sa trajectoire vers la cible initiale. Un empalement ou une réussite critique obtenus lors du test de tir s'appliquent également à la nouvelle cible. La meneuse devra déterminer quels effets prend un échec critique selon le résultat obtenu.</p>",
+    "points": 4,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": true,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": true,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": true,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171010,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e10"
+}

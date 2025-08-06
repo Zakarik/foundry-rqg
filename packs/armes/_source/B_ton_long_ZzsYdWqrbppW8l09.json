@@ -1,0 +1,62 @@
+{
+  "name": "Bâton long",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l09",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">Un long bâton en bois, souvent utilisé pour la marche.</span></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 5,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "batonlong",
+    "allonge": {
+      "value": "2",
+      "categorie": "0"
+    },
+    "ra": {
+      "value": 0,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 9
+    },
+    "degats": "1D8",
+    "type": "ec",
+    "durabilite": {
+      "value": 8,
+      "max": 8
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "e6yJXXyrAfZZZhvB",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973000009,
+    "modifiedTime": 1754139418112,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l09"
+}

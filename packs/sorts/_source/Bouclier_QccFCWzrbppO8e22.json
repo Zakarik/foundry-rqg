@@ -1,0 +1,49 @@
+{
+  "name": "Bouclier",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e22",
+  "system": {
+    "description": "<h3>Bouclier</h3><p style='text-align:justify;'><b>La Rune varie selon le culte<br>1 point</b><br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Ce sort protège l'utilisateur contre les dégâts. Chaque point de Bouclier donne au porteur 2 points d'armure magique et 2 points de Contremagie (comme le sort de magie spirituelle, cf. page 258). Cet effet se cumule à ceux des sorts Protection ou Contremagie.<br>Pour passer à travers, un sort de sorcellerie ou de magie spirituelle doit compter au moins un point de plus que la défense du bouclier. Ce sort ne se dissipe pas si une attaque le traverse. Il reste effectif pendant la période de 15 minutes, ou jusqu'à être détruit avec Dissipation, Neutralisation ou Dispersion de la magie.<br>Si on le lance sur une cible déjà protégée par Contremagie, il faut annuler cet effet protecteur avant de pouvoir lancer Bouclier.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 13000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281022,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e22"
+}

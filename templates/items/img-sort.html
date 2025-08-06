@@ -1,0 +1,18 @@
+<div class="img sort">
+    <input name="name" type="text" value="{{document.name}}" placeholder="{{localize "RQG.Nom"}}" />
+    <label class="fixe">
+        <span>{{localize "RQG.Cout"}} :</span>
+        <input type="number" name="system.points" value="{{systemData.points}}" min="0" />
+    </label>
+    <label class="variable">
+        <input type="checkbox" name="system.variable" {{checked systemData.variable}} />
+        <span>{{localize "RQG.CoutVariable"}}</span>
+    </label>
+    <img 
+        class="profile-img" 
+        src="{{document.img}}" 
+        data-edit="img" 
+        data-tooltip="{{document.name}}"
+        data-action='onEditImg'
+    />
+</div>  

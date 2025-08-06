@@ -1,0 +1,49 @@
+{
+  "name": "Illusion de mouvement",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e21",
+  "system": {
+    "description": "<h3>Illusion de mouvement</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Dans la limite de sa portée, ce sort actif anime des illusions et les déplace au gré du lanceur. Chaque point supplémentaire permet de mouvoir l'illusion par incrément de trois mètres par round (soit un Déplacement de base de 1). La capacité du lanceur à manipuler l'illusion est égale à DEX×3.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": true,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 6200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283021,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e21"
+}

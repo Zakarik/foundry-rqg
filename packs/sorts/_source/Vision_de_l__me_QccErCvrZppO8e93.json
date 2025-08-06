@@ -1,0 +1,49 @@
+{
+  "name": "Vision de l'âme",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e93",
+  "system": {
+    "description": "<h3>Vision de l'âme</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>Ce sort permet au bénéficiaire de voir à la fois l'aura de POU des êtres vivants et de connaître magiquement le nombre actuel de points de magie des objets et des créatures, dont ceux alloués à des sorts en action (comme les sorts défensifs).<br>Il peut également dire si une personne qu'il regarde est un initié. Auquel cas, il sait également si celui-ci est bien vu ou non de son culte. Ce sort ne révèle pas s'il s'agit d'un maître des Runes, simplement qu'elle est initiée dans un culte.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 100013,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283093,
+    "modifiedTime": 1754488377225,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e93"
+}

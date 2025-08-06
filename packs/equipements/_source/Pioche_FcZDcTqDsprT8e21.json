@@ -1,0 +1,44 @@
+{
+  "name": "Pioche",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Une solide tête en bronze avec une pointe et un contrepoids pour faire levier.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "iodIvbsZ3VTYgSQ4",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753969347495,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e21",
+  "sort": 142188,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e21"
+}

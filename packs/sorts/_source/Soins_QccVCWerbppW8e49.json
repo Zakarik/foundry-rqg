@@ -1,0 +1,31 @@
+{
+  "name": "Soins",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort permet de récupérer les points de vie perdus. Il faut toucher la partie du corps devant être guérie. Chaque point de magie soigne 1 point de vie dans une localisation donnée. L'effet est immédiat. Si les points de vie de la zone ne sont pas revenus à leur maximum, il est possible de lancer encore ce sort lors des rounds suivants.<br><br>Soins ne peut pas ramener un aventurier à la vie. Toutefois, 2 points de Soins cautériseront un membre blessé ou sectionné et 6 points rattacheront la partie amputée au corps si elle est à portée.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000049,
+    "modifiedTime": 1754403218807,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e49",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e49"
+}

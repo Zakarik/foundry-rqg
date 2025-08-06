@@ -1,0 +1,31 @@
+{
+  "name": "Détecter un piège",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort détecte l'intention de tendre un piège. Il repère ainsi de la même manière une embuscade, un piège magique ou physique.<br><br>Par contre, il n'indique pas un puits naturel, une éventuelle avalanche ou un poison qui ne sont pas en eux-mêmes faits pour piéger. Le sort crée une zone brillante de 3 mètres de diamètre autour du piège, visible de tous.<br><br>Cependant, il ne donne ni son emplacement exact, ni son type. Notez qu'il ne détecte pas la présence de sorts défensifs tels que Sauvegarde.<br><br><strong>Limite :</strong> Un mètre d'épaisseur d'une matière dense comme la pierre, le métal ou la terre bloque ce pouvoir de détection.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000014,
+    "modifiedTime": 1754403199693,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e14",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e14"
+}

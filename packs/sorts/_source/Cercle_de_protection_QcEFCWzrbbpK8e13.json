@@ -1,0 +1,66 @@
+{
+  "name": "Cercle de protection",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e13",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance (spécial), passif, temporaire<br>Ce sort crée un socle magique sur lequel il est possible d'en lancer d'autres. Le rayon du cercle est égal à 1/10 de sa portée. Aucun sort lancé sur le Cercle de protection ne peut avoir une force supérieure à celle de celui-ci. Le cercle reste immobile sur le support sur lequel il est lancé. S'il s'agit de quelque chose de mobile (comme par exemple le pont d'une navire), il se déplace avec.<br>Les sorts lancés sur le cercle par ceux qui se trouvent à l'intérieur en deviennent une partie intégrante et protègent toute personne située en son sein. Par exemple, Neutraliser la magie spirituelle protège tous ceux à l'intérieur contre ce type de magie. Neutraliser la Rune du Feu fonctionne contre tous les sorts utilisant celle-ci, etc.<br>Les sorts offensifs attachés au périmètre se déclenchent quand une cible adéquate y pénètre, et elle est repoussée à l'aide des points de magie ayant servi à renforcer le Cercle de protection. S'il n'est pas renforcé, ils attaquent comme s'ils avaient été lancés par une personne dont le POU est égal à 1.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": true,
+        "eau": true,
+        "terre": true,
+        "feuciel": true,
+        "air": true,
+        "lune": true
+      },
+      "pouvoir": {
+        "mouvement": true,
+        "stase": true,
+        "harmonie": true,
+        "desordre": true,
+        "verite": true,
+        "illusion": true,
+        "fertilite": true,
+        "mort": true
+      },
+      "forme": {
+        "esprit": true,
+        "plante": true,
+        "bete": true,
+        "homme": true,
+        "chaos": true
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171013,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e13"
+}

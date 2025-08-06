@@ -1,0 +1,62 @@
+{
+  "name": "Kopis",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e11",
+  "system": {
+    "description": "<p style='text-align:justify;'>Cette épée recourbée à simple tranchant a été introduite par les cavaliers pentiens auprès des Péloriens. Elle peut être courbée en arrière ou en avant. C'est maintenant l'arme distinctive de l'Empire lunar.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 50,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "epee1main",
+    "allonge": {
+      "value": "1",
+      "categorie": "2"
+    },
+    "ra": {
+      "value": 2,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 9,
+      "dexterite": 9
+    },
+    "degats": "1D8+1",
+    "type": "l",
+    "durabilite": {
+      "value": 12,
+      "max": 12
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "3ZaD9qU6V5SblnHQ",
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971200001,
+    "modifiedTime": 1754060247675,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e11"
+}

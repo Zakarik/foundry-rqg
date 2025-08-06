@@ -1,0 +1,49 @@
+{
+  "name": "Guérison de blessure",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e15",
+  "system": {
+    "description": "<h3>Guérison de blessure</h3><p style='text-align:justify;'><b>1 point</b><br>Toucher, instantané, non cumulable</p><p style='text-align:justify;'>Ce sort restaure les points de vie d'une créature vivante. Il fonctionne pareillement sur tous les êtres vivants du moment qu'ils disposent de points de vie. Ce sort convertit les points de magie en points de vie. Le lanceur doit dépenser simultanément le nombre de points de magie destinés à la guérison. Le sort soigne les points de dégâts dans la localisation touchée ainsi que dans la réserve totale de points de vie.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 6700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283015,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e15"
+}

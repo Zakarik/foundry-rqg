@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Matériel d'expédition",
+  "color": "#2e0d30",
+  "sorting": "a",
+  "_id": "AnjFAgCH0XrbBxVp",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753969032910,
+    "modifiedTime": 1753969569841,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!folders!AnjFAgCH0XrbBxVp"
+}

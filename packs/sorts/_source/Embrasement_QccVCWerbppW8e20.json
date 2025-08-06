@@ -1,0 +1,31 @@
+{
+  "name": "Embrasement",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort met le feu à toute matière normalement combustible. Il crée une petite flamme qui peut embraser des choses comme une torche, un toit de chaume ou un sac à dos très sec. La peau ne peut pas être enflammée ainsi. Contrairement à de la fourrure ou aux cheveux si le lanceur remporte une opposition contre le POU de la cible.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000020,
+    "modifiedTime": 1754403203246,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e20",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e20"
+}

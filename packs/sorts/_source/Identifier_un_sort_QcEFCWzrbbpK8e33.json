@@ -1,0 +1,66 @@
+{
+  "name": "Identifier un sort",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e33",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, instantané<br>Il peut viser un sujet sous l'effet d'un sort ou un sort en train d'être lancé (cependant, le délai de lancement des sorts de sorcellerie est tel que cela n'est en général utile que sur des sorts demandant eux-mêmes une longue incantation). Le sorcier peut alors identifier la magie mise en œuvre. La force d'Identifier un sort indique la quantité d'informations recueillies par le lanceur du sort.</p><table border='1' style='text-align:center; border-collapse: collapse; margin: 8px 0;'><tr><th>Force</th><th>Perception</th></tr><tr><td>1–2</td><td>Catégorie générale du sort (sorcellerie, magie spirituelle ou runique, etc.).</td></tr><tr><td>3–4</td><td>Nombre de points de magie investis dans le sort.</td></tr><tr><td>5–6</td><td>Le nom du sort.</td></tr><tr><td>7+</td><td>La description complète du sort, si le lanceur ne le connaît pas déjà.</td></tr></table>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": true,
+        "eau": true,
+        "terre": true,
+        "feuciel": true,
+        "air": true,
+        "lune": true
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": true,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171033,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e33"
+}

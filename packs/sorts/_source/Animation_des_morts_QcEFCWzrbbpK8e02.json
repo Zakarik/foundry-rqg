@@ -1,0 +1,66 @@
+{
+  "name": "Animation des morts",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e02",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Chaque point de force du sort anime soit 6 points de TAI, soit 1D6 points de FOR (à choisir au moment où le sort est lancé). Le sorcier a normalement besoin d'assez de force dans son sort pour englober la totalité de la TAI du corps (ou, dans certaines circonstances spéciales, seulement la tête, les bras, etc.) La créature peut recevoir plus de points de FOR qu'il n'en avait de son vivant. Si sa FOR est trois fois supérieure à sa TAI, il risque toutefois de se blesser en bougeant. (Les points dépensés en excès du score de TAI ne servent à rien).<br>Le Déplacement d'un cadavre animé est de 2 points inférieur à celui de son vivant. Un squelette animé se meut cependant aussi vite qu'avant son trépas.</p>",
+    "points": 4,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": true,
+        "mort": true
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 5600000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171002,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e02"
+}

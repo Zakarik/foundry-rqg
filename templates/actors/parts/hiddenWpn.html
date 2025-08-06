@@ -1,0 +1,19 @@
+<div class="hovered">
+    <div>
+        {{#if (eq data.type 'armecontact')}}
+        <span><b>{{localize "RQG.COMBAT.Rangaction"}}</b> : {{ifThen data.system.ra.parround (concat data.ra '/' (localize 'RQG.COMBAT.Parround-short')) data.ra}}</span>
+        <span><b>{{localize "RQG.COMBAT.Allonge"}}</b> : {{data.system.allonge.value}}</span>
+        {{/if}}
+
+        {{#if (eq data.type 'armedistance')}}
+        <span><b>{{localize "RQG.COMBAT.Rangaction"}}</b> : {{getLocalization 'cadence' system.ra.cadence}}</span>
+        <span><b>{{localize "RQG.COMBAT.Portee"}}</b> : {{system.portee}}</span>
+        {{/if}}
+        <span><b>{{localize "RQG.COMBAT.Attaque"}}</b> : {{data.attaque}}%</span>
+        <span><b>{{localize "RQG.COMBAT.Degats"}}</b> : {{data.system.degats}}</span>
+        <span><b>{{localize "RQG.COMPETENCES.Used"}}</b> : {{data.system.cmpName}}</span>
+        <span><b>{{localize "RQG.Type"}}</b> : {{getLocalization 'wpntype' data.system.type}}</span>
+        <span><b>{{localize "RQG.Durabilite"}}</b> : {{ifThen data.system.durabilite.value data.system.durabilite.value 0}}/{{ifThen data.system.durabilite.max data.system.durabilite.max 0}}</span>
+        <div>{{{data.enriched}}}</div>
+    </div>
+</div>

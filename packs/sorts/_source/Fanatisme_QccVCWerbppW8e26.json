@@ -1,0 +1,31 @@
+{
+  "name": "Fanatisme",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Lancé sur une cible dotée de la caractéristique INT, celle-ci voit ses chances de succès en attaque augmentées de moitié (arrondi au supérieur). Par exemple, un aventurier dont le score en Rapière s'élève à 33 % attaque avec 50 % quand il est sous l'effet de ce sort (33÷2=17, 33+17=50 %). Affecté par Fanatisme, le personnage ne peut ni parer avec une arme ou un bouclier, ni lancer des sorts autres qu'offensifs (Disruption, Attaque mentale, etc.). De plus, ce sort réduit de moitié le score de sa compétence d'Esquive.<br><br>Un sort de Démoralisation réussi annule les effets d'un Fanatisme, ramenant la cible à son état mental normal. Lancé contre la volonté de la cible, le lanceur doit vaincre le POU de celle-ci dans une test de résistance.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000026,
+    "modifiedTime": 1754403206515,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e26",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e26"
+}

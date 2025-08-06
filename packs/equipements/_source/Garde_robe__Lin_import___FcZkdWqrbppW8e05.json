@@ -1,0 +1,44 @@
+{
+  "name": "Garde-robe (Lin importé)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Les hommes portent surtout de longues tuniques serrées à la taille par une ceinture, ou une version plus courte sur une jupe. Les femmes arborent typiquement une tunique et des jupes drapées. De nombreux membres de la gente masculine quittent la tunique pendant les périodes de chaleur estivale. L'hiver, manteaux et robes, ou hauts-de-chausses protègent du froid.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 5,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": true,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "A0ZZ4gV00Su5fVBk",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753964365118,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZkdWqrbppW8e05",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZkdWqrbppW8e05"
+}

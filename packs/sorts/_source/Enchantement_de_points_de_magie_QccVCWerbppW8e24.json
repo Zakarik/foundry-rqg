@@ -1,0 +1,31 @@
+{
+  "name": "Enchantement de points de magie",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Chaque point de POU sacrifié dans ce sort permet de stocker 1D10 points de magie. Le rituel dure 1 heure par point de POU sacrifié. Les points de magie stockés peuvent servir à lancer ou renforcer les sorts de toute personne capable d'utiliser l'objet.<br><br>Ces points de magie placés dans des objets enchantés ne se régénèrent pas d'eux-mêmes (ils n'ont pas de caractéristique POU). Mais leur utilisateur peut le recharger à l'aide de ses propres points de magie. Il faut un round afin de stocker 1 point de magie dans un objet enchanté. Celui-ci ne peut pas contenir plus de points de magie que sa capacité définie au départ.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000024,
+    "modifiedTime": 1754403205403,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e24",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e24"
+}

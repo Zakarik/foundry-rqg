@@ -1,0 +1,31 @@
+{
+  "name": "Invocation (entité)",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Afin de lancer ce sort, le joueur doit annoncer à la meneuse le type de sort Invocation (entité) qu'il compte utiliser. Les chamans et les aventuriers n'invoquent normalement que des entités issues du monde des Esprits. L'invocateur indique combien de points de magie il souhaite dépenser, dans la limite de ceux disponibles. Si ce nombre s'avère au final inférieur aux points de magie que possède cette entité spécifique (déterminés par la meneuse), alors le rituel échoue automatiquement. Les points de magie investis dans le sort d'invocation sont de toute façon dépensés, qu'il soit réussi ou non.<br><br>En cas de succès, un spécimen du type d'entité contactée, choisi au hasard, apparaît à l'endroit où se déroule le rituel, un round après qu'il soit achevé. L'invocateur ne contrôle pas la créature (à moins de lancer le sort de Contrôle approprié). Elle peut se montrer amicale, neutre, hostile voire malveillante envers l'invocateur. La meneuse choisit son comportement en tenant compte des indications suivantes :</p><ul style='text-align:justify;'><li>Un esprit amical obéit aux désirs de son invocateur.</li><li>Un esprit neutre n'accomplit pas ses désirs, mais ne l'attaque pas non plus à moins d'être lui-même attaqué.</li><li>Un esprit hostile attaque l'invocateur et tente de le posséder.</li><li>Un esprit malveillant attaque l'invocateur et tente de le tuer.</li></ul>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000031,
+    "modifiedTime": 1754403209180,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e31",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e31"
+}

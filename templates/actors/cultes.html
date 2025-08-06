@@ -1,0 +1,58 @@
+<div class="tab cultes {{tab.cssClass}}" data-group="primary" data-tab="cultes">
+    <div class="culte">
+        <header>
+            {{localize 'RQG.CULTE.Plural'}}
+            <i class="fa-solid fa-plus" 
+                data-type="culte" 
+                data-tooltip="{{localize 'RQG.ADD.Culte'}}"
+                data-action="onCreateItm"
+                data-document-class='Item'
+            ></i>
+        </header>
+        <div class="subheader">
+            <span></span>            
+            <span></span>            
+            <span>{{localize 'RQG.CULTE.Pts'}}</span>
+            <span></span>
+        </div>
+        {{#each actor.cultes}}
+        <div class="data ">
+            <div class="main summary js-toggler" data-item-id="{{_id}}">
+                <i class="fa-solid fa-square-plus"></i>
+                <span class="name">{{name}} {{ifThen system.sousculte (concat '( ' system.sousculte ' )') ''}}</span>
+                <span class="rang">{{system.rang}}</span>
+                <div class="counter">
+                    <i class="fa-solid fa-octagon-minus" data-action="onDecrease" data-value="{{system.ptsrune.actuel}}" data-type='culte' data-max="{{system.ptsrune.max}}" data-item-id="{{_id}}"></i>
+                    <div class="score">
+                        <span>{{system.ptsrune.actuel}}</span>/<span>{{system.ptsrune.max}}</span>
+                    </div>
+                    <i class="fa-solid fa-octagon-plus" data-action="onIncrease" data-value="{{system.ptsrune.actuel}}" data-type='culte' data-max="{{system.ptsrune.max}}" data-item-id="{{_id}}"></i>
+                </div>
+                {{> systems/runequest-glorantha/templates/parts/cmd.html
+                    edit='RQG.EDIT.Culte'
+                    delete='RQG.DELETE.Culte'
+                    id=_id
+                }}
+            </div>
+            <div class="sub" style="display:none;">
+                {{{enriched}}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="magie">        
+        <header>
+            {{localize 'RQG.MAGIE.Runiques'}}
+            <i class="fa-solid fa-plus" 
+                data-type="magierunique" 
+                data-tooltip="{{localize 'RQG.ADD.Magierunique'}}"
+                data-action="onCreateItm"
+                data-document-class='Item'
+            ></i>
+        </header>
+        {{#each actor.magierunique}}  
+            {{> systems/runequest-glorantha/templates/actors/parts/magie.html type='runique' select=../actor.cultes id=id}}
+        {{/each}}
+    </div>
+</div>

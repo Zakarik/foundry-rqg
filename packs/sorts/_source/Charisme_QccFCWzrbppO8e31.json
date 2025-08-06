@@ -1,0 +1,49 @@
+{
+  "name": "Charisme",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e31",
+  "system": {
+    "description": "<h3>Charisme</h3><p style='text-align:justify;'><b>1 point</b><br>À distance, temporaire, non cumulable</p><p style='text-align:justify;'>Ce sort double le CHA de la cible pendant toute sa durée. Elle doit posséder une caractéristique CHA pour être affectée. Le modificateur de catégorie des compétences de Communication et la valeur de dégâts spirituels en seront certainement altérés. La limite de sorts de magie spirituelle augmente également durant cette période, mais la durée assez courte du sort rend cet effet peu utile. Tout bonus ou avantage lié à l'augmentation du CHA disparaît dès que le sort expire.</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": true,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": true,
+      "stase": false,
+      "mouvement": false,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 12100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281031,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e31"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Coordination",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Effet :</strong> Ce sort augmente la DEX de la cible de 3 points.<br>Son RA diminue en conséquence de 1 et le score de toutes les compétences d'Agilité, de Manipulation (dont les armes) et de Discrétion augmente de +5 %.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000005,
+    "modifiedTime": 1754403192910,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e05",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e05"
+}

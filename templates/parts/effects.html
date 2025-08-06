@@ -1,0 +1,18 @@
+{{#each effects}}
+    <div class="line" data-id="{{id}}">
+        {{#if ../actor}}
+            <i class="fa-{{ifThen disabled 'regular' 'solid'}} fa-octagon-check switch" data-action="onSwitchEffects" data-uuid="{{uuid}}"></i>
+        {{/if}}
+        <span class="name">{{name}}</span>
+        {{#if ../actor}}
+            <span class="source">{{parent.name}}</span>
+        {{/if}}
+        <span class="special">
+            {{#if system.equipe}} {{localize "RQG.EFFECTS.Equipable"}} {{/if}}
+            {{ifThen (and system.equipe system.active) '/' ''}} 
+            {{#if system.active}} {{localize "RQG.EFFECTS.Utilisable"}} {{/if}}
+        </span>
+        
+        {{> systems/runequest-glorantha/templates/parts/cmd.html edit='RQG.EDIT.Effet' id=uuid delete='RQG.DELETE.Effet' effect=true}}
+    </div>
+{{/each}}

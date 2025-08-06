@@ -1,0 +1,31 @@
+{
+  "name": "Longue vue",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Chaque point de magie divise par deux la distance apparente entre le lanceur et un point de son environnement. Toutefois, cet effet inclut un rétrécissement du champ de vision comme si on utilisait un téléobjectif. Pendant la durée du sort, le lanceur peut choisir de l'activer et de le désactiver à volonté. Cela n'affecte en rien la portée des armes à distance, pas plus qu'une arme elle-même, mais juste la perception de la cible.</p>",
+    "points": 0,
+    "variable": true
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000034,
+    "modifiedTime": 1754403210783,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e34",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e34"
+}

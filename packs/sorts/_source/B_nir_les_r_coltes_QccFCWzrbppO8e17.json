@@ -1,0 +1,49 @@
+{
+  "name": "Bénir les récoltes",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e17",
+  "system": {
+    "description": "<h3>Bénir les récoltes</h3><p style='text-align:justify;'><b>1 point</b><br>Rituel, instantané, cumulable</p><p style='text-align:justify;'>Ce rituel affecte une portion de terrain équivalente à celle que peut labourer un fermier en une saison (120 arpents de terre ou un carucate). Au cours du prochain Temps sacré, il ajoute +20 % au score de compétence d'occupation du propriétaire pour cette zone (cf. page 420). Pour chaque point investi dans le sort, la surface augmente de 120 arpents ou un bonus de +20 s'applique au test de revenu lors du Temps sacré (cf. page 420).</p>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": true,
+      "eau": false,
+      "homme": false,
+      "fertilite": true,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 13500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281017,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e17"
+}

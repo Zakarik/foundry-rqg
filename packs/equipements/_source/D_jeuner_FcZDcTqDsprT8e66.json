@@ -1,0 +1,44 @@
+{
+  "name": "Déjeuner",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Pain frit, viande rôtie et épicée (poulet, agneau, porc, bœuf ou animal praxien), fruits, légumes et vin.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 0,
+      "clacks": 6,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": false
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "8ixd5H2YNaHly9Hn",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753970093376,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e66",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e66"
+}

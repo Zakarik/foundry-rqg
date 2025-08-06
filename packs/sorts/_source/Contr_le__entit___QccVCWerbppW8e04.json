@@ -1,0 +1,31 @@
+{
+  "name": "Contrôle (entité)",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Variante :</strong> Il existe de nombreuses variantes de ce sorts, pour les esprits immatériels, les nymphes, un type spécifique d'élémentaire, mais aussi des animaux plus classiques comme les faucons, les chiens, les mammouths, les alynx, etc.<br><br>Chacun d'entre eux permet au lanceur d'imposer sa volonté à la créature indiquée. Pour pouvoir utiliser un sort de Contrôle, il doit d'abord réduire à 0 les points de magie de la cible en combat spirituel (cf. Combat spirituel page 366). Il fait donc le plus souvent partie de l'arsenal des chamans.<br><br><strong>Lancement :</strong> Le round suivant, il peut lancer le sort de Contrôle. S'il réussit, l'entité doit obéir à tous les ordres du lanceur. Ceux-ci doivent être donnés, accomplis et terminés avant la fin de la durée du sort.<br><br>La créature contrôlée et le lanceur maintiennent entre eux une forme de lien télépathique spécial. Mais cette communication mentale est limitée à portée de vue.<br><br>Afin de donner un ordre, le lanceur doit former dans son esprit une image mentale des actions qu'il souhaite voir accomplies par l'entité. Cela prend un round de mêlée complet, après lequel l'entité peut passer à l'action.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000004,
+    "modifiedTime": 1754403192392,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e04",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e04"
+}

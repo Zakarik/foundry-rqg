@@ -1,0 +1,80 @@
+<div class="{{class}}">
+    <input type="hidden" name="{{concat path '.base'}}" value="{{data.base}}" />
+    <input type="hidden" name="{{concat path '.condition'}}" value="{{data.condition}}" />
+    <input type="hidden" name="{{concat path '.unlocked'}}" value="{{data.unlocked}}" />
+    <div class="main js-toggler">
+        <div class="label {{ifThen customLabel 'custom' ''}} {{ifThen unlocked 'unlocked' ''}}">
+            <i class="fa-solid fa-square-plus"></i>
+            {{#if (and customLabel unlocked)}}
+                <input type="text" name="{{concat path '.label'}}" value="{{label}}" />
+                <i class="fa-solid fa-lock" 
+                    data-tooltip="{{localize 'RQG.Lock'}}"
+                    data-action="onUnlocked" 
+                    data-type="{{deleteType}}" 
+                    data-main="{{deleteMain}}" 
+                    data-cmp="{{deleteCmp}}" 
+                    data-index="{{deleteIndex}}">
+                </i>
+            {{else}}
+                <span 
+                    class="{{ifThen action 'clickable' ''}}" 
+                    data-action="{{action}}" 
+                    data-type="{{actionType}}" 
+                    data-tooltip="{{tooltip}}" 
+                    data-value="{{data.total}}" 
+                    data-label="{{ifThen withMain (concat (getLocalization 'competence' deleteCmp) ' : ') ''}}{{label}}">
+                        {{ifThen withMain (concat (getLocalization "competence" deleteCmp) ' : ') ''}}{{label}}
+                </span>
+                {{#if customLabel}}
+                <input type="hidden" name="{{concat path '.label'}}" value="{{label}}" />
+                <i class="fa-solid fa-lock-open"
+                    data-tooltip="{{localize 'RQG.Unlock'}}"
+                    data-action="onUnlocked" 
+                    data-type="{{deleteType}}" 
+                    data-main="{{deleteMain}}" 
+                    data-cmp="{{deleteCmp}}" 
+                    data-index="{{deleteIndex}}">
+                </i>
+                {{/if}}
+            {{/if}}
+            {{#if showHide}}
+            <i class="hideshow fa-solid fa-eye-slash" title="{{localize 'RQG.HIDE.Competence'}}"></i>
+            {{/if}}
+        </div>
+        <span class='score'>{{data.total}}</span>
+        {{#if delete}}
+            <i class="fa-solid fa-trash" 
+                data-tooltip="{{localize 'RQG.DELETE.Competence'}}"
+                data-action="onDeleteArray"
+                data-type="{{deleteType}}" 
+                data-main="{{deleteMain}}" 
+                data-cmp="{{deleteCmp}}" 
+                data-index="{{deleteIndex}}"
+            ></i>
+        {{/if}}
+    </div>   
+    <div class="sub" style="display:none;">
+        <label>
+            <span class="label">{{localize "RQG.Base"}}</span>
+            <span class="score">{{data.base}}</span>
+            {{#if (or delete space)}}<i></i>{{/if}}
+        </label>
+        {{#if progression}}
+        <label>
+            <span class="label">{{localize "RQG.Progression"}}</span>
+            {{numberInput (ifThen data.mod.progression data.mod.progression 0) name=(concat path '.mod.progression') min=0}}
+            {{#if (or delete space)}}<i></i>{{/if}}
+        </label>
+        {{/if}}
+        <label>
+            <span class="label">{{localize (ifThen long "RQG.Modificateur" "RQG.Modificateur-short")}}</span>
+            {{numberInput (ifThen data.mod.mod data.mod.mod 0) name=(concat path '.mod.mod')}}
+            {{#if (or delete space)}}<i></i>{{/if}}
+        </label>
+        <label>
+            <span class="label">{{localize (ifThen long "RQG.Temporaire" "RQG.Temporaire-short")}}</span>
+            {{numberInput (ifThen data.mod.temp data.mod.temp 0) name=(concat path '.mod.temp')}}
+            {{#if (or delete space)}}<i></i>{{/if}}
+        </label>
+    </div>
+</div>

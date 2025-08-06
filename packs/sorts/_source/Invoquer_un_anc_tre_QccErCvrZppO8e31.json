@@ -1,0 +1,49 @@
+{
+  "name": "Invoquer un ancêtre",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e31",
+  "system": {
+    "description": "<h3>Invoquer un ancêtre</h3><p style='text-align:justify;'><b>1 point</b><br>Rituel, à distance, temporaire</p><p style='text-align:justify;'>Ce sort invoque, depuis le Territoire des morts, un esprit choisi aléatoirement parmi les ancêtres du lanceur. Le même vient rarement deux fois. L'esprit apparaît dans la zone d'effet du sort, comme indiqué dans la table Invocation des ancêtres.<br>Après lui avoir donné un ordre (en comptant sur le fait qu'il se montre amical), l'invocateur doit lancer un D100. Un échec critique indique que l'esprit se méprend sur les indications données et se retourne contre celui qui l'a appelé.<br>L'invocateur peut l'envoyer affronter un ennemi en combat spirituel (cf. page 366). L'esprit peut également lancer tout sort qu'il connaît, mais réduit ainsi ses propres points de magie. Dans les deux cas, si cette réserve est réduite à 11 ou moins, l'esprit disparaît immédiatement (même s'il se trouve engagé en combat) et retourne dans le Territoire des morts. Si l'esprit invoqué possède moins de 11 points de magie, il disparaît dès qu'il en perd au moins 1.<br>Il ne peut pas servir à mémoriser un sort, apporter des points de magie ou enseigner de la magie à l'invocateur. Il maîtrise la langue des esprits ainsi que la langue natale parlée au cours de sa vie.</p><ul><li><b>Amical :</b> il obéit aux désirs de l'invocateur.</li><li><b>Neutre :</b> il obéit à l'invocateur à condition que celui-ci lui donne 1 point de magie pour chaque point de POU que l'esprit possède. Il doit les dépenser immédiatement et l'invocateur de l'esprit ne peut plus s'en servir.</li><li><b>Hostile :</b> ces esprits essaient toujours d'attaquer et de posséder l'invocateur.</li></ul><ul><li><b>Sorts de magie spirituelle :</b> afin de déterminer précisément les sorts connus par l'esprit, lancez les dés sur la table Sorts des esprits ancestraux. Les esprits connaissent 2D6–5 points d'un sort variable (minimum 1 point).</li><li><b>Points de Rune :</b> ceci indique le nombre de points de Rune dont dispose l'esprit. Un ancêtre ne peut lancer de magie runique que si elle est liée à Daka Fal. Il ne peut pas faire appel à des sorts runiques communs.</li></ul><h4>Invocation des ancêtres</h4><table border='1' style='border-collapse:collapse; text-align:center;'><tr><th>D100</th><th>Type</th><th>POU</th><th>Sorts de magie spirituelle</th><th>Points de Rune</th></tr><tr><td>1</td><td>Amical</td><td>5D6+6</td><td>4D3</td><td>3D6</td></tr><tr><td>2–4</td><td>Amical</td><td>4D6+6</td><td>3D3</td><td>2D6</td></tr><tr><td>5–9</td><td>Amical</td><td>3D6+6</td><td>2D3</td><td>1D6</td></tr><tr><td>10–16</td><td>Amical</td><td>2D6+6</td><td>1D3</td><td>0</td></tr><tr><td>17–25</td><td>Amical</td><td>1D6+6</td><td>1</td><td>0</td></tr><tr><td>26–28</td><td>Neutre</td><td>5D6+6</td><td>3D3</td><td>2D6</td></tr><tr><td>29–34</td><td>Neutre</td><td>4D6+6</td><td>2D3</td><td>1D6</td></tr><tr><td>35–43</td><td>Neutre</td><td>3D6+6</td><td>1D3</td><td>0</td></tr><tr><td>44–55</td><td>Neutre</td><td>2D6+6</td><td>1</td><td>0</td></tr><tr><td>56–70</td><td>Neutre</td><td>1D6+6</td><td>0</td><td>0</td></tr><tr><td>71–80</td><td>Hostile</td><td>1D6+6</td><td>0</td><td>0</td></tr><tr><td>81–88</td><td>Hostile</td><td>2D6+6</td><td>0</td><td>0</td></tr><tr><td>89–94</td><td>Hostile</td><td>3D6+6</td><td>1D3</td><td>0</td></tr><tr><td>95–98</td><td>Hostile</td><td>4D6+6</td><td>2D3</td><td>0</td></tr><tr><td>99–00</td><td>Hostile</td><td>5D6+6</td><td>3D3</td><td>1D6</td></tr></table>",
+    "points": 1,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": true,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 5200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283031,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e31"
+}

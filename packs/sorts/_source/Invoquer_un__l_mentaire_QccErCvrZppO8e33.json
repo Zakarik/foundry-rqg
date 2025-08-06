@@ -1,0 +1,49 @@
+{
+  "name": "Invoquer un élémentaire",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e33",
+  "system": {
+    "description": "<h3>Invoquer un élémentaire<br><i>(type)</i></h3><p style='text-align:justify;'><b>La Rune varie selon l'élémentaire invoqué</b><br>1 à 3 points (selon la taille)<br>À distance, temporaire, cumulable</p><p style='text-align:justify;'>Le lanceur peut, grâce à ce sort, demander à sa divinité l'envoi d'un élémentaire du type indiqué. La taille d'un élémentaire dépend du nombre de points de Rune cumulés dans le sort (et reste limitée par la taille maximale des élémentaires que peut invoquer ce culte).<br><br>Les élémentaires se présentent sous trois formats : petit, moyen et grand (cf. Bestiaire de Glorantha pour plus d'informations sur les élémentaires). Un petit élémentaire occupe un espace d'un mètre cube ou moins (1×1×1). En cumulant un point de Rune supplémentaire, le sort permet d'invoquer un élémentaire de taille moyenne. Un élémentaire moyen occupe un espace de trois mètres cubes ou moins (1×3×1). En cumulant deux points de Rune supplémentaire, le sort permet d'invoquer un élémentaire de grande taille. Un grand élémentaire occupe un espace de dix mètres cubes ou moins (2×5×1). La plupart des cultes sont limités dans la taille d'élémentaires qu'ils peuvent invoquer à l'aide de ce sort.<br><br>Une fois invoqué, un élémentaire agit selon sa nature et son affiliation, à moins qu'un sort Commander un esprit de culte approprié ne soit lancé, puis que le lanceur réussisse un test de résistance contre le POU de la créature. En cas de succès, l'élémentaire sert l'invocateur pendant 15 minutes ou jusqu'à ce qu'il soit détruit physiquement, selon ce qui survient en premier. Un élémentaire hors de contrôle peut s'amuser à détruire ce qui l'entoure, errer de-ci de-là, voire attaquer des êtres hostiles à son dieu. La décision appartient à la meneuse.<br><br>Si le lanceur échoue, l'élémentaire lui devient hostile. Il peut essayer à nouveau de lancer Commander un esprit de culte et de vaincre le POU de l'élémentaire.<br><br>On peut invoquer autant d'élémentaires que l'on veut à la fois, contrôlés par le même aventurier. Par contre, cela s'avère impossible sans avoir sous la main une quantité raisonnable de la matière en question. Cela n'a pas à correspondre à la taille de l'élémentaire, mais si l'aventurier n'a plus d'eau dans le désert, il ne pourra pas invoquer un élémentaire d'eau !<br><br>Ayant réussi une fois à invoquer un élémentaire, l'aventurier verra sa divinité lui envoyer toujours le même lors de ses tentatives suivantes pour en appeler un du même type et de la même taille. S'il en invoque plusieurs de cette taille, il peut choisir lequel répondra à son appel dans le futur.</p>",
+    "points": 0,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 5000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283033,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e33"
+}

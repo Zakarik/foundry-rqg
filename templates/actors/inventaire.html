@@ -1,0 +1,220 @@
+<div class="tab inventaire {{tab.cssClass}}" data-group="primary" data-tab="inventaire">
+    <div class="encombrement">
+        <div class="main js-toggler">
+            <div class="label">
+                <i class="fa-solid fa-square-plus"></i>
+                <span class="label">
+                    {{localize "RQG.Encombrement"}}
+                </span>
+            </div>
+            <div class="data">                        
+                <span class='score first'>{{systemData.inventaire.encombrement.used.total}}</span>
+                <span class="separation">/</span>
+                <span class='score second'>{{systemData.inventaire.encombrement.max.total}}</span>
+            </div>
+        </div>   
+        <div class="sub" style="display:none;">
+            <span class="header">{{localize "RQG.EncombrementMax"}}</span>
+            <label>
+                <span class="label">{{localize "RQG.Base"}}</span>
+                <span class="score">{{systemData.inventaire.encombrement.max.base}}</span>
+            </label>
+            <label>
+                <span class="label">{{localize (ifThen long "RQG.Modificateur" "RQG.Modificateur-short")}}</span>
+                {{numberInput (ifThen systemData.inventaire.encombrement.max.mod.mod systemData.inventaire.encombrement.max.mod.mod 0) name="system.inventaire.encombrement.max.mod.mod"}}
+            </label>
+            <label>
+                <span class="label">{{localize (ifThen long "RQG.Temporaire" "RQG.Temporaire-short")}}</span>
+                {{numberInput (ifThen systemData.inventaire.encombrement.max.mod.temp systemData.inventaire.encombrement.max.mod.mod 0) name="system.inventaire.encombrement.max.mod.temp"}}
+            </label>
+            <span class="header">{{localize "RQG.EncombrementUsed"}}</span>
+            <label>
+                <span class="label">{{localize "RQG.Base"}}</span>
+                <span class="score">{{systemData.inventaire.encombrement.used.base}}</span>
+            </label>
+            <label>
+                <span class="label">{{localize (ifThen long "RQG.Modificateur" "RQG.Modificateur-short")}}</span>
+                {{numberInput (ifThen systemData.inventaire.encombrement.used.mod.mod systemData.inventaire.encombrement.used.mod.mod 0) name="system.inventaire.encombrement.used.mod.mod"}}
+            </label>
+            <label>
+                <span class="label">{{localize (ifThen long "RQG.Temporaire" "RQG.Temporaire-short")}}</span>
+                {{numberInput (ifThen systemData.inventaire.encombrement.used.mod.temp systemData.inventaire.encombrement.used.mod.mod 0) name="system.inventaire.encombrement.used.mod.temp"}}
+            </label>
+        </div>
+    </div>
+    <div class="monnaie">
+        {{#each systemData.inventaire.argents as |value key|}}
+        <span>{{value}} {{getLocalization 'monnaie' key}}</span>
+        {{/each}}
+        <i class="fa-solid fa-pen-to-square" title="{{localize 'RQG.EDIT.Richesse'}}" data-action="editDialog" data-type="richesse"></i>
+    </div>
+
+    <div class="armes left">
+        <header>
+            <span>{{localize "RQG.INVENTAIRE.Melee"}}</span>
+            <i class="fa-solid fa-plus" 
+                data-action="onCreateItm"
+                data-document-class='Item' 
+                data-type="armecontact" 
+                data-tooltip="{{localize 'RQG.ADD.Melee'}}"></i>
+        </header>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="enc">{{localize "RQG.Encombrement"}}</span>
+            <span></span>
+        </div>
+        {{#each actor.wpn.melee}}
+        <div class="line summary withHover draggable" data-item-id="{{id}}">
+            <i class="fa-solid fa-circle-question hoverItem"></i>
+            <span>{{name}} <i class="fa-{{ifThen system.wear 'solid' 'regular'}} fa-swords wear switch" 
+                data-item-id='{{id}}'
+                data-document-class='Item'
+                data-action="onWear"
+                data-tooltip="{{ifThen system.wear (localize 'RQG.INVENTAIRE.Unwear') (localize 'RQG.INVENTAIRE.Wear')}}"
+                data-txt="{{ifThen system.wear 'RQG.CHAT.Unwear' 'RQG.CHAT.Wear'}}"
+                ></i></span>
+            <span class="enc">{{ifThen system.encombrement.inferieura1 (concat '(' system.encombrement.value ')') system.encombrement.value}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Melee'
+                delete='RQG.DELETE.Melee'
+                id=_id
+            }}
+            {{> systems/runequest-glorantha/templates/actors/parts/hiddenWpn.html data=this}}
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="armes right">
+        <header>
+            <span>{{localize "RQG.INVENTAIRE.Distance"}}</span>
+            <i class="fa-solid fa-plus" 
+                data-action="onCreateItm"
+                data-document-class='Item' 
+                data-type="armedistance" 
+                data-tooltip="{{localize 'RQG.ADD.Distance'}}"></i>
+        </header>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="enc">{{localize "RQG.Encombrement"}}</span>
+            <span></span>
+        </div>
+        {{#each actor.wpn.distance}}
+        <div class="line summary withHover draggable" data-item-id="{{id}}">
+            <i class="fa-solid fa-circle-question hoverItem"></i>
+            <span>{{name}} <i class="fa-{{ifThen system.wear 'solid' 'regular'}} fa-swords wear switch" 
+                data-item-id='{{id}}'
+                data-document-class='Item'
+                data-action="onWear"
+                data-tooltip="{{ifThen system.wear (localize 'RQG.INVENTAIRE.Unwear') (localize 'RQG.INVENTAIRE.Wear')}}"
+                data-txt="{{ifThen system.wear 'RQG.CHAT.Unwear' 'RQG.CHAT.Wear'}}"
+                ></i></span>
+            <span class="enc">{{ifThen system.encombrement.inferieura1 (concat '(' system.encombrement.value ')') system.encombrement.value}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Distance'
+                delete='RQG.DELETE.Distance'
+                id=_id
+            }}
+            {{> systems/runequest-glorantha/templates/actors/parts/hiddenWpn.html data=this}}
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="inventaire">
+        <header>
+            <span>{{localize "RQG.INVENTAIRE.Objets"}}</span>
+            <i class="fa-solid fa-plus" 
+                data-action="onCreateItm"
+                data-document-class='Item' 
+                data-type="objet" 
+                data-tooltip="{{localize 'RQG.ADD.Objet'}}"></i>
+        </header>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="enc">{{localize "RQG.Encombrement"}}</span>
+            <span></span>
+        </div>
+        
+        {{#each actor.objets}}
+        <div class="line draggable summary withHover {{ifThen system.parametres.equipable 'large' ''}}" data-item-id="{{id}}">
+            <i class="{{ifThen system.description 'fa-solid fa-circle-question hoverItem' ''}}"></i>
+            <span>
+                <p {{#if system.parametres.utilisable}} 
+                class="use" 
+                data-tooltip="{{localize 'RQG.INVENTAIRE.Use'}}" 
+                data-item-id='{{id}}' 
+                data-document-class='Item' 
+                data-action="onUse"
+                data-txt="RQG.CHAT.Use"
+                {{/if}}>
+                    {{name}}
+                    {{#if system.parametres.utilisable}}<i class="fa-solid fa-stars"></i>{{/if}}
+                </p>        
+                {{#if system.parametres.equipable}}
+                <i class="fa-{{ifThen system.wear 'solid' 'regular'}} fa-staff wear switch" 
+                data-item-id='{{id}}'
+                data-document-class='Item'
+                data-action="onWear"
+                data-tooltip="{{ifThen system.wear (localize 'RQG.INVENTAIRE.Unwear') (localize 'RQG.INVENTAIRE.Wear')}}"
+                data-txt="{{ifThen system.wear 'RQG.CHAT.Unwear' 'RQG.CHAT.Wear'}}"
+                ></i>
+                {{/if}}
+            </span>    
+            <span class="enc">{{ifThen system.encombrement.inferieura1 (concat '(' system.encombrement.value ')') system.encombrement.value}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Objet'
+                delete='RQG.DELETE.Objet'
+                id=_id
+            }}
+            {{> systems/runequest-glorantha/templates/actors/parts/hiddenBox.html txt=enriched}}
+        </div>
+        {{/each}}
+    </div>
+  
+    <div class="armures">
+        <header>
+            <span>{{localize "RQG.ARMURE.Plural"}}</span>
+            <i class="fa-solid fa-plus" 
+                data-action="onCreateItm"
+                data-document-class='Item' 
+                data-type="armure" 
+                data-tooltip="{{localize 'RQG.ADD.Armure'}}"></i>
+        </header>
+        <div class="subheader">
+            <span>{{localize "RQG.Nom"}}</span>
+            <span class="enc">{{localize "RQG.Encombrement"}}</span>
+            <span></span>
+        </div>
+        {{#each actor.armure}}
+        <div class="line summary withHover draggable" data-item-id="{{id}}">
+            <i class="fa-solid fa-circle-question hoverItem"></i>
+            <span>
+                <p>
+                    {{name}}
+                </p>        
+                <i class="fa-{{ifThen system.wear 'solid' 'regular'}} fa-shield wear switch" 
+                data-item-id='{{id}}'
+                data-document-class='Item'
+                data-action="onWear"
+                data-tooltip="{{ifThen system.wear (localize 'RQG.INVENTAIRE.Unwear') (localize 'RQG.INVENTAIRE.Wear')}}"
+                data-txt="{{ifThen system.wear 'RQG.CHAT.Unwear' 'RQG.CHAT.Wear'}}"
+                ></i>
+            </span>    
+            <span class="enc">{{ifThen system.encombrement.inferieura1 (concat '(' system.encombrement.value ')') system.encombrement.value}}</span>
+            {{> systems/runequest-glorantha/templates/parts/cmd.html
+                edit='RQG.EDIT.Armure'
+                delete='RQG.DELETE.Armure'
+                id=_id
+            }}
+            <div class="hovered">
+                <div>
+                    <span><b>{{localize "RQG.Type"}}</b> : {{system.type}}</span>
+                    <span><b>{{localize "RQG.ARMURE.Matiere"}}</b> : {{system.matiere}}</span>
+                    <span><b>{{localize "RQG.LOCALIZATIONS.Plural"}}</b> : {{getArmorLoc this}}</span>
+                    <span><b>{{localize "RQG.COMPETENCES.Deplacementsilencieux"}}</b> : {{system.deplacementsilencieux}}</span>
+                    <div>{{{enriched}}}</div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

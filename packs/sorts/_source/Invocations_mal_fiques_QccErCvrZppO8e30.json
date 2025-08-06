@@ -1,0 +1,49 @@
+{
+  "name": "Invocations maléfiques",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e30",
+  "system": {
+    "description": "<h3>Invocations maléfiques</h3><p style='text-align:justify;'><b>3 points</b><br>Rituel, à distance (spéciale), durée (spéciale)</p><p style='text-align:justify;'>Ce sort est généralement lancé au début d'un rituel de Vénération d'Orlanth. Il faut avoir une effigie représentant un ennemi (qui peut être un individu, une divinité, une espèce, etc.) conçue par le lanceur. Elle est généralement fabriquée en bois ou en osier. Une fois lancé, ce sort anime l'effigie avec un esprit malin associé à cet ennemi. Pendant la durée du rituel, il invoque également le représentant le plus puissant de cet adversaire qu'il peut atteindre.<br>L'esprit appelé possède typiquement un POU entre 4D6+6 et 5D6+6, mais il en a été vu des encore plus puissants. L'esprit reste prisonnier à l'intérieur de l'effigie jusqu'à la fin du rituel, quand les participants doivent alors la détruire. Pendant cette période, il contre-attaque avec tous les moyens à sa disposition, magiques ou non. L'esprit a des points de vie et une FOR égaux à son POU et toujours au moins un pouvoir spirituel (cf. page 365 pour de plus amples informations à ce sujet).<br>Si l'effigie est détruite, pour la durée de la cérémonie, les participants gagnent un bonus de +20 % pour contrer la résistance magique ou se défendre face aux sorts de l'ennemi représenté. Ils bénéficient également de +50 % sur le test de Vénération au cours de celle-ci (ce qui implique que les points de Rune dépensés avec ce sort sont en général récupérés à la fin du rituel).<br>Pendant que l'effigie est présente, ce sort invoque le représentant le plus puissant de cet adversaire dans la limite de sa portée. L'ennemi ne réalise pas qu'il a été appelé, mais ressent plutôt un besoin urgent de rejoindre l'endroit où se déroule le rituel. Pour lui, cette compulsion prend sens d'un point de vue rationnel comme émotionnel. Il « reconnaît » qu'il s'agit d'une opportunité rare d'anéantir un adversaire honni, ou peut-être qu'il doit frapper avant que le lanceur ne puisse mener un rituel plus dangereux encore. Il prend juste le temps de rassembler rapidement quelques complices, suivants et alliés puis se met en route par tout moyen à sa disposition qui lui soit adapté. Par exemple, le chef d'une armée pourrait marcher à la tête de son régiment (ou au moins ses gardes du corps et ses officiers favoris), mais un héros monté sur une vouivre se déplacera par les airs et bien plus rapidement.<br>La portée est fonction du temps que dure le rituel avant que l'effigie ne soit détruite. Plus celui-ci est long, plus la distance est grande. Par exemple, après une cérémonie de Vénération typique, durant une journée, le sort invoque un ennemi à une journée de voyage (donc entre 8 et 16 kilomètres de là). Si le rituel perdure pendant la totalité des 14 jours du Temps sacré, un adversaire jusqu'à 200 kilomètres de distance pourrait être appelé. Si le lanceur possède un ennemi de quête héroïque, le sort tente toujours d'invoquer celui-ci, en plus de celui appelé initialement grâce à l'effigie.<br>Une fois celle-ci détruite, l'ennemi n'est plus obligé de faire la route, mais il peut quand même choisir de venir, en particulier si une suite l'accompagne et s'est mise en marche.</p>",
+    "points": 3,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": true,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": "Orlanth"
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 5300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283030,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e30"
+}

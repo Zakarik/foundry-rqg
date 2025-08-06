@@ -1,0 +1,31 @@
+{
+  "name": "Confusion",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Effet :</strong> Ce sort rend confuse la victime qui y succombe. Il ne change ni ses croyances ni ses perceptions, mais les rend plus obscures.<br><br>Le lanceur de ce sort doit tout d'abord remporter contre sa cible une opposition de POU contre POU sur la table de résistance.<br><br><strong>Incidence :</strong> La victime de Confusion ne peut pas attaquer, lancer de sort offensif, donner l'alerte, et ainsi de suite. Cependant, si elle est attaquée, elle peut parer et se défendre normalement.<br><br>Au début du round suivant, la victime considère comme son ennemi quiconque l'a attaquée, cela incluant les alliés bien identifiés du lanceur de sort. Aussi, par ruse ou en le manipulant habilement, il est possible de pousser un adversaire confus à se retourner contre son propre camp tant que dure le sort.<br><br><strong>Fin du sort :</strong> Chaque round, la victime peut essayer de sortir de cet état de confusion. Mais il s'agit de la seule action qu'elle peut entreprendre pour ce round. Elle doit pour cela obtenir un résultat avec un D100 supérieur à son INT×5 (à cause de sa confusion de pensée, un personnage malin se perdra dans le labyrinthe de ses idées alors qu'un autre moins subtil se contente d'agir).<br><br>Un test de Méditation réussi fonctionne également. On ne peut tenter qu'une seule de ces deux méthodes à chaque round. Si l'une ou l'autre réussit, le sort de Confusion est dissipé et l'aventurier peut désormais agir normalement dès le prochain round. En cas d'échec, la victime demeure confuse. Si elle obtient une réussite spéciale ou critique sous INT×5, le personnage affecté confond amis et ennemis et agit en conséquence.</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000001,
+    "modifiedTime": 1754403191326,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e02",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e02"
+}

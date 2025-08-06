@@ -1,0 +1,31 @@
+{
+  "name": "Détecter la vie",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Détecte la présence de formes de vie de la taille d'un humain ou plus grandes encore. Donne la direction et la distance à partir de la position du lanceur.<br><br>Sépare les formes de vie détectées en deux catégories : <strong>de taille humaine</strong> (TAI de 3 à 21) et <strong>plus grandes</strong> (TAI 22 ou +). Celles dont la TAI est inférieure à 3 ne sont pas repérées.<br><br><strong>Limite :</strong> Un mètre d'épaisseur d'une matière dense comme la pierre, le métal ou la terre bloque ce pouvoir de détection.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000011,
+    "modifiedTime": 1754403197164,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e11",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e11"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Commander aux adorateurs",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e35",
+  "system": {
+    "description": "<h3>Commander aux adorateurs</h3><p style='text-align:justify;'><b>2 points</b><br>À distance (5 kilomètres), instantané, non cumulable</p><p style='text-align:justify;'>Il faut accomplir un rituel d'une heure avant de pouvoir lancer ce sort qui n'affecte que des membres de la tribu du lanceur. Lorsqu'il prend effet, il prévient tous les Orlanthi à portée de se hâter de finir ce qu'ils sont en train de faire, de rassembler leur équipement et de se présenter devant le lanceur dans les deux jours qui suivent. Pendant cette période, celui-ci doit rester au même endroit sous peine de voir le sort annulé, ce qui libère les adorateurs de ce besoin de le rejoindre. Ce sort est perçu comme un privilège. Il ne faut en aucun cas en abuser. Il est utilisé en cas d'urgence ou afin de rassembler les gens pour une célébration joyeuse.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": true,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": "Orlanth"
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 11700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281035,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e35"
+}

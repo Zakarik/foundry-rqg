@@ -1,0 +1,49 @@
+{
+  "name": "Désincarnation",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e52",
+  "system": {
+    "description": "<h3>Désincarnation</h3><p style='text-align:justify;'><b>1 point</b><br>Soi-même, temporaire, cumulable</p><p style='text-align:justify;'>Ce rituel d'une heure, connu de quelques sociétés secrètes et sous-cultes mystérieux, est semblable à l'aptitude chamanique. Il permet au lanceur de libérer temporairement son esprit de son enveloppe charnelle, puis de les réunir à sa guise ou après que 15 minutes se soient écoulées, selon ce qui survient en premier. Le corps reste dans un état comateux jusqu'au retour de l'esprit. Lorsque le délai est écoulé, l'esprit revient en un claquement de doigts jusqu'au corps.<br>Désincarnation nécessite un test de Méditation réussi et coûte 1 point de Rune. La difficulté à maintenir la séparation est directement proportionnelle à l'éloignement entre l'esprit et le corps, coûtant un point de Rune supplémentaire par tranche de 5 kilomètres de distance. Ainsi, le lanceur doit cumuler 2 points de Rune pour voyager à plus de 5 kilomètres de son enveloppe. Ces points supplémentaires devraient être dépensés au moment du lancement du sort.<br>Sous sa forme spirituelle, le lanceur peut jeter des sorts et voyager n'importe où tant que l'aventurier peut maintenir la séparation.<br>Un personnage désincarné est considéré exactement comme un esprit immatériel ordinaire. Il peut engager un combat spirituel contre un autre esprit ou une entité corporelle. S'il perd ce combat spirituel contre un chaman ou une créature matérielle, l'esprit désincarné peut être lié comme n'importe quel autre.<br>Un aventurier désincarné peut être renvoyé de force dans son corps par une Dissipation de la magie assez puissante. Il faut pour cela que le lanceur repère sa présence grâce au sort Détecter un esprit, ou bien découvre le corps.<br>Désincarné, un aventurier obtenant un échec critique en lançant un sort de magie spirituelle offensif retourne immédiatement dans son corps.<br>Dans ce même état, il peut sentir les autres esprits et les sources de POU à une portée d'environ 10 mètres par point de POU qu'il possède. Il ne peut pas voir les objets ordinaires non magiques, sans points de POU ou de magie (comme les murs, armes et armures, équipement, rouleaux, pièces de monnaies, etc.) Dans un rayon de 1 mètre par point de POU, l'aventurier peut deviner le score de POU des entités jusqu'à 5 points au-dessus, ou en-dessous, du sien. À cette distance, il ressent aussi les affinités runiques supérieures à 50 %. L'aventurier peut utiliser des langages magiques (comme la langue des esprits ou le tonnant), mais ne peut pas communiquer à l'aide de langues ordinaires. Lorsqu'il est en contact direct avec une autre entité, il peut deviner le score exact de leurs caractéristiques POU, INT et CHA. Il peut aussi ressentir les affiliations aux cultes. La portée du combat spirituel est également limitée au contact.<br>Tant qu'il est désincarné, son corps reste vulnérable aux effets infligeant des dégâts qu'il s'agissent de sorts, armes, maladies, etc. Il peut également être possédé par un esprit hostile à moins qu'un esprit allié ou qu'une forme de magie ne le protège. Si le corps meurt, l'aventurier devient un fantôme (cf. Bestiaire de Glorantha).<br>Désincarnation peut se combiner avec Extension afin d'en augmenter la durée.</p>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 10000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281052,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e52"
+}

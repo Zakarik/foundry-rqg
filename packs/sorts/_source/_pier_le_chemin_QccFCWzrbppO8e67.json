@@ -1,0 +1,49 @@
+{
+  "name": "Épier le chemin",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e67",
+  "system": {
+    "description": "<h3>Épier le chemin</h3><p style='text-align:justify;'><b>2 points</b><br>Soi-même, durée (variable), non cumulable</p><p style='text-align:justify;'>Ce sort est utile lorsque l'on voyage à travers des régions dangereuses ou suspectes. Il doit être jeté sur un chemin connu ou une route visible que va arpenter le lanceur. Le sort l'informe de la direction et de la distance (mais pas de la nature) auxquelles se trouvent tous les ennemis et les pièges dans un rayon de 100 mètres. Il perdure jusqu'à ce que le lanceur s'endorme où que la voie se termine.</p>",
+    "points": 2,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": false,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": true,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 8500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281071,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e67"
+}

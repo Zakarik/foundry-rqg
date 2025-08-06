@@ -1,0 +1,117 @@
+div.tab.passions.active {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    header {
+        display: flex;
+        grid-column: 1 / 4;
+        justify-content: right;
+
+        a {
+            display: grid;
+            grid-template-columns: 1fr max-content;
+            padding: 5px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $backgroundTransparent;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 16px;
+            align-items: center;
+            grid-gap: 5px;
+
+            &:hover {
+                background: $active;
+                text-shadow: none;
+                color: $white;
+            }
+        }
+    }
+
+    div {
+        &.passion {
+            display: grid;
+            grid-template-columns: max-content 1fr 40px max-content;
+            grid-gap: 2px;
+            column-gap: 5px;
+            border-radius: 5px;
+            border: 1px solid $black;
+            background: $backgroundTransparent;
+            padding: 5px;    
+            align-items: flex-start;
+            align-content: flex-start;
+            position:relative;
+            align-items: center;
+
+            span {
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 15px;
+
+                &.value {
+                    text-align: center;
+                }
+            }
+
+            @include clickable();
+
+            label {
+                &.value {
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size: 15px;
+                    height: 18px;
+
+                    input {
+                        border: 0px;
+                        background: transparent;
+                        margin: 0px;
+                        padding: 0px;
+                        text-align: right;
+                    }
+                }
+            }
+
+            div {
+                &.cmd {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 2px;
+                    align-items: center;
+                }
+
+                &.hovered {
+                    grid-gap: 1 / 5;
+                    display: none;
+                    position: absolute;
+                    width: 100px;
+                    height: max-content;
+                    top: 18px;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    background: $background;
+                    z-index: 10;
+
+                    div {
+                        background: $backgroundSemiTransparent;
+                        padding: 5px;
+                    }
+                }
+            }
+
+            i {
+                cursor: pointer;
+
+                &:hover {
+                    color: $active;
+                }
+            }
+        }
+    }
+}

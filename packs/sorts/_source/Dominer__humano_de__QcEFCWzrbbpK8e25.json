@@ -1,0 +1,66 @@
+{
+  "name": "Dominer (humanoïde)",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e25",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Ce groupe de sorts relie chacun d'entre eux à une espèce particulière de créature humanoïde, associée à la Rune de l'Homme. Pour lancer un sort Dominer sur la bonne espèce, il faut atteindre une force de sort au moins égale à la moitié des points de magie de la cible. Lancé sur une autre (mais toujours humanoïde), il faut que la force du sort soit au moins égale à totalité des points de magie de celle-ci.<br>Si, avec son POU, la cible ne parvient pas à résister à la force du sort Dominer, elle tombe sous le contrôle du lanceur.<br>Si celui-ci tente de forcer sa victime à accomplir une action par trop répugnante (en très forte opposition avec une Rune ou une Passion), elle peut immédiatement essayer d'invoquer celle-ci et se libérer de l'emprise.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": true,
+        "chaos": false
+      },
+      "technique": {
+        "commander": true,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171025,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e25"
+}

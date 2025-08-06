@@ -1,0 +1,75 @@
+<div class="affinites">
+    <div class="selected">      
+        {{#each (order systemData.runes.elementaire 'RQG.SORCELLERIE') as |value key|}}
+            {{#if value}}
+            <span data-action="onSwitch" data-path="system.runes.elementaire.{{key}}" data-value="true">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+                <i class="fa-solid fa-check"></i>
+            </span>
+            {{/if}}
+        {{/each}}         
+        {{#each (order systemData.runes.pouvoir 'RQG.SORCELLERIE') as |value key|}}
+            {{#if value}}
+            <span data-action="onSwitch" data-path="system.runes.pouvoir.{{key}}" data-value="true">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+                <i class="fa-solid fa-check"></i>
+            </span>
+            {{/if}}
+        {{/each}}    
+        {{#each (order systemData.runes.forme 'RQG.SORCELLERIE') as |value key|}}
+            {{#if value}}
+            <span data-action="onSwitch" data-path="system.runes.forme.{{key}}" data-value="true">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+                <i class="fa-solid fa-check"></i>
+            </span>
+            {{/if}}
+        {{/each}}    
+        {{#each (order systemData.runes.technique 'RQG.SORCELLERIE') as |value key|}}
+            {{#if value}}
+            <span data-action="onSwitch" data-path="system.runes.technique.{{key}}" data-value="true">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+                <i class="fa-solid fa-check"></i>
+            </span>
+            {{/if}}
+        {{/each}}    
+    </div>
+    <div class="unselected js-toggler">  
+        {{#each (order systemData.runes.elementaire 'RQG.SORCELLERIE') as |value key|}}
+            {{#unless value}}
+            <span style="display:none;" data-action="onSwitch" data-path="system.runes.elementaire.{{key}}" data-value="false">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+            </span>
+            {{/unless}}
+        {{/each}}         
+        {{#each (order systemData.runes.pouvoir 'RQG.SORCELLERIE') as |value key|}}
+            {{#unless value}}
+            <span style="display:none;" data-action="onSwitch" data-path="system.runes.pouvoir.{{key}}" data-value="false">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+            </span>
+            {{/unless}}
+        {{/each}}    
+        {{#each (order systemData.runes.forme 'RQG.SORCELLERIE') as |value key|}}
+            {{#unless value}}
+            <span style="display:none;" data-action="onSwitch" data-path="system.runes.forme.{{key}}" data-value="false">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+            </span>
+            {{/unless}}
+        {{/each}}    
+        {{#each (order systemData.runes.technique 'RQG.SORCELLERIE') as |value key|}}
+            {{#unless value}}
+            <span style="display:none;" data-action="onSwitch" data-path="system.runes.technique.{{key}}" data-value="false">
+                <img src="{{getImg 'sorcellerie' key}}">
+                {{getLocalization 'sorcellerie' key}}
+            </span>
+            {{/unless}}
+        {{/each}}        
+        {{> systems/runequest-glorantha/templates/parts/deployBtn.html localizeShow=(localize "RQG.SORCELLERIE.ShowAll") localizeHide=(localize "RQG.SORCELLERIE.HideAll")}}
+    </div>
+</div>

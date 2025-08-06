@@ -1,0 +1,16 @@
+<div class="cmd">
+    <i 
+        class="fa-solid fa-pen-to-square" 
+        title="{{localize edit}}"       
+        data-action='{{ifThen effect "onEditEffects" "onEditItm"}}'
+        data-item-id='{{id}}'
+        data-document-class='Item'
+    ></i>
+    <i 
+        class="fa-solid fa-trash" 
+        title="{{localize delete}}"
+        data-action='{{ifThen effect "onDeleteEffects" "onDeleteItm"}}'
+        data-item-id='{{id}}'
+        data-document-class='{{ifThen effect "Effect" "Item"}}'
+    ></i>
+</div>

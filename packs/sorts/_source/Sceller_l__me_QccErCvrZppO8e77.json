@@ -1,0 +1,49 @@
+{
+  "name": "Sceller l'âme",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e77",
+  "system": {
+    "description": "<h3>Sceller l'âme</h3><p style='text-align:justify;'><b>3 points</b><br>Rituel, non cumulable, usage unique</p><p style='text-align:justify;'>Ce sort limité de résurrection fonctionne sur les initié du culte ou ses maîtres des Runes. Il est parfois vendu à des étrangers pour un prix outrageusement prohibitif. Le défunt doit avoir été victime d'une mort violente, mais pas de maladie ou de vieillesse. Le corps doit être totalement soigné au risque de mourir encore une fois l'âme ramenée.<br>Le lanceur, ou ses esprits alliés, doit engager un combat spirituel contre celui du défunt. S'il l'emporte au cours du premier round de combat, le corps et l'esprit sont alors réunis. L'aventurier est ramené à la vie. Après avoir jeté ce sort et engagé le combat avec l'esprit, le lanceur perd 1D3 CON, épuisé par cet acte.<br>Chaque jour au-delà du premier après la mort, réduisez de manière permanente chacune des caractéristiques de FOR, CON et DEX de l'aventurier de 1D3 points. Si l'une ou l'autre devait tomber à 0 ou moins, il serait irrévocablement perdu. Un trépas dû à la perte de points de caractéristiques ne permet pas une résurrection.<br>Enfin, ce sort ne peut pas ramener à la vie une personne décédée depuis plus de 7 jours, quels que soient ses scores de caractéristiques. Seule une quête héroïque réussie peut accomplir un tel prodige.</p>",
+    "points": 3,
+    "variable": false,
+    "affinites": {
+      "feu": false,
+      "air": false,
+      "lune": false,
+      "tenebres": false,
+      "terre": false,
+      "eau": false,
+      "homme": false,
+      "fertilite": true,
+      "mort": false,
+      "harmonie": false,
+      "desordre": false,
+      "verite": false,
+      "illusion": false,
+      "stase": false,
+      "mouvement": false,
+      "bete": false
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283077,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e77"
+}

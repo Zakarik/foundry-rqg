@@ -1,0 +1,8 @@
+<div class="cout">                    
+    {{#each systemData.cout as |value key|}}
+        <label>
+            <input type="number" name="system.cout.{{key}}" value="{{value}}" min="0" />
+            <span>{{getLocalization 'monnaie' key}}</span>
+        </label>
+    {{/each}}
+</div>

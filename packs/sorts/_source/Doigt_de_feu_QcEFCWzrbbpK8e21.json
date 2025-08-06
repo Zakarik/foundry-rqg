@@ -1,0 +1,66 @@
+{
+  "name": "Doigt de feu",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e21",
+  "system": {
+    "description": "<p style='text-align:justify;'>À distance, actif, temporaire<br>Le sort prend effet dans un feu existant déjà et l'étend, le faisant bouger comme une vrille de flammes dans sa limite de portée. Le Doigt de feu ne s'avère ni très flexible, ni très malléable, s'étendant un peu comme une partie de la main (ou des mains) du sorcier. On ne peut lui donner de forme particulière ni cerner quelqu'un avec.<br>La vrille de feu possède un Déplacement de 12 et, si elle touche, inflige 1D6 points de dégâts dans une localisation aléatoire. Quand elle atteint une cible, elle s'arrête sur elle, mais continue d'exister et peut être ensuite dirigée vers une autre victime pour de nouvelles attaques. Le Doigt de feu reste actif tant que le sorcier le manipule.<br>Chaque attaque successive ajoute +5 au rang d'action initial. Pour chaque tranche de 4 degrés de force additionnels, soit les dégâts de la vrille augmente de +1D6, soit une autre vrille est créée.<br>Les protections magiques habituelles contre le feu fonctionnent face à ce sort. Si la cible tente d'esquiver le Doigt de feu, le sorcier doit réussir un test sous DEX×5 représentant ses chances de la toucher. La victime peut ensuite essayer de l'esquiver ou de la parer avec un bouclier. Seul un bouclier moyen ou large peut y parvenir. Le sort cause au moins 1 point de dégât à ceux-ci, la moitié de ses dégâts normaux avec une réussite spéciale et la totalité sur une réussite critique.</p>",
+    "points": 3,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": true,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": true,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": false,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": false,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": true,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171021,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e21"
+}

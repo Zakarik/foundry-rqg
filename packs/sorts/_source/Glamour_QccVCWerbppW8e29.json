@@ -1,0 +1,31 @@
+{
+  "name": "Glamour",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort augmente le CHA de la cible de 8 points. Les dégâts de combat spirituel sont améliorés d'un cran sur la table Dégâts de combat spirituel page 56 (par exemple de +1D6 à +1D6+3). Les compétences de Communication sont majorées de +10&nbsp;%, et les compétences magiques selon le barème suivant :</p>\n<table style='width:100%; text-align:center;'><thead><tr><th>CHA avant le sort</th><th>Augmentation des compétences de Magie</th></tr></thead><tbody><tr><td>1–4</td><td>+5&nbsp;%</td></tr><tr><td>5–8</td><td>—</td></tr><tr><td>9–12</td><td>+5&nbsp;%</td></tr><tr><td>13+</td><td>+10&nbsp;%</td></tr></tbody></table>\n<p style='text-align:justify;'>Ce sort est également utile en position de commandement (« Suivez-moi ! ») ou pendant des situations de crise (convaincre vos ravisseurs de ne pas vous tuer en échange d'une rançon conséquente).</p>",
+    "points": 2,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000029,
+    "modifiedTime": 1754403208078,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e29",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e29"
+}

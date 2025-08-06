@@ -1,0 +1,49 @@
+{
+  "name": "Renvoyer un élémentaire",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccErCvrZppO8e65",
+  "system": {
+    "description": "<h3>Renvoyer un élémentaire (type)</h3><p style='text-align:justify;'><b>La Rune varie selon l'élémentaire invoqué<br>1 à 3 points (selon la taille de l'élémentaire)</b><br>À distance, instantané, cumulable</p><p style='text-align:justify;'>Ce sort permet de renvoyer un élémentaire du type spécifié. Avec 1 point de Rune, le lanceur peut tenter de renvoyer un petit élémentaire. Avec 2 points de Rune, il peut tenter d'en renvoyer un petit ou un moyen. Avec 3 points de Rune, il peut tenter d'en renvoyer un petit, un moyen ou un grand. La plupart des cultes sont limités dans la taille d'élémentaires qu'ils peuvent renvoyer.<br>Le lanceur du sort doit vaincre le POU de l'élémentaire pour que celui-ci puisse fonctionner. Il ne peut pas être renvoyé avant d'avoir pris complètement forme. L'élémentaire disparaît à la fin du round durant lequel le sort a été lancé, il peut attaquer pendant celui-ci.</p>",
+    "points": 0,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403283065,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccErCvrZppO8e65"
+}

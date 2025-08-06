@@ -1,0 +1,62 @@
+{
+  "name": "Griffes",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "dExYdWqrbppW8e19",
+  "system": {
+    "description": "<p style='text-align:justify;'>Dispositif en métal qui permet à l'utilisateur de griffer comme un animal. Elles sont surtout utilisées par les animaux intelligents qui souhaitent améliorer leurs armes naturelles, mais également par les humains qui souhaitent imiter les animaux.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 25,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "couppoing",
+    "allonge": {
+      "value": "0",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 9
+    },
+    "degats": "1D4+1",
+    "type": "te",
+    "durabilite": {
+      "value": 1,
+      "max": 1
+    },
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "lp2f2pDIm6CuDvrC",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753971505013,
+    "modifiedTime": 1754060298213,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!dExYdWqrbppW8e19"
+}

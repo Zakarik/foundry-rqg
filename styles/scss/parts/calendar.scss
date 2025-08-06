@@ -1,0 +1,140 @@
+form.rqgcalendar section.window-content {
+    background:$background;
+    color: $black;
+    overflow: auto;
+    padding: 10px;
+
+    div {
+        @include span();
+
+        &.season {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+        }
+
+        &.week-title {
+            grid-row: 1;
+            grid-column: 1 / 8;
+            margin-bottom: 5px;
+        }
+
+        &.season-title,
+        &.week-title {
+            display: grid;
+            grid-template-columns: max-content 1fr max-content 1fr max-content;
+            grid-gap: 2px;
+            align-items: center;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $backgroundTransparent;
+
+            span {
+                margin: 0px;
+                padding: 0px;
+                color: $black;
+                font-variant: small-caps;
+                font-weight: bold;
+                font-family: arial;
+                text-align: center;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+
+            img {
+                &.right {
+                    margin-right: auto; 
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    margin-bottom: 0px;
+                }
+
+                &.left {
+                    margin-left: auto;    
+                    margin-top: 0px;
+                    margin-right: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        &.week {
+            display: grid;
+            grid-template-columns: repeat(7, 50px);
+            align-items: center;
+        }
+
+        &.hide {
+            display: none;
+        }
+
+        img {
+            display: inline;
+            max-height: 18px;
+            max-width: 18px;
+        }
+
+        a {
+            display: grid;
+            align-items: center;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+            padding-left: 2px;
+            padding-right: 2px;
+
+            &.left {
+                border-right: 1px solid $black;
+            }
+
+            &.right {
+                border-left: 1px solid $black;
+            }
+            
+            &:hover {
+                background: $active;
+                color: $white;
+            }
+        }
+    }
+
+    span {
+        &.day {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            grid-gap: 2px;
+            border-left: 1px solid $black;
+            border-top: 1px solid $black;
+            border-bottom: 1px solid $black;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            background: $backgroundTransparent;
+            text-align: right;
+
+            &.highlight {
+                background: $disabled;
+                color: $black;
+            }
+
+            &.clickable {
+                cursor: pointer;
+                &:hover {
+                    background: $active;
+                    color: $white;
+                }
+            }
+
+            &.last {
+                border-right: 1px solid $black;
+            }
+        }
+    }
+
+    @include span('moon', center, 20px) {
+        @include encart();
+        margin-top:5px;
+    };
+}

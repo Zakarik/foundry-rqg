@@ -1,0 +1,48 @@
+<div class="tab affinitesruniques {{tab.cssClass}}" data-group="primary" data-tab="affinitesruniques">
+    <div class="elementaire">
+        <i class="fa-solid fa-gear" data-action="editDialog" data-type="elementaire" data-tooltip=""="{{localize 'RQG.EDIT.Elementaire'}}"></i>
+        <img src="systems/runequest-glorantha/assets/arrow-short.png" class="arrow a1" />
+        <img src="systems/runequest-glorantha/assets/arrow-short.png" class="arrow a2" />
+        <img src="systems/runequest-glorantha/assets/arrow.png" class="arrow a3" />
+        <img src="systems/runequest-glorantha/assets/arrow-short.png" class="arrow a4" />
+        <img src="systems/runequest-glorantha/assets/arrow-short.png" class="arrow a5" />
+
+        {{#each (getAffiniteElementaire this)}}
+            <div class="{{key}}">
+                <div>
+                    <span class="clickable"
+                    data-action="onRoll" 
+                    data-tooltip="{{localize 'RQG.Roll'}}" 
+                    data-label="{{localize label}}" 
+                    data-type="elementaire" 
+                    data-value="{{value.total}}">{{localize label}}</span>
+                </div>
+                <label class="{{key}}">
+                    <img src="{{img}}" />                    
+                    <span>{{value.total}}</span>
+                </label>
+            </div>
+        {{/each}}
+    </div>
+
+    <div class="pouvoir">      
+        <i class="fa-solid fa-gear" data-action="editDialog" data-type="pouvoir" data-tooltip="{{localize 'RQG.EDIT.Pouvoir'}}"></i>
+        {{#each (getAffinitePouvoir this)}}
+            <div class="{{key}}">
+                <div>
+                    <span class="clickable"
+                    data-action="onRoll" 
+                    data-tooltip="{{localize 'RQG.Roll'}}" 
+                    data-label="{{localize label}}" 
+                    data-type="elementaire" 
+                    data-value="{{value.total}}">{{localize label}}</span>
+                </div>                
+                <label class="{{key}}">
+                    <img src="{{img}}">
+                    <span>{{value.total}}</span>
+                </label>
+            </div>
+        {{/each}}
+    </div>
+</div>
+

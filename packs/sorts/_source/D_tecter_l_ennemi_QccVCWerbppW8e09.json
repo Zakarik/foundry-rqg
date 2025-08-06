@@ -1,0 +1,31 @@
+{
+  "name": "Détecter l'ennemi",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Effet :</strong> Ce sort donne la direction et distance approximatives de la position de tout être hostile. Il peut également repérer un individu spécifique sur lequel le lanceur se concentre.<br>Il n'a pas besoin de vaincre le POU des cibles potentielles afin de les trouver.<br><br><strong>Limite :</strong> Un mètre d'épaisseur d'une matière dense comme la pierre, le métal ou la terre bloque ce pouvoir de détection.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000009,
+    "modifiedTime": 1754403194320,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e09",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e09"
+}

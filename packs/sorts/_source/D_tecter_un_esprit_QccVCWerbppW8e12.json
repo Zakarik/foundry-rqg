@@ -1,0 +1,31 @@
+{
+  "name": "Détecter un esprit",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Mêmes effets que Détecter la vie, sauf que ce sort indique la présence des esprits.<br><br>Il classe les entités repérées en deux catégories de puissance : ceux dont le POU est <strong>égal à 18 ou moins</strong>, ceux chez lesquelles il est <strong>supérieur à 19</strong>.<br><br><strong>Limite :</strong> Un mètre d'épaisseur d'une matière dense comme la pierre, le métal ou la terre bloque ce pouvoir de détection.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000012,
+    "modifiedTime": 1754403197808,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e12",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e12"
+}

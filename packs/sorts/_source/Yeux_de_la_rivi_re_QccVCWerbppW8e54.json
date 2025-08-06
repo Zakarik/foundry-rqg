@@ -1,0 +1,31 @@
+{
+  "name": "Yeux de la rivière",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'>Ce sort permet au lanceur de voir dans l'eau comme s'il s'agissait de l'air, et inversement. En fait, il annule tout effet de diffraction ou de réfraction. Toutefois, une eau boueuse ou une atmosphère chargée de fumée ne deviendront pas translucides.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000054,
+    "modifiedTime": 1754403221847,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e54",
+  "sort": 5300000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e54"
+}

@@ -1,0 +1,15 @@
+<div 
+    class="tab description {{ifThen (or (eq document.type 'armedistance') (eq document.type 'armecontact') (eq document.type 'armure')) 'arme' ''}} {{tab.cssClass}}"
+    {{#if (or (eq document.type "armedistance") (eq document.type "armecontact") (eq document.type "armure"))}}
+        data-group='primary'
+        data-tab='description'
+    {{/if}}
+    >
+    {{#if editable}}
+    <prose-mirror name="system.description" data-document-uuid="{{document.uuid}}" value="{{systemData.description}}" collaborate="true" toggled="true">
+        {{{enriched.description}}}
+    </prose-mirror>
+    {{else}} 
+        {{{enriched.description}}}
+    {{/if}}
+</div>

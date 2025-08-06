@@ -1,0 +1,49 @@
+{
+  "name": "Extension",
+  "type": "magierunique",
+  "img": "systems/runequest-glorantha/assets/magierunique.svg",
+  "_id": "QccFCWzrbppO8e71",
+  "system": {
+    "description": "<h3>Extension</h3><p style='text-align:justify;'><b>1 point</b><br>À distance (comme le sort), temporaire, cumulable</p><p style='text-align:justify;'>Ce sort étend la durée d'un autre sort runique temporaire au-delà des 15 minutes habituelles. Extension et le sort qu'il affecte doivent être lancés par la même personne dans le même round. Du point de vue du jeu, ils sont lancés en même temps. Ce sort et ceux d'Illusion sont les seules exceptions à la règle stipulant qu'un seul sort runique peut être lancé par round.<br>Extension modifie la duré d'un sort de la manière suivante :</p><table border='1'><tr><th>Extension</th><th>Durée du sort</th></tr><tr><td>1</td><td>1 heure</td></tr><tr><td>2</td><td>1 journée</td></tr><tr><td>3</td><td>1 semaine</td></tr><tr><td>4</td><td>1 saison</td></tr><tr><td>5</td><td>1 année</td></tr></table>",
+    "points": 1,
+    "variable": true,
+    "affinites": {
+      "feu": true,
+      "air": true,
+      "lune": true,
+      "tenebres": true,
+      "terre": true,
+      "eau": true,
+      "homme": true,
+      "fertilite": true,
+      "mort": true,
+      "harmonie": true,
+      "desordre": true,
+      "verite": true,
+      "illusion": true,
+      "stase": true,
+      "mouvement": true,
+      "bete": true
+    },
+    "culte": ""
+  },
+  "effects": [],
+  "folder": "xjrnIstdxmJw1GnZ",
+  "sort": 8100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754403281075,
+    "modifiedTime": 1754488356050,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QccFCWzrbppO8e71"
+}

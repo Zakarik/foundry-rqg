@@ -1,0 +1,62 @@
+{
+  "name": "Bâton",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l06",
+  "system": {
+    "description": "<p style=\"text-align: justify\"><span class=\"fontstyle0\">Une mince tige de bois ronde, généralement d'environ 90 cm de long.</span> </p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 1,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "masse1main",
+    "allonge": {
+      "value": "0.9",
+      "categorie": "3"
+    },
+    "ra": {
+      "value": 4,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 0,
+      "dexterite": 9
+    },
+    "degats": "1D6",
+    "type": "ec",
+    "durabilite": {
+      "value": 2,
+      "max": 2
+    },
+    "encombrement": {
+      "value": 2,
+      "inferieura1": true
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "e6yJXXyrAfZZZhvB",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973000006,
+    "modifiedTime": 1754139431441,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l06"
+}

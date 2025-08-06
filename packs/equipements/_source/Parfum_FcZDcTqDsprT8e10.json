@@ -1,0 +1,44 @@
+{
+  "name": "Parfum",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Les parfums sont des mélanges de fleurs, d'herbes et autres plantes, résines ou matières animales (comme le musc) odorantes. Ils se présentent sous la forme d'huiles ou de baumes. Les représentants des deux sexes l'utilisent pour dégager une senteur agréable.</p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 0,
+      "clacks": 1,
+      "bolgs": 0
+    },
+    "parametres": {
+      "equipable": false,
+      "utilisable": true
+    },
+    "wear": false,
+    "encombrement": {
+      "value": 0,
+      "inferieura1": false
+    }
+  },
+  "effects": [],
+  "folder": "AFOzCgzBfT4cIgbU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753963458762,
+    "modifiedTime": 1753966940388,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "FcZDcTqDsprT8e10",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!FcZDcTqDsprT8e10"
+}

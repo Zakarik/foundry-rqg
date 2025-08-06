@@ -1,0 +1,171 @@
+<div class="tab competences {{tab.cssClass}}" data-group="primary" data-tab="competences">
+    <div class="col">
+        {{#each (allCMP systemData.competences limit=4 ask='first')}}
+            <div class="cmp">
+                {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                    label=(getLocalization "competence" id) 
+                    data=this path=(concat 'system.competences.' id) 
+                    class='mainCMP' 
+                    progression=true 
+                    space=true 
+                    showHide=true
+                }}
+                
+                {{#each (allCMP list)}}
+                    {{#if (isCustom id)}}
+                        <div class="header">
+                            <span>{{getLocalization "competence" id}}</span>
+                            <i class="fa-solid fa-plus" 
+                                data-type="competences"
+                                data-cmp="{{id}}" 
+                                data-main="{{../id}}" 
+                                data-tooltip="{{localize 'RQG.ADD.Competence'}}"
+                                data-action="onAddArray"
+                            ></i>
+                        </div>
+                        {{#each repeat as |data key|}}
+                            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                                data=data 
+                                path=(concat 'system.competences.' ../../id '.list.' ../id '.repeat.' key) 
+                                class='subCMP' 
+                                progression=true 
+                                customLabel=true 
+                                withMain=true
+                                action='onRoll'
+                                actionType='competence'
+                                tooltip=(localize 'RQG.Roll')
+                                delete=true 
+                                deleteType='competences'
+                                deleteMain=../../id
+                                deleteCmp=../id
+                                deleteIndex=key
+                            }}
+                        {{/each}}
+                    {{else}}
+                        {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                            label=(getLocalization "competence" id) 
+                            data=this path=(concat 'system.competences.' ../id '.list.' id) 
+                            class='subCMP' 
+                            action='onRoll'
+                            actionType='competence'
+                            tooltip=(localize 'RQG.Roll')
+                            progression=true}}
+                    {{/if}}
+                {{/each}}
+            </div>
+        {{/each}}
+    </div>
+
+    <div class="col">        
+        {{#each (allCMP systemData.competences limit=4 ask='second')}}
+            <div class="cmp">
+                {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(getLocalization "competence" id) data=this path=(concat 'system.competences.' id) class='mainCMP' progression=true space=true showHide=true}}
+                
+                {{#each (allCMP list)}}
+                    {{#if (isCustom id)}}
+                        <div class="header">
+                            <span>{{getLocalization "competence" id}}</span>
+                            <i class="fa-solid fa-plus" 
+                                data-cmp="{{id}}" 
+                                data-main="{{../id}}" 
+                                data-type="competences"
+                                data-tooltip="{{localize 'RQG.ADD.Competence'}}"
+                                data-action="onAddArray"
+                            ></i>
+                        </div>
+                        {{#each repeat as |data key|}}
+                            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                                data=data 
+                                path=(concat 'system.competences.' ../../id '.list.' ../id '.repeat.' key) 
+                                class='subCMP' 
+                                progression=true 
+                                customLabel=true
+                                withMain=true
+                                action='onRoll'
+                                actionType='competence'
+                                tooltip=(localize 'RQG.Roll')
+                                delete=true
+                                deleteType='competences'
+                                deleteMain=../../id
+                                deleteCmp=../id
+                                deleteIndex=key}}
+                        {{/each}}
+                    {{else}}
+                        {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                            label=(getLocalization "competence" id) 
+                            action='onRoll'
+                            tooltip=(localize 'RQG.Roll')
+                            data=this 
+                            path=(concat 'system.competences.' ../id '.list.' id) 
+                            class='subCMP' 
+                            progression=true}}
+                    {{/if}}
+                {{/each}}
+            </div>
+        {{/each}}
+
+        {{#each (allCMP systemData.armes)}}
+            <div class="cmp">
+                {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html label=(getLocalization "competence" id) data=this path=(concat 'system.armes.' id) class='mainCMP' progression=true space=true showHide=true}}
+                
+                {{#each (allCMP list)}}
+                    {{#if (eq id 'custom')}}
+                        {{#each list as |data key|}}
+                            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                                data=data 
+                                path=(concat 'system.armes.' ../../id '.list.' ../id '.list.' key) 
+                                class='subCMP' 
+                                progression=true 
+                                customLabel=true 
+                                action='onRoll'
+                                actionType='competence'
+                                tooltip=(localize 'RQG.Roll')
+                                delete=(ifThen data.condition false true) 
+                                deleteType='armes'
+                                deleteCmp=../../id
+                                deleteIndex=key}}
+                        {{/each}}
+                        <a class="addcustomwpn" data-action="onAddArray" data-tooltip="{{localize 'RQG.ADD.Competence'}}" data-type="armes" data-cmp="{{../id}}">{{localize 'RQG.ADD.Competence'}}</a>
+                    {{else}}
+                        {{#if (isCustom id)}}
+                            <div class="header">
+                                <span>{{getLocalization "competence" id}}</span>
+                                <i class="fa-solid fa-plus" 
+                                    data-type="armes"
+                                    data-cmp="{{id}}" 
+                                    data-main="{{../id}}" 
+                                    data-tooltip="{{localize 'RQG.ADD.Competence'}}"
+                                    data-action="onAddArray"
+                                ></i>
+                            </div>
+                            {{#each repeat as |data key|}}
+                                {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                                    data=data 
+                                    path=(concat 'system.armes.' ../../id '.list.' ../id '.repeat.' key) 
+                                    class='subCMP' 
+                                    progression=true 
+                                    customLabel=true 
+                                    action='onRoll'
+                                    actionType='competence'
+                                    tooltip=(localize 'RQG.Roll')
+                                    delete=true
+                                    deleteType='armes'
+                                    deleteMain=../../id
+                                    deleteCmp=../id
+                                    deleteIndex=key}}
+                            {{/each}}
+                        {{else}}
+                            {{> systems/runequest-glorantha/templates/actors/parts/valueWithoutMax.html 
+                                label=(getLocalization "competence" id) 
+                                data=this path=(concat 'system.armes.' ../id '.list.' id) 
+                                action='onRoll'
+                                tooltip=(localize 'RQG.Roll')
+                                class='subCMP' 
+                                progression=true}}
+                        {{/if}}
+                    {{/if}}
+                {{/each}}
+            </div>
+        {{/each}}
+    </div>
+</div>

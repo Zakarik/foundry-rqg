@@ -1,0 +1,31 @@
+{
+  "name": "Daredart",
+  "type": "magiespirituelle",
+  "img": "systems/runequest-glorantha/assets/magiespirituelle.svg",
+  "system": {
+    "description": "<p style='text-align:justify;'><strong>Effet :</strong> Chaque point de sort lancé sur un projectile ajoute +3 points de dégâts et +15 % en attaque.<br>Sa nature temporaire implique que, une fois effectif, le sort ne prend effet que si le missile enchanté est utilisé avant que le sort n'expire.<br><br><strong>Note :</strong> Des dégâts magiques peuvent atteindre les créatures autrement invulnérables aux armes normales. Par exemple, les Frères-Loups telmori ne subissent aucun dégât des armes normales, mais seront vulnérables aux bonus aux dégâts magiques.<br><br><strong>Restriction :</strong> Ce sort ne se cumule pas avec Flèche de feu ou Multiprojectile.</p>",
+    "points": 1,
+    "variable": false
+  },
+  "effects": [],
+  "folder": "ooIhzn7E0Pv4u3wR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754401000006,
+    "modifiedTime": 1754403193358,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_id": "QccVCWerbppW8e06",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "_key": "!items!QccVCWerbppW8e06"
+}

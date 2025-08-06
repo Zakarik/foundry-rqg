@@ -1,0 +1,62 @@
+{
+  "name": "Masse légère",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l05",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">Un manche avec un poids en métal ou en pierre taillé à une extrémité, qui convient pour frapper et écraser. </span></p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 10,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "masse1main",
+    "allonge": {
+      "value": "0.6",
+      "categorie": "4"
+    },
+    "ra": {
+      "value": 3,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 7,
+      "dexterite": 7
+    },
+    "degats": "1D6+2",
+    "type": "ec",
+    "durabilite": {
+      "value": 6,
+      "max": 6
+    },
+    "encombrement": {
+      "value": 1,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "e6yJXXyrAfZZZhvB",
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973000005,
+    "modifiedTime": 1754139526868,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l05"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Massue",
+  "type": "armecontact",
+  "img": "systems/runequest-glorantha/assets/melee.svg",
+  "_id": "ZzsYdWqrbppW8l03",
+  "system": {
+    "description": "<p style=\"text-align: justify;\"><span class=\"fontstyle0\">Une pierre semblable à un marteau ou une tête en métal fixée sur un long manche en bois, généralement d'environ 1,5 mètre de long.</span> </p>",
+    "cout": {
+      "roues": 0,
+      "lunars": 20,
+      "clacks": 0,
+      "bolgs": 0
+    },
+    "wear": false,
+    "categorie": "marteau2mains",
+    "allonge": {
+      "value": "1.5",
+      "categorie": "1"
+    },
+    "ra": {
+      "value": 1,
+      "parround": false,
+      "cadence": ""
+    },
+    "prerequis": {
+      "force": 17,
+      "dexterite": 7
+    },
+    "degats": "2D8",
+    "type": "ec",
+    "durabilite": {
+      "value": 12,
+      "max": 12
+    },
+    "encombrement": {
+      "value": 5,
+      "inferieura1": false
+    },
+    "portee": "",
+    "projectile": false
+  },
+  "effects": [],
+  "folder": "e6yJXXyrAfZZZhvB",
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1753973000003,
+    "modifiedTime": 1754139565151,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!ZzsYdWqrbppW8l03"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Drainer le corps",
+  "type": "sorcellerie",
+  "img": "systems/runequest-glorantha/assets/sorcellerie.svg",
+  "_id": "QcEFCWzrbbpK8e27",
+  "system": {
+    "description": "<p style='text-align:justify;'>Toucher, actif, temporaire<br>Ce sort permet au lanceur de transformer des points de TAI en points de magie. Le sorcier doit être en contact physique avec la cible afin de pouvoir la drainer ainsi. Il peut puiser dans sa propre TAI.<br>Le sort draine 1 point de TAI et le convertit en 1D6 points de magie. Ces points de TAI sont définitivement perdus. La TAI ne peut pas être réduite en-dessous de 1. Le sorcier doit vaincre les points de magie de sa victime s'il s'agit d'une autre personne que lui-même.<br>Par tranche de 2 degrés de force ajoutés au sort, un autre point de TAI est converti en 1D6 points de magie supplémentaire. Par exemple, en ajoutant 4 degrés de force (pour un coût total de 6 points de magie), le sort transforme 3 points de TAI en 3D6 points de magie.<br>Les points de magie gagnés ainsi se comportent comme des points de magie normaux (ils peuvent servir à lancer des sorts, augmenter les chances du sorcier de vaincre la résistance de la cible, etc.), sauf qu'ils ne se régénèrent pas avec le repos. Si le nombre de points de magie du sorcier excède son maximum normal, les points excédentaires ne restent disponibles que jusqu'à ce que Drainer le corps expire.</p>",
+    "points": 2,
+    "runes": {
+      "elementaire": {
+        "tenebres": false,
+        "eau": false,
+        "terre": false,
+        "feuciel": false,
+        "air": false,
+        "lune": false
+      },
+      "pouvoir": {
+        "mouvement": false,
+        "stase": false,
+        "harmonie": false,
+        "desordre": false,
+        "verite": true,
+        "illusion": false,
+        "fertilite": false,
+        "mort": false
+      },
+      "forme": {
+        "esprit": false,
+        "plante": false,
+        "bete": false,
+        "homme": true,
+        "chaos": false
+      },
+      "technique": {
+        "commander": false,
+        "combiner": false,
+        "dissiper": false,
+        "separer": false,
+        "invoquer": false,
+        "drainer": false
+      }
+    },
+    "maitrise": 0
+  },
+  "effects": [],
+  "folder": "9qqsSObuZBfqU25J",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "eWQgIaMH8v9hSVqM": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "runequest-glorantha",
+    "systemVersion": "1.1.1",
+    "createdTime": 1754489171027,
+    "modifiedTime": 1754492802874,
+    "lastModifiedBy": "eWQgIaMH8v9hSVqM"
+  },
+  "_key": "!items!QcEFCWzrbbpK8e27"
+}
